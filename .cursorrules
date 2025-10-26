@@ -1,0 +1,70 @@
+# Cursor Rules for EcopackPro Website
+
+## Project Overview
+This is a WordPress e-commerce website for EcopackPro - a packaging materials online store.
+
+## Key Technologies
+- WordPress 6.8.3
+- WooCommerce (e-commerce platform)
+- Yoast SEO Premium
+- Contact Form 7
+- Visual Composer addons
+- Tier pricing table
+- Custom PHP theme
+
+## Project Structure
+- `wordpress/` - WordPress core files
+- `wordpress/wp-content/plugins/` - All plugins including WooCommerce
+- `wordpress/wp-content/themes/` - Custom theme files
+- `documentation/` - Project documentation
+- `assets/` - Static resources (CSS, JS, images)
+
+## Focus Areas for Development
+
+### WooCommerce Customization
+- Product catalog structure
+- Pricing tiers and bulk discounts
+- Custom product attributes
+- Shipping and payment methods
+- Order management system
+
+### Plugin Architecture
+- WooCommerce core functionality
+- Yoast SEO integration
+- Contact forms
+- Visual Composer components
+- Tier pricing system
+
+### Theme Development
+- Custom templates for products
+- Responsive design
+- Performance optimization
+- SEO-friendly structure
+
+## Code Standards
+- Follow WordPress coding standards
+- Use proper PHP documentation
+- Implement security best practices
+- Optimize for performance
+- Ensure mobile responsiveness
+
+## Important Files to Monitor
+- WooCommerce plugin files
+- Custom theme templates
+- Plugin configuration files
+- Database structure
+- Performance optimization files
+
+## Development Priorities
+1. WooCommerce functionality and customization
+2. Plugin integration and compatibility
+3. Theme optimization
+4. Performance improvements
+5. Security enhancements
+6. SEO optimization
+
+## Notes
+- This is a production e-commerce site
+- All changes should be tested thoroughly
+- Backup before making modifications
+- Follow WordPress and WooCommerce best practices
