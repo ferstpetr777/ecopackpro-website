@@ -130,3 +130,14 @@ secrets/
 ehthumbs.db
 Thumbs.db
 >>>>>>> 0dc2e5893066f67d224d45fe0023a7488d2cc30a
+
+# Large backup files
+*_backup_*.tar.gz
+*_backup_*.zip
+*.tar.gz
+*.zip
+
+# Backup directories
+*_backup_*
+Backup/
+backup/
