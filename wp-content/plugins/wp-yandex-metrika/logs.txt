@@ -1,0 +1,7 @@
+[31.01.2025 12:41:31] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/zip-lock-paket-s-begunkom-15-20-sm-263-264-265-266-267-268-269-270-271-273/feed/)
+[31.01.2025 12:41:31] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/provoloka-spiral-26/feed/)
+[31.01.2025 12:41:31] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/kurer-paket-belyj-250-320-211/feed/)
+[31.01.2025 12:41:32] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/zip-lock-paket-s-begunkom-15-20-sm-263-264-265-266-268/feed/)
+[10.02.2025 11:46:06] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/kurer-paket-328-510-50mm/feed/)
+[13.04.2025 01:55:39] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/plomba-tvist-m/feed/)
+[02.08.2025 03:24:34] Error3: В теме \"Impreza\" на странице товара отсутствует хук \"woocommerce_before_single_product\" (/product/kurer-paket-belyj-250-320-211/feed/)

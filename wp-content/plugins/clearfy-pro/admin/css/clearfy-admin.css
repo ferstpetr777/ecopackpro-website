@@ -1,0 +1,843 @@
+/********************************************************************
+ * General
+ *******************************************************************/
+.wpshop-red-color {
+    color: #ff0927;
+}
+.wpshop-warning-color {
+    color: #ff8700;
+}
+
+
+/********************************************************************
+ * Export / Import settings
+ *******************************************************************/
+.wpshop-export-settings, .wpshop-import-settings, .wpshop-reset-settings {
+    border: 3px solid #c6dfff;
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+/********************************************************************
+ * Redirect Manager
+ *******************************************************************/
+.redirect-manager {
+    margin-bottom: 20px;
+}
+
+.redirect-manager-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.redirect-manager-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.redirect-manager-item input {
+    float: left;
+    width: 45%;
+}
+
+.redirect-manager-item__sep {
+    float: left;
+    width: 4%;
+    text-align: center;
+}
+
+.redirect-manager-item__del {
+    float: left;
+    width: 4%;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #f00;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+/********************************************************************
+ * New Options
+ *******************************************************************/
+.option-field * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.option-field-header {
+    position: relative;
+    font-size: 1.3em;
+    font-weight: 600;
+    /*margin-bottom: 1.5em;*/
+    /*border-left: 3px solid #165ff4;*/
+    /*margin-left: -25px;*/
+    /*padding: 7px 24px 7px 21px;*/
+    color: #165ff4;
+
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 25px 0;
+    margin: 40px -25px 30px;
+}
+
+.option-field-header:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.option-field {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-right: 24px;
+}
+.option-field:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.option-field-label {
+    width: 30%;
+    float: left;
+}
+
+/*.option-field-label .clearfy-ico-help {*/
+/*    margin-left: 5px;*/
+/*}*/
+
+.option-field-body {
+    width: 70%;
+    float: left;
+}
+
+.option-field-tooltip {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 27px -5px rgba(90, 145, 150, 0.8);
+    z-index: 999;
+    padding: 10px 15px;
+}
+
+.option-field-tooltip:before {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: 150px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #d0dada transparent;
+    z-index: 990;
+}
+
+.option-field-tooltip:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    z-index: 991;
+}
+
+
+/********************************************************************
+ * Pseudo Checkbox
+ */
+.pseudo-checkbox {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    border-radius: 13px;
+    background: #CDD1DA;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.pseudo-checkbox:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: all .2s;
+}
+
+.pseudo-checkbox.checked {
+    /*background: #75d2b4;*/
+    background: #165ff4;
+}
+
+.pseudo-checkbox.checked:after {
+    left: 26px;
+}
+
+.pseudo-checkbox.focused {
+    box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+.pseudo-checkbox-hidden {
+    display: none !important;
+}
+
+
+
+
+
+/* Tabs
+   ========================================================================== */
+.wp-clearfy-tab {
+    display: none;
+}
+
+.wp-clearfy-tab.active {
+    display: block;
+}
+
+
+/* Top links
+   ========================================================================== */
+.clearfy-recommend {
+    display: block;
+    color: #179347;
+    font-size: .8em;
+}
+
+.wp-clearfy-tab p.description {
+    padding-left: 25px;
+    font-size: 13px;
+    font-style: normal;
+    margin: .7em 0;
+}
+
+.wp-clearfy-tab label {
+    font-size: 14px;
+}
+
+.pseudo-button {
+    display: inline-block;
+    border: 2px solid #6da8e1;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.pseudo-button:hover {
+    background: #6da8e1;
+    color: #fff;
+}
+.pseudo-button__green {
+    border-color: #00C76D;
+}
+.pseudo-button__green:hover {
+    background: #00C76D;
+}
+.pseudo-button__gray {
+    border-color: #77939f;
+    color: #999;
+}
+.pseudo-button__gray:hover {
+    background: #77939f;
+}
+p.description.danger {
+    color: #dd2b19;
+}
+.wpshopbiz-plugin-info {
+    float: right;
+}
+
+
+
+
+/* gulp generated yU65zMjM5NDg0fh&dx4h1
+   ========================================================================== */
+.clearfy-settings-item {
+
+}
+
+.clearfy-settings-item:after {
+    content: '';
+    display: table;
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+.clearfy-settings-item label {
+    width: 200px;
+    float: left;
+}
+
+.clearfy-settings-item p.description {
+    padding-left: 0;
+}
+
+.clearfy-fieldset {
+    margin-bottom: 20px;
+}
+
+.clearfy-fieldset p.description {
+    padding-left: 61px;
+}
+
+
+
+
+/* ==========================================================================
+   Changelog
+   ========================================================================== */
+.clearfy-changelog {
+    padding: 20px 15px;
+    border-left: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.clearfy-changelog__item {
+    position: relative;
+    padding-left: 60px;
+}
+
+.clearfy-changelog__item:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.clearfy-changelog__version {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/**
+ * IndexNow
+ */
+.clearfy-indexnow-status {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #c4cdd5;
+}
+
+.clearfy-indexnow-status--200 {
+    background: #1ac141;
+}
+
+.clearfy-indexnow-status--403,
+.clearfy-indexnow-status--405,
+.clearfy-indexnow-status--422,
+.clearfy-indexnow-status--429 {
+    background: #ed553a;
+}
+
+
+/********************************************************************
+ * Layout
+ *******************************************************************/
+.wpshop * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpshop-cols {
+
+}
+
+.wpshop-cols:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wpshop-col-left {
+    width: 75%;
+    float: left;
+}
+
+.wpshop-col-right {
+    width: 20%;
+    float: right;
+    padding-top: 20px;
+}
+
+.wp-picker-container * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.wpshop-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.wpshop-table th,
+.wpshop-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #d8dbde;
+}
+
+.wpshop-table thead th {
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid #d8dbde;
+    background-color: rgba(151, 160, 203, 0.1);
+}
+
+.wpshop-table tbody + tbody {
+    border-top: 2px solid #d8dbde;
+}
+
+.wpshop-table tbody tr:nth-of-type(even) {
+    background-color: rgba(151, 160, 203, 0.1);
+}
+
+.clearfy-table-404 td:nth-child(2) {
+    word-break: break-word;
+}
+
+/********************************************************************
+ * Widgets
+ */
+
+.wpshop-widget {
+    margin-bottom: 35px;
+}
+
+.wpshop-widget-news {
+
+}
+
+.wpshop-widget-news ul li {
+    margin-bottom: 15px;
+}
+
+
+/********************************************************************
+ * Tabs
+ *******************************************************************/
+
+.wpshop-tab-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4vw;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+}
+
+.wpshop-tab-wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wpshop-tab {
+    border-bottom: none;
+    padding: 7px calc(.6vw + .6%);
+    font-size: 14px;
+    line-height: 24px;
+    background: #fbfbfb;
+    color: #777;
+    text-decoration: none;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,.05);
+    border-top: 2px solid #ccc;
+    border-bottom: 1px solid #e6e6e6;
+    outline: none;
+    border-radius: .1rem .1rem 0 0;
+}
+
+.wpshop-tab:focus,
+.wpshop-tab:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.wpshop-tab-active {
+    background: #fff;
+    color: #000;
+    box-shadow: none;
+    border-top: 2px solid #165ff4;
+    border-bottom: 1px solid #fff;
+}
+
+
+.wpshop-tab-in {
+    display: none;
+    padding: 35px 25px 25px;
+    background: #fff;
+    /*box-shadow: 0 0 20px rgba(0,0,0,.1);*/
+    box-shadow: 0 1px 3px rgba(153, 144, 198, 0.2);
+    border-radius: 0 .5rem .5rem .5rem;
+}
+.wpshop-tab-in.active {
+    display: block;
+}
+
+
+/********************************************************************
+ * Instruction
+ *******************************************************************/
+.wpshop-instruction {
+    position: relative;
+    border: 2px solid #83c9c8;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.wpshop-instruction-expand {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #83c9c8;
+    border-bottom: 2px solid #83c9c8;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.wpshop-instruction-header {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.wpshop-instruction-body {
+    display: none;
+    padding-top: 10px;
+}
+
+.wpshop-instruction-body p {
+    margin: 15px 0 ;
+}
+
+
+/********************************************************************
+ * Settings
+ *******************************************************************/
+
+.wpshop-settings-item {
+    margin: 20px 0;
+}
+
+.wpshop-settings-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wpshop-settings-item label {
+    float: left;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.wpshop-settings-item-body {
+    float: left;
+}
+
+
+
+
+
+
+.clearfy fieldset .description {
+    padding-left: 25px;
+    margin: .4em 0;
+}
+
+.clearfy .robots-text textarea,
+.clearfy .code-in-head textarea,
+.clearfy .code-in-body textarea {
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+.clearfy .textarea-block {
+}
+
+.clearfy .textarea-block textarea {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.clearfy .textarea-block,
+.clearfy .code-in-head,
+.clearfy .code-in-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfy .textarea-block .description {
+    padding-left: 0;
+}
+
+
+
+.clearfy-ico-help {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #165ff4;
+    background: #fff;
+    /*box-shadow: 0 2px 12px -5px #165ff4;*/
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #165ff4;
+    opacity: .7;
+    transition: all .2s;
+}
+
+.clearfy-ico-help:hover {
+    opacity: 1;
+}
+
+.option-field-header .clearfy-ico-help {
+    top: 30px;
+    right: 25px;
+}
+
+.clearfy-rest-api-list {
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+
+
+.wpshop-widgets {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+@media (min-width: 768px) {
+    .wpshop-widgets {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+}
+
+.wpshop-widgets .wpshop-widget {
+    text-align: center
+}
+
+.wpshop-widgets .wpshop-widget:hover {
+    border-color: #0073aa
+}
+
+@media (min-width: 992px) {
+    .wpshop-widgets .wpshop-widget {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 32.333333%;
+        flex: 0 0 32.333333%;
+        max-width: 32.333333%
+    }
+}
+
+.wpshop-widgets * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wpshop-widget {
+    position: relative;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 0 0 20px;
+    padding: 20px;
+    background: #fff;
+    /*border: 1px solid #e5e5e5;*/
+
+
+    box-shadow: 0 1px 3px rgba(153, 144, 198, 0.2);
+    border-radius: .5rem;
+
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wpshop-widgets--docs .wpshop-widget {
+    padding-left: 80px
+}
+
+.wpshop-widget__icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 65px;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0)
+}
+
+.wpshop-widget__icon img {
+    height: 65px
+}
+
+.wpshop-widget__header {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 12px
+}
+
+.wpshop-widget__header a {
+    text-decoration: none;
+    color: #0073aa
+}
+
+.wpshop-widget__header a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #0073aa
+}
+
+.wpshop-widget__description {
+    font-size: .95em;
+    color: #5c636b;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.wpshop-widgets .wpshop-widget--color-red:hover {
+    border-color: #e3351e
+}
+
+.wpshop-widget--color-red .wpshop-widget__header a {
+    color: #e3351e
+}
+
+.wpshop-widgets .wpshop-widget--color-purple:hover {
+    border-color: #4900b8
+}
+
+.wpshop-widget--color-purple .wpshop-widget__header a {
+    color: #4900b8
+}
+
+.wpshop-widget-social-icon {
+    margin: 0 8px
+}
+
+.wpshop-widget-social-icon:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+
+.wpshop-widget-social-icon:hover:before {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.wpshop-widget-social-icon--vk:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%235a7698' d='M476.3 136.8h-77.4c-6.4 0-12.4 3.5-15.4 9.2 0 0-30.9 56.9-40.8 76-26.7 51.5-44 35.3-44 11.4V151c0-14.3-11.6-26-26-26h-58.2c-16.1-1.2-31.7 6-41.2 19.1 0 0 29.6-4.8 29.6 35 0 9.9.5 38.3 1 62.1.2 9.5-7.3 17.3-16.7 17.6-5 .1-9.9-2-13.2-5.7-23.8-33.1-43.6-69-58.8-106.9-2.7-5.8-8.5-9.5-14.8-9.5H30.1c-6.6 0-12 5.3-12 11.9 0 1.4.2 2.9.7 4.2 21.4 58.6 113.3 242.7 218.3 242.7h44.2c9.6 0 17.5-7.8 17.5-17.5v-26.7c0-9.5 7.7-17.2 17.2-17.2 4.4 0 8.6 1.7 11.7 4.7l52.9 49.7c4.8 4.5 11 6.9 17.5 6.9h69.5c33.5 0 33.5-23.2 15.2-41.2-12.9-12.7-59.2-61.6-59.2-61.6-8.2-8.5-9-21.7-1.8-31.1 15-19.7 39.5-52 49.9-65.9 14.1-18.7 39.9-58.8 4.6-58.8z'/%3E%3C/svg%3E")
+}
+
+.wpshop-widget-social-icon--telegram:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23449bd3' d='M494.6 90.2l-72.1 339.9c-5.4 24-19.6 30-39.8 18.7l-109.7-81-53 51c-5.9 5.9-10.8 10.8-22.1 10.8l7.9-111.8 203.5-183.9c8.8-7.9-1.9-12.3-13.8-4.4L144 287.9 35.7 254c-23.6-7.4-24-23.6 4.9-34.9L464.3 55.9c19.6-7.4 36.7 4.4 30.3 34.3z'/%3E%3C/svg%3E")
+}
+
+.wpshop-widget-social-icon--facebook:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23415a94' d='M358 178.6h-69.7v-45.7c0-17.2 11.4-21.2 19.4-21.2h49.2V36.3l-67.8-.3c-75.2 0-92.3 56.3-92.3 92.3v50.3h-43.5v77.8h43.5v220h91.5v-220H350l8-77.8z'/%3E%3C/svg%3E")
+}
+
+.wpshop-widget-social-icon--twitter:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%2348abe8' d='M423.4 128.5c19.7-12.1 32.8-28.6 39.2-49.6-19.2 10.2-38.3 17.2-57.4 21C388 81.4 366.3 72 340.3 72c-25.5 0-47 8.9-64.5 26.3-17.5 17.5-26.3 38.8-26.3 63.6 0 7.5 1 14.3 2.9 20-75.1-2.6-137.2-33.7-186.2-93.7-8.3 14.7-12.4 29.6-12.4 45.1 0 31.8 13.4 56.9 40.2 75.4-15.3-1.3-28.7-5.2-40.2-11.5 0 22.7 6.7 41.6 20 58.3 13.4 16.5 30.6 27 51.6 31.5-7.6 2-15.6 2.9-23.9 2.9-7.6 0-13-.6-16.2-2 5.6 18.5 16.2 33.5 31.5 44.9 15.3 11.5 32.8 17.6 52.5 18.1C136.8 376.4 99.6 389 57.6 389c-10.3 0-17.6-.1-22-.9 41.4 26.9 87.5 40.2 138.5 40.2 52.2 0 98.3-13.2 138.5-39.7 40.2-26.3 69.8-58.8 88.8-97 19.1-38.2 28.6-77.9 28.6-119.4v-11.4c18.5-13.9 33.5-29.6 44.9-46.9-16.6 7.2-33.7 12.1-51.5 14.6z'/%3E%3C/svg%3E")
+}
+
+.wpshop-widget-social-icon--instagram:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23dd4c7c' d='M484.6 161.8c-1.1-24.5-5-41.1-10.6-55.7-5.8-15.1-13.6-27.8-26.4-40.6C434.8 52.7 422 44.9 407 39.1c-14.5-5.7-31.4-9.6-55.6-10.6-24.5-1.1-32.2-1.4-94.6-1.4-62.4 0-70.2.2-94.6 1.4-24.5 1.1-41.1 5-55.6 10.6C91.5 45 78.8 52.8 66 65.5 53.1 78.3 45.3 91 39.5 106.1c-5.7 14.5-9.6 31.4-10.6 55.7-1.1 24.5-1.4 32.3-1.4 94.7 0 62.4.2 70.2 1.4 94.7 1.1 24.5 5 41.1 10.6 55.7 5.8 15.1 13.6 27.8 26.4 40.6 12.8 12.8 25.5 20.6 40.6 26.4 14.5 5.7 31.4 9.6 55.6 10.6 24.5 1.1 32.2 1.4 94.6 1.4s70.2-.2 94.6-1.4c24.5-1.1 41.1-5 55.6-10.6 15.1-5.9 27.8-13.7 40.6-26.4 12.8-12.8 20.6-25.5 26.4-40.6 5.7-14.5 9.6-31.4 10.6-55.7 1.1-24.5 1.4-32.3 1.4-94.7.1-62.4-.1-70.2-1.3-94.7zm-41.3 187.5c-1.1 22.3-4.8 34.6-8 42.6-4.1 10.6-9.2 18.4-17.2 26.4s-15.6 12.9-26.4 17.2c-8.2 3.2-20.2 6.9-42.5 8-24.3 1.1-31.4 1.4-92.7 1.4s-68.6-.2-92.7-1.4c-22.3-1.1-34.6-4.8-42.5-8-10.6-4.1-18.4-9.2-26.4-17.2S82 402.7 77.7 391.9c-3.2-8.2-6.9-20.2-8-42.6-1.1-24.3-1.4-31.6-1.4-92.8s.2-68.6 1.4-92.8c1.1-22.3 4.8-34.6 8-42.6 4.1-10.6 9.2-18.4 17.2-26.4s15.6-12.9 26.4-17.2c8.2-3.2 20.2-6.9 42.5-8 24.3-1.1 31.5-1.4 92.7-1.4s68.6.2 92.7 1.4c22.3 1.1 34.6 4.8 42.5 8 10.6 4.1 18.4 9.2 26.4 17.2s12.9 15.6 17.2 26.4c3.2 8.2 6.9 20.2 8 42.6 1.1 24.3 1.4 31.6 1.4 92.8s-.3 68.6-1.4 92.8zM256.5 138.6c-65 0-117.8 52.9-117.8 117.9s52.8 117.9 117.8 117.9 117.8-52.9 117.8-117.9-52.7-117.9-117.8-117.9zm0 194.5c-42.2 0-76.5-34.2-76.5-76.6 0-42.2 34.2-76.6 76.5-76.6s76.5 34.2 76.5 76.6c.1 42.2-34.3 76.6-76.5 76.6zm149.9-199.2c0 15.2-12.3 27.5-27.5 27.5s-27.5-12.3-27.5-27.5 12.3-27.5 27.5-27.5c15.2.1 27.5 12.4 27.5 27.5z'/%3E%3C/svg%3E")
+}
+
+.wpshop-widget-partners {
+    float: right;
+    margin-left: 25px;
+    text-decoration: none
+}
+
+.wpshop-widget-partners:after {
+    content: '↗';
+    padding-left: 4px
+}

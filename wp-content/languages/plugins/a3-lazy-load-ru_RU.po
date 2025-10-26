@@ -1,0 +1,758 @@
+# Translation of Plugins - a3 Lazy Load - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - a3 Lazy Load - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-29 07:43:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - a3 Lazy Load - Stable (latest release)\n"
+
+#: admin/admin-interface.php:349 admin/admin-interface.php:2771
+#: admin/includes/fonts_face.php:596
+msgid "Default"
+msgstr "По умолчанию"
+
+#: admin/settings/template-settings/global-settings.php:252
+msgid "Switch to OFF to completely disable WordPress core Lazy Load."
+msgstr "Переключитесь на OFF, чтобы полностью отключить WordPress core Lazy Load."
+
+#: admin/settings/template-settings/global-settings.php:250
+msgid "WordPress Core Lazy Load"
+msgstr "WordPress Core Lazy Load"
+
+#: admin/settings/template-settings/global-settings.php:240
+msgid "On and a3 Lazy Load will lazy load elements that are missed by WordPress Core Lazy Load."
+msgstr "On и a3 Lazy Load будут отложено загружать элементы, которые пропускаются WordPress Core Lazy Load."
+
+#: admin/admin-interface.php:2045
+msgid "Your Google API Key is valid."
+msgstr "Ваш ключ Google API действителен."
+
+#: admin/admin-interface.php:2018
+msgid "Enter your Google Maps API Key and save changes, or go to <a href='%s' target='_blank'>Google Maps API</a> to create a new key. The key must have the Geocoding API, Maps Embed API and Maps JavaScript API as a minimum."
+msgstr "Введите ключ API Карт Google и сохраните изменения или перейдите на страницу <a href='%s' target='_blank'>API Карт Google</a>, чтобы создать новый ключ. Ключ должен иметь как минимум API геокодирования, Maps Embed API и Maps JavaScript API."
+
+#: admin/admin-interface.php:1976 admin/admin-interface.php:2044
+msgid "Validate"
+msgstr "Подтвердить"
+
+#: admin/settings/template-settings/global-settings.php:272
+msgid "100% Compatible with WordPress 5.5 image lazy load and will enhance its coverage on this site."
+msgstr "100% совместим с отложенной загрузкой изображений WordPress 5.5 и улучшит ваше покрытие на этом сайте."
+
+#: admin/settings/template-settings/global-settings.php:358
+msgid "Prepend Classnames with a dot example <code>.images_holder</code>, Prepend IDs with hash tag example <code>#wrapper</code> and Comma separate if more than one."
+msgstr "Поставьте точку перед именами классов, например, <code>.images_holder</code>. Поставьте символ решетки перед именами ID, например, <code>#wrapper</code>. Если их несколько, то разделяйте их запятой."
+
+#: admin/settings/template-settings/global-settings.php:356
+msgid "Container Classnames or IDs"
+msgstr "Имена классов или IDs контейнеров"
+
+#: admin/settings/template-settings/global-settings.php:353
+msgid "a3 Lazy Load has built in support for Horizontal Scrolling image galleries BUT you must enter the container classname or ID below for it to apply to that horizontal scroll container. Use your code inspector to get the correct classname or ID, it will have style is <code>overflow-x:scroll</code>"
+msgstr "a3 Lazy Load может добавить поддержку горизонтального скролла в галереи, НО вы должны ввести имя класса или ID контейнера ниже для применения скролла к контейнеру. Используйте инспектор кода для корректного получения имени класса или ID, они должны иметь стиль <code>overflow-x:scroll</code>"
+
+#: admin/settings/template-settings/global-settings.php:350
+msgid "Horizontal Scroll"
+msgstr "Горизонтальная прокрутка"
+
+#: admin/settings/template-settings/global-settings.php:423
+msgid "Videos and iFrames can be excluded from Lazy Load either by entering existing classnames below or if it has has no classname by adding the exclusion <code>skip-lazy</code> classname or <code>data-skip-lazy</code> attribute to the video / iframe. Examples, by class <code>&#x3C;video class=\"skip-lazy\"&#x3E;</code>, by attribute <code>&#x3C;video data-skip-lazy&#x3E;</code>"
+msgstr "Видео и iFrames могут быть исключены из отложенной загрузки путём введения существующих у них классов ниже или если они не имеют класс, то для исключения можно к ним добавить класс <code>skip-lazy</code> или атрибут <code>data-skip-lazy</code>. Например, по классу <code>&#x3C;img class=\"skip-lazy\"&#x3E;</code>, по атрибуту <code>&#x3C;img data-skip-lazy&#x3E;</code>"
+
+#: admin/settings/template-settings/global-settings.php:340
+msgid "Images can be excluded from Lazy Load by entering existing image classnames below or if the image has no classname by adding the exclusion <code>skip-lazy</code> classname or <code>data-skip-lazy</code> attribute to the image. Examples, by class <code>&#x3C;img class=\"skip-lazy\"&#x3E;</code> , by attribute <code>&#x3C;img data-skip-lazy&#x3E;</code>"
+msgstr "Изображения могут быть исключены из отложенной загрузки путём введения существующих классов изображений ниже или если изображение не имеет класса, то для исключения можно к нему добавить класс <code>skip-lazy</code> или атрибут <code>data-skip-lazy</code>. Например, по классу <code>&#x3C;img class=\"skip-lazy\"&#x3E;</code>, по атрибуту <code>&#x3C;img data-skip-lazy&#x3E;</code>"
+
+#: admin/settings/template-settings/global-settings.php:420
+msgid "Exclude Videos / iframes"
+msgstr "Исключить видео / iframes"
+
+#: admin/settings/template-settings/global-settings.php:337
+msgid "Exclude Images"
+msgstr "Исключить изображения"
+
+#: admin/settings/template-settings/global-settings.php:586
+msgid "If using Jetpack Site Accelerator turn this option on so your Jetpack CDN images can be lazy loaded."
+msgstr "Если вы используете Jetpack Site Accelerator, то включите эту опцию, чтобы Jetpack CDN изображения были отложено загружены."
+
+#: admin/settings/template-settings/global-settings.php:585
+msgid "Jetpack Compatibility"
+msgstr "Совместимость с Jetpack"
+
+#: admin/settings/template-settings/global-settings.php:578
+msgid "Jetpack Site Accelerator (Photon) Compatibility"
+msgstr "Совместимость с Jetpack Site Accelerator (Photon)"
+
+#: admin/settings/template-settings/global-settings.php:569
+msgid "Threshold (px)"
+msgstr "Порог (px)"
+
+#: admin/admin-interface.php:2037
+msgid "Google Map API Key"
+msgstr "API ключ для Google Maps"
+
+#: admin/admin-interface.php:2009
+msgid "Switch ON to connect to Google Maps API"
+msgstr "Включите для подключения Google Maps API"
+
+#: admin/admin-interface.php:1997
+msgid "Google Maps API"
+msgstr "Google Maps API"
+
+#: classes/class-a3-lazy-load-excludes.php:27
+msgid "Archive Pages"
+msgstr "Страницы архивов"
+
+#: classes/class-a3-lazy-load-excludes.php:26
+msgid "Author Pages"
+msgstr "Страницы авторов"
+
+#: classes/class-a3-lazy-load-excludes.php:25
+msgid "Search Page"
+msgstr "Страница поиска"
+
+#: classes/class-a3-lazy-load-excludes.php:24
+msgid "Post Tags"
+msgstr "Тэги записей"
+
+#: classes/class-a3-lazy-load-excludes.php:23
+msgid "Post Categories"
+msgstr "Рубрики записей"
+
+#: classes/class-a3-lazy-load-excludes.php:22
+msgid "Pages"
+msgstr "Страницы"
+
+#: classes/class-a3-lazy-load-excludes.php:21
+msgid "Posts"
+msgstr "Записи"
+
+#: classes/class-a3-lazy-load-excludes.php:20
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: classes/class-a3-lazy-load-excludes.php:19
+msgid "Home Page"
+msgstr "Домашняя страница"
+
+#: admin/settings/template-settings/global-settings.php:461
+msgid "Do not apply lazy load for the following page types"
+msgstr "Не применять отложенную загрузку для следующих типов страниц"
+
+#: admin/settings/template-settings/global-settings.php:459
+msgid "Page Type Exclusions"
+msgstr "Исключения типов страниц"
+
+#: admin/settings/template-settings/global-settings.php:456
+msgid "Enter each URI per row"
+msgstr "Введите URI в каждую строку"
+
+#: admin/settings/template-settings/global-settings.php:448
+msgid "URIs"
+msgstr "URIs"
+
+#: admin/settings/template-settings/global-settings.php:445
+msgid "Add strings, 1 per line (not full filenames) that are to be excluded from Lazy Load. Example, if your URL looks like this /domain-name/2018/example-post/ and you just want to exclude that post enter /example-post/. If you want to exclude all posts in /2018/ just year enter /2018/ and Lazy Load won't be applied to /example-post/ and all other posts prefixed by /2018/ in the URL."
+msgstr "Добавьте ссылки, каждую с новой строки (не полный путь к файлу) к которым не должна применяться отложенная загрузка. Например, если ваш URL выглядит /domain-name/2018/example-post/ и вы хотите исключить эту запись, то введите /example-post/. Если вы хотите исключить все записи в /2018/, то просто введите /2018/ и отложенная загрузка не будет применена к /example-post/ и всем записям у которых в URL содержится /2018/."
+
+#: admin/settings/template-settings/global-settings.php:443
+msgid "Exclude by URIs"
+msgstr "Исключение по URIs"
+
+#: admin/settings/template-settings/global-settings.php:436
+msgid "Exclude by URI's and Page Types"
+msgstr "Исключить по URI и типу страниц"
+
+#: admin/settings/template-settings/global-settings.php:428
+msgid "Find and enter video class name. If more than 1 then comma seperate.<br>Example: video-class1, video-class2. Supports WildCards video*, .*video"
+msgstr "Найдите и введите название класса видео. Если классов несколько, то разделите их запятой.<br>Например: video-class1, video-class2. Поддерживается WildCards видео*, .*video"
+
+#: admin/settings/template-settings/global-settings.php:345
+msgid "Find and enter image class name. If more than 1 then comma seperate.<br>Example: image-class1, image-class2. Supports Wild Cards image*, .*thumbnail"
+msgstr "Найдите и введите название класса изображения. Если классов несколько, то разделите их запятой.<br>Например: image-class1, image-class2. Поддерживается Wild Cards изображения*, .*thumbnail"
+
+#: admin/admin-interface.php:2072
+msgid "Go to <a href=\"%s\">a3 Dashboard Main page</a> and hit on <strong>CHECK NOW</strong> button to manual check for Update."
+msgstr "Перейдите на <a href=\"%s\">главную страницу a3 Dashboard</a> и кликните по кнопке <strong>CHECK NOW</strong> для ручного обновления."
+
+#: admin/admin-interface.php:2069
+msgid "You need to go to <a title=\"\" href=\"%s\">a3 Dashboard Main page</a> for login before check for Update. Use your account creds on <a href=\"https://a3rev.com\" target=\"_parent\">a3rev.com</a> to login."
+msgstr "Вам необходимо перейти на <a title=\"\" href=\"%s\">главную страницу a3 Dashboard</a> и авторизоваться для обновления. Используйте данные входа на <a href=\"https://a3rev.com\" target=\"_parent\">a3rev.com</a> для авторизации."
+
+#: admin/admin-interface.php:2067
+msgid "You need to activate the <a title=\"\" href=\"%s\" target=\"_parent\">a3rev Dashboard plugin</a> for manage version and get auto upgrade to latest version."
+msgstr "Вам необходимо активировать <a title=\"\" href=\"%s\" target=\"_parent\">плагин a3rev Dashboard</a> для управления версиями и автообновления до последней версии."
+
+#: admin/admin-interface.php:2065
+msgid "You need to install and activate the <a title=\"\" href=\"%s\" target=\"_parent\">a3rev Dashboard plugin</a> for manage version and get auto upgrade to latest version."
+msgstr "Вам необходимо установить и активировать <a title=\"\" href=\"%s\" target=\"_parent\">плагин a3rev Dashboard</a> для управления версиями и автообновления до последней версии."
+
+#: admin/admin-interface.php:2060
+msgid "Sorry, this feature just for Network Admin."
+msgstr "Простите, но эта функция только для администратора сети."
+
+#. Author URI of the plugin
+#: a3-lazy-load.php
+msgid "https://a3rev.com/"
+msgstr "https://a3rev.com/"
+
+#. Author of the plugin
+#: a3-lazy-load.php
+msgid "a3rev Software"
+msgstr "a3rev Software"
+
+#. Description of the plugin
+#: a3-lazy-load.php
+msgid "Speed up your site and enhance frontend user's visual experience in PC's, Tablets and mobile with a3 Lazy Load."
+msgstr "Ускорьте свой сайт и улучшите визуальные ощущения пользователей ПК, планшетов и смартфонов с a3 Lazy Load."
+
+#: classes/class-a3-lazy-load-filter.php:69
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/class-a3-lazy-load-filter.php:64
+msgid "Support"
+msgstr "Поддержка"
+
+#: classes/class-a3-lazy-load-filter.php:50
+msgid "a3rev Twitter"
+msgstr "a3rev в Твиттере"
+
+#: classes/class-a3-lazy-load-filter.php:49
+msgid "a3rev Facebook"
+msgstr "a3rev на Фейсбуке"
+
+#: classes/class-a3-lazy-load-filter.php:48
+msgid "Connect with us via"
+msgstr "Свяжитесь с нами через"
+
+#: classes/class-a3-lazy-load-filter.php:41
+msgid "Submit Review for Plugin on WordPress"
+msgstr "Отправьте отзыв на плагин на WordPress"
+
+#: classes/class-a3-lazy-load-filter.php:40
+msgid "Is this plugin is just what you needed? If so"
+msgstr "Этот плагин - то что нужно? Если да"
+
+#: classes/class-a3-lazy-load-filter.php:33
+msgid "Free WooCommerce Plugins"
+msgstr "Бесплатные плагины WooCommerce"
+
+#: classes/class-a3-lazy-load-filter.php:26
+msgid "Free WordPress Plugins"
+msgstr "Бесплатные плагины WordPress"
+
+#: classes/class-a3-lazy-load-filter.php:20
+msgid "Go to Support Forum"
+msgstr "Перейти на форум поддержки"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:220
+msgid "Comming Soon"
+msgstr "Скоро"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:212
+msgid "Free"
+msgstr "Бесплатно"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:206
+msgid "Get this extension"
+msgstr "Получить это расширение"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:203
+msgid "Activate"
+msgstr "Активировать"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:201
+msgid "Installed"
+msgstr "Установлено"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:26
+#: classes/addons/class-a3-lazy-load-addons-page.php:61
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: classes/addons/class-a3-lazy-load-addons-page.php:26
+#: classes/addons/class-a3-lazy-load-addons-page.php:41
+msgid "a3 Lazy Load Add-ons/Extensions"
+msgstr "Расширения и дополнения для a3 Lazy Load"
+
+#: admin/settings/template-settings/global-settings.php:571
+msgid "Expands visible page area (viewport) in vertical direction by the amount of pixels set. Elements start to load as soon as they reach the threshold instead of when they reach the actual viewport."
+msgstr "Расширяет видимую область страницы (область просмотра) по вертикали на заданное количество пикселей. Элементы начинают загружаться, как только они достигают порогового значения, а не когда они достигают фактической области просмотра."
+
+#: admin/settings/template-settings/global-settings.php:562
+msgid "Image Load Threshold"
+msgstr "Порог старта загрузки изображений"
+
+#: admin/settings/template-settings/global-settings.php:555
+msgid "Loading Background Colour"
+msgstr "Фон для загружаемого изображения"
+
+#: admin/settings/template-settings/global-settings.php:552
+msgid "SPINNER"
+msgstr "СПИННЕР"
+
+#: admin/settings/template-settings/global-settings.php:551
+msgid "FADE IN"
+msgstr "ПЛАВНОЕ ПОЯВЛЕНИЕ"
+
+#: admin/settings/template-settings/global-settings.php:545
+msgid "Loading Effect"
+msgstr "Эффект загрузки"
+
+#: admin/settings/template-settings/global-settings.php:538
+msgid "Effect & Style"
+msgstr "Эффекты и стили"
+
+#: admin/settings/template-settings/global-settings.php:527
+msgid "Disables a3 Lazy Load when the MobilePress mobile theme is used"
+msgstr "Отключает a3 Lazy Load при использовании мобильной темы MobilePress"
+
+#: admin/settings/template-settings/global-settings.php:526
+msgid "Disable On MobilePress"
+msgstr "Отключить на MobilePress"
+
+#: admin/settings/template-settings/global-settings.php:516
+msgid "Disables a3 Lazy Load when the WPTouch mobile theme is used"
+msgstr "Отключение a3 Lazy Load при использовании мобильной темы WPTouch"
+
+#: admin/settings/template-settings/global-settings.php:515
+msgid "Disable On WPTouch"
+msgstr "Отключить на WPTouch"
+
+#: admin/settings/template-settings/global-settings.php:508
+msgid "WordPress Mobile Template Plugins"
+msgstr "Плагины мобильных шаблонов WordPress"
+
+#: admin/settings/template-settings/global-settings.php:504
+msgid "FOOTER"
+msgstr "FOOTER"
+
+#: admin/settings/template-settings/global-settings.php:503
+msgid "HEADER"
+msgstr "ЗАГОЛОВОК"
+
+#: admin/settings/template-settings/global-settings.php:497
+msgid "Your theme must have the wp_footer() function if you select FOOTER load."
+msgstr "Ваша тема должна содержать функцию wp_footer(), если вы выберите опцию FOOTER."
+
+#: admin/settings/template-settings/global-settings.php:496
+msgid "Theme Loader Function"
+msgstr "Функция загрузки темы"
+
+#: admin/settings/template-settings/global-settings.php:489
+msgid "Script Load Optimization"
+msgstr "Оптимизация скрипта загрузки"
+
+#: admin/settings/template-settings/global-settings.php:411
+msgid "Turn ON to activate Noscript tag as a fallback to show WordPress Embeds, HTML 5 Video and iframe loaded content for users who have JavaScript disabled in their browser."
+msgstr "Выберите ВКЛ, чтобы активировать тег Noscript для альтернативного варианта показа WordPress Embeds, HTML 5 Video и контента iframe для пользователей с отключенным JavaScript."
+
+#: admin/settings/template-settings/global-settings.php:426
+msgid "Skip Videos Classes"
+msgstr "Пропускать видео с классами"
+
+#: admin/settings/template-settings/global-settings.php:399
+msgid "In Widgets"
+msgstr "В виджетах"
+
+#: admin/settings/template-settings/global-settings.php:389
+msgid "In Content"
+msgstr "В контенте"
+
+#: admin/settings/template-settings/global-settings.php:373
+msgid "Turn ON to activate Lazy Load for <a href=\"%s\" target=\"_blank\">WordPress Embeds</a>, <a href=\"%s\" target=\"_blank\">HTML5 Video</a> and content loaded by iframe from all sources. Note: WordPress Shortcode is not supported."
+msgstr "Нажмите ВКЛ и активируйте отложенную загрузку для <a href=\"%s\" target=\"_blank\">WordPress Embeds</a>, <a href=\"%s\" target=\"_blank\">HTML5 Video</a> и содержимого iframe слюбых источников. Примечание: Шорткоды WordPress не поддерживаются."
+
+#: admin/settings/template-settings/global-settings.php:372
+msgid "Video and iframes"
+msgstr "Видео и iframe"
+
+#: admin/settings/template-settings/global-settings.php:365
+msgid "Lazy Load Videos and iframes"
+msgstr "Отложеная загрузка для видео и iframe"
+
+#: admin/settings/template-settings/global-settings.php:328
+msgid "Turn ON to activate Noscript tag as a fallback to show images for users who have JavaScript disabled in their browser."
+msgstr "Нажмите ВКЛ и активируйте тег Noscript, чтобы пользователи с отключённым JavaScript могли видеть изображения."
+
+#: admin/settings/template-settings/global-settings.php:326
+#: admin/settings/template-settings/global-settings.php:409
+msgid "Noscript Support"
+msgstr "Поддержка Noscript"
+
+#: admin/settings/template-settings/global-settings.php:343
+msgid "Skip Images Classes"
+msgstr "Пропускать изображения по классам"
+
+#: admin/settings/template-settings/global-settings.php:316
+msgid "Gravatars"
+msgstr "Граватары"
+
+#: admin/settings/template-settings/global-settings.php:306
+msgid "Post Thumbnails"
+msgstr "Миниатюры записей"
+
+#: admin/settings/template-settings/global-settings.php:296
+msgid "Images in Widgets"
+msgstr "Изображения в виджетах"
+
+#: admin/settings/template-settings/global-settings.php:286
+msgid "Images in Content"
+msgstr "Изображения в контенте"
+
+#: admin/settings/template-settings/global-settings.php:269
+msgid "Enable Lazy Load for Images"
+msgstr "Включить отложенную загрузку для изображений"
+
+#: admin/settings/template-settings/global-settings.php:262
+msgid "Lazy Load Images"
+msgstr "Отложенная загрузка изображений"
+
+#: admin/settings/template-settings/global-settings.php:232
+msgid "Lazy Load Activation"
+msgstr "Активация отложенной загрузки"
+
+#: admin/settings/template-settings/global-settings.php:219
+msgid "On deletion (not deactivate) the plugin will completely remove all tables and data it created, leaving no trace it was ever here."
+msgstr "При удалении (не деактивации!) плагин удалит все созданные им таблицы и данные, не оставив о себе и следа."
+
+#: admin/settings/template-settings/global-settings.php:218
+msgid "Clean up on Deletion"
+msgstr "Прибраться за собой при удалении"
+
+#: admin/settings/template-settings/global-settings.php:214
+msgid "House Keeping"
+msgstr "Чистота и порядок"
+
+#: admin/settings/template-settings/global-settings.php:207
+msgid "By default each admin panel will open with all Setting Boxes in the CLOSED position."
+msgstr "По умолчанию панель управления будет открываться с блоками настроек в закрытом (свёрнутом) состоянии."
+
+#: admin/settings/template-settings/global-settings.php:206
+msgid "Customize Admin Setting Box Display"
+msgstr "Настройка отображения блоков в панели администратора"
+
+#: admin/settings/template-settings/global-settings.php:199
+msgid "Plugin Framework Global Settings"
+msgstr "Глобальные настройки плагина"
+
+#: admin/settings/template-settings/global-settings.php:155
+#: admin/tabs/template-settings/global-settings-tab.php:82
+msgid "Global Settings"
+msgstr "Глобальные настройки"
+
+#: admin/includes/uploader/class-uploader.php:133
+msgid "View File"
+msgstr "Просмотр файла"
+
+#: admin/includes/uploader/class-uploader.php:113
+msgid "Upload"
+msgstr "Загрузить"
+
+#: admin/admin-ui.php:447
+msgid "There is a new version <span class=\"a3rev-ui-new-plugin-version\">%s</span> available, <a href=\"%s\" target=\"_blank\">update now</a> or download direct from <a href=\"%s\" target=\"_blank\">My Account</a> on a3rev.com"
+msgstr "Доступна новая версия <span class=\"a3rev-ui-new-plugin-version\">%s</span>, <a href=\"%s\" target=\"_blank\">обновитесь сейчас</a> или скачайте её с <a href=\"%s\" target=\"_blank\">вашего аккаунта</a> на a3rev.com"
+
+#: admin/admin-ui.php:439
+msgid "Connection Failure! Please try again. If this issue persists please create a support request on the plugin <a href=\"%s\" target=\"_blank\">a3rev support forum</a>."
+msgstr "Соединений не удалось! Попробуйте ещё раз. Если проблема повторяется, отправьте запрос в поддержку плагина на <a href=\"%s\" target=\"_blank\">Форуме поддержки a3rev</a>."
+
+#: admin/admin-ui.php:437 admin/admin-ui.php:456
+msgid "You should check now to see if have any new version is available"
+msgstr "Выберите сейчас, чтобы проверить, доступна ли новая версия"
+
+#: admin/admin-ui.php:387
+msgid "Pro Version"
+msgstr "Версия Pro"
+
+#: admin/admin-ui.php:384
+msgid "Advanced Settings - Upgrade to the <a href=\"%s\" target=\"_blank\">%s License</a> to activate these settings."
+msgstr "Расширенные настройки - обновитесь до <a href=\"%s\" target=\"_blank\">лицензии %s</a>, чтобы активировать эти настройки."
+
+#: admin/admin-ui.php:236
+msgid "Get Premium Features and Support"
+msgstr "Получить Премиум функции и поддержку"
+
+#: admin/admin-ui.php:235
+msgid "Limited Time Offer. Purchase the Premium Version Lifetime License. That is a Lifetime of maintenance updates, feature upgrades and developer support for a once only fee. Offer ending soon."
+msgstr "Ограниченное по времени предложение. Купите пожизненную премиум лицензию. Это позволит обновлять, добавлять будущие новых функции плагина и поддержите разработчиков заплатив лишь один раз. Предложение скоро закончится."
+
+#: admin/admin-ui.php:234
+msgid "Developer Support and Premium Features"
+msgstr "Поддержка от разработчика и премиум функции"
+
+#: admin/admin-ui.php:233
+msgid "Quick Video showing the main (not all) enhanced features that are built into the WooCommerce Dynamic Gallery Premium version"
+msgstr "Короткое видео, демонстрирующее основные (не все) функции, встроенные в WooCommerce Dynamic Gallery Premium"
+
+#: admin/admin-ui.php:232
+msgid "WooCommerce Dynamic Gallery Premium"
+msgstr "WooCommerce Dynamic Gallery Premium"
+
+#: admin/admin-ui.php:228 admin/admin-ui.php:231
+msgid "Premium Version Enhanced Features"
+msgstr "Улучшенный функционал Премиум-версии"
+
+#. Plugin Name of the plugin
+#: a3-lazy-load.php admin/admin-pages/admin-settings-page.php:66
+#: admin/admin-pages/admin-settings-page.php:67
+#: admin/settings/template-settings/global-settings.php:238
+msgid "a3 Lazy Load"
+msgstr "a3 Lazy Load"
+
+#: admin/admin-interface.php:3704
+msgid "Reset Settings"
+msgstr "Сбросить настройки"
+
+#: admin/admin-interface.php:3703
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: admin/admin-interface.php:3400
+msgid "Preview your customized box shadow settings"
+msgstr "Предпросмотр ваших настроек тени блоков"
+
+#: admin/admin-interface.php:3382
+msgid "OUTER"
+msgstr "СНАРУЖИ"
+
+#: admin/admin-interface.php:3381
+msgid "INNER"
+msgstr "ВНУТРИ"
+
+#: admin/admin-interface.php:3363
+msgid "Spread Size"
+msgstr "Размер рассеивания"
+
+#: admin/admin-interface.php:3345
+msgid "Blur Distance"
+msgstr "Размер размытия"
+
+#: admin/admin-interface.php:3327
+msgid "Vertical Shadow"
+msgstr "Вертикальная тень"
+
+#: admin/admin-interface.php:3309
+msgid "Horizontal Shadow"
+msgstr "Горизонтальная тень"
+
+#: admin/admin-interface.php:3113
+msgid "Preview your customized border styles settings"
+msgstr "Предпросмотр ваших настроек стилей границ"
+
+#: admin/admin-interface.php:3028 admin/admin-interface.php:3245
+msgid "Bottom Left Corner"
+msgstr "Нижний левый угол"
+
+#: admin/admin-interface.php:3008 admin/admin-interface.php:3225
+msgid "Bottom Right Corner"
+msgstr "Нижний правый угол"
+
+#: admin/admin-interface.php:2988 admin/admin-interface.php:3205
+msgid "Top Right Corner"
+msgstr "Верхний правый угол"
+
+#: admin/admin-interface.php:2968 admin/admin-interface.php:3185
+msgid "Top Left Corner"
+msgstr "Верхний левый угол"
+
+#: admin/admin-interface.php:2958 admin/admin-interface.php:3172
+msgid "Square"
+msgstr "Квадратный"
+
+#: admin/admin-interface.php:2957 admin/admin-interface.php:3171
+msgid "Rounded"
+msgstr "Скруглённый"
+
+#: admin/admin-interface.php:2949 admin/admin-interface.php:3114
+msgid "0px = No Border"
+msgstr "0px = Без рамки"
+
+#: admin/admin-interface.php:2948 admin/admin-interface.php:3180
+msgid "Preview your customized border settings"
+msgstr "Предпросмотр ваших настроек границ"
+
+#: admin/admin-interface.php:2840
+msgid "Preview your customized typography settings"
+msgstr "Предпросмотр ваших настроек типографики"
+
+#: admin/admin-interface.php:2799
+msgid "-- Google Fonts --"
+msgstr "-- Шрифты Google --"
+
+#: admin/admin-interface.php:2788
+msgid "-- Default Fonts --"
+msgstr "-- Шрифты по умолчанию --"
+
+#: admin/admin-interface.php:2696
+msgid "Hard Crop"
+msgstr "Жёсткая обрезка"
+
+#: admin/admin-interface.php:2694
+msgid "Height"
+msgstr "Высота"
+
+#: admin/admin-interface.php:2692
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/admin-interface.php:2279
+msgid "ON and each admin panel setting box OPEN | CLOSED position are saved each time changes are SAVED."
+msgstr "Включите и каждый блок настроек при разворачивании/сворачивании будет сохранять указанные в нём настройки."
+
+#: admin/admin-interface.php:2266
+msgid "Open Box Display"
+msgstr "Отображать открытые блоки"
+
+#: admin/admin-interface.php:1978 admin/admin-interface.php:2046
+msgid "Please enter a valid Google API Key."
+msgstr "Укажите действующий ключ Google API."
+
+#: admin/admin-interface.php:1977
+msgid "Your Google API Key is valid and automatic font updates are enabled."
+msgstr "Ваш ключ Google API указан верно и автоматические обновления шрифтов включены."
+
+#: admin/admin-interface.php:1969
+msgid "Google Fonts API Key"
+msgstr "Ключ Google Fonts API"
+
+#: admin/admin-interface.php:1950
+msgid "Enter your existing Google Fonts API Key below. Don't have a key? Visit <a href='%s' target='_blank'>Google Developer API</a> to create a key"
+msgstr "Введите ваш существующий ключ Google Fonts API в поле ниже. Нет ключа? Перейдите на <a href='%s' target='_blank'>Google Developer API</a>, чтобы создать ключ"
+
+#: admin/admin-interface.php:1941
+msgid "ON to connect to Google Fonts API and have auto font updates direct from Google."
+msgstr "Включите, чтобы подключиться к Google Fonts API и автоматически обновлять шрифты прямо с Google."
+
+#: admin/admin-interface.php:1929
+msgid "Google Fonts API"
+msgstr "Google Fonts API"
+
+#: admin/admin-interface.php:1924 admin/admin-interface.php:1992
+#: admin/admin-interface.php:2261 admin/admin-interface.php:2359
+#: admin/admin-interface.php:2539 admin/admin-interface.php:2629
+#: admin/admin-interface.php:2658 admin/admin-interface.php:3294
+#: admin/settings/template-settings/global-settings.php:228
+#: admin/settings/template-settings/global-settings.php:247
+#: admin/settings/template-settings/global-settings.php:258
+#: admin/settings/template-settings/global-settings.php:278
+#: admin/settings/template-settings/global-settings.php:293
+#: admin/settings/template-settings/global-settings.php:303
+#: admin/settings/template-settings/global-settings.php:313
+#: admin/settings/template-settings/global-settings.php:323
+#: admin/settings/template-settings/global-settings.php:334
+#: admin/settings/template-settings/global-settings.php:381
+#: admin/settings/template-settings/global-settings.php:396
+#: admin/settings/template-settings/global-settings.php:406
+#: admin/settings/template-settings/global-settings.php:417
+#: admin/settings/template-settings/global-settings.php:480
+#: admin/settings/template-settings/global-settings.php:523
+#: admin/settings/template-settings/global-settings.php:534
+#: admin/settings/template-settings/global-settings.php:593
+msgid "OFF"
+msgstr "ВЫКЛ"
+
+#: admin/admin-interface.php:1923 admin/admin-interface.php:1991
+#: admin/admin-interface.php:2260 admin/admin-interface.php:2358
+#: admin/admin-interface.php:2538 admin/admin-interface.php:2628
+#: admin/admin-interface.php:2657 admin/admin-interface.php:3293
+#: admin/settings/template-settings/global-settings.php:227
+#: admin/settings/template-settings/global-settings.php:246
+#: admin/settings/template-settings/global-settings.php:257
+#: admin/settings/template-settings/global-settings.php:277
+#: admin/settings/template-settings/global-settings.php:292
+#: admin/settings/template-settings/global-settings.php:302
+#: admin/settings/template-settings/global-settings.php:312
+#: admin/settings/template-settings/global-settings.php:322
+#: admin/settings/template-settings/global-settings.php:333
+#: admin/settings/template-settings/global-settings.php:380
+#: admin/settings/template-settings/global-settings.php:395
+#: admin/settings/template-settings/global-settings.php:405
+#: admin/settings/template-settings/global-settings.php:416
+#: admin/settings/template-settings/global-settings.php:479
+#: admin/settings/template-settings/global-settings.php:522
+#: admin/settings/template-settings/global-settings.php:533
+#: admin/settings/template-settings/global-settings.php:592
+msgid "ON"
+msgstr "ВКЛ"
+
+#: admin/admin-interface.php:372
+msgid "Outset"
+msgstr "Снаружи"
+
+#: admin/admin-interface.php:371
+msgid "Inset"
+msgstr "Внутри"
+
+#: admin/admin-interface.php:370
+msgid "Ridge"
+msgstr "Выпуклость"
+
+#: admin/admin-interface.php:369
+msgid "Groove"
+msgstr "Вдавленность"
+
+#: admin/admin-interface.php:368
+msgid "Dotted"
+msgstr "Точки"
+
+#: admin/admin-interface.php:367
+msgid "Dashed"
+msgstr "Пунктир"
+
+#: admin/admin-interface.php:366
+msgid "Double"
+msgstr "Двойная линия"
+
+#: admin/admin-interface.php:365
+msgid "Solid"
+msgstr "Сплошная линия"
+
+#: admin/admin-interface.php:355
+msgid "Bold/Italic"
+msgstr "Жирный/Курсив"
+
+#: admin/admin-interface.php:354
+msgid "Bold"
+msgstr "Жирный"
+
+#: admin/admin-interface.php:353
+msgid "Italic"
+msgstr "Курсив"
+
+#: admin/admin-interface.php:352
+msgid "Normal"
+msgstr "Обычный"
+
+#: admin/admin-interface.php:351
+msgid "Thin/Italic"
+msgstr "Тонкий/Курсив"
+
+#: admin/admin-interface.php:350
+msgid "Thin"
+msgstr "Тонкий"
+
+#: admin/admin-interface.php:328
+#: admin/settings/template-settings/global-settings.php:89
+msgid "Settings successfully reseted."
+msgstr "Настройки успешно обновлены."
+
+#: admin/admin-interface.php:320
+#: admin/settings/template-settings/global-settings.php:88
+msgid "Error: Settings can not save."
+msgstr "Невозможно сохранить настройки."
+
+#: admin/admin-interface.php:312
+#: admin/settings/template-settings/global-settings.php:87
+msgid "Settings successfully saved."
+msgstr "Настройки успешно сохранены."
+
+#: admin/admin-interface.php:205
+msgid "Great! You have the latest version installed."
+msgstr "Отлично! У вас установлена последняя версия."

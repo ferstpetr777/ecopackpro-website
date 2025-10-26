@@ -1,0 +1,1209 @@
+# Translation of Plugins - Import Products to VK - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Import Products to VK - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-05 06:14:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Import Products to VK - Stable (latest release)\n"
+
+#: classes/system/class-ip2vk-data-arr.php:600
+#: classes/system/class-ip2vk-data-arr.php:601
+msgid "Name post_meta"
+msgstr "Имя метаполя"
+
+#: classes/system/class-ip2vk-data-arr.php:585
+msgid "Substitute from post meta"
+msgstr "Подставлять из метаполя"
+
+#: classes/system/class-ip2vk-data-arr.php:493
+msgid "to display all the attributes of the product"
+msgstr "чтобы вывести все атрибуты товара"
+
+#: classes/system/class-ip2vk-data-arr.php:349
+msgid "Specify the size of the image to be used when importing"
+msgstr "Укажите размер изображения, которое будет использоваться при импорте"
+
+#: classes/system/class-ip2vk-data-arr.php:347
+msgid "Picture size"
+msgstr "Размер изображения"
+
+#: classes/system/class-ip2vk-data-arr.php:214
+msgid "Device ID"
+msgstr "ID устройства"
+
+#: classes/system/class-ip2vk-data-arr.php:197
+msgid "Refresh token"
+msgstr "Refresh токен"
+
+#: classes/generation/class-ip2vk-api-helper-variable.php:194
+msgid "the product photo import failed"
+msgstr "импорт фото товара не удался"
+
+#: classes/system/class-ip2vk-data-arr.php:922
+msgid "сrop thumbnail to exact dimensions"
+msgstr "уменьшить миниатюру до точных размеров"
+
+#: classes/system/class-ip2vk-data-arr.php:914
+msgid "Full size (default)"
+msgstr "Полный размер (по умолчанию)"
+
+#: sandbox.php:30
+msgid "seconds"
+msgstr "секунд"
+
+#: sandbox.php:28
+msgid "The execution time of the test script was"
+msgstr "Время выполнения тестового скрипта составило"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:31
+msgid "On the tab"
+msgstr "На вкладке"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:135
+msgid "Filtration"
+msgstr "Фильтрация"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:48
+msgid "Create an application"
+msgstr "Создайте приложение"
+
+#: classes/system/class-ip2vk-data-arr.php:163
+msgid "Service access key"
+msgstr "Сервисный ключ доступа"
+
+#: classes/system/class-ip2vk-data-arr.php:147
+msgid "Secret key"
+msgstr "Защищённый ключ"
+
+#: classes/system/class-ip2vk-interface-hocked.php:433
+msgid "The variation of product was imported to the VK"
+msgstr "Вариация товара была импортирована в VK"
+
+#: classes/system/class-ip2vk-data-arr.php:711
+msgid "This option is useful if your site very often uses the same image several times for different products"
+msgstr "Эта опция полезна, если на вашем сайте очень часто используется одно и то же изображение по нескольку раз для разных товаров"
+
+#: classes/system/class-ip2vk-data-arr.php:708
+msgid "Allow re-import of images"
+msgstr "Разрешить повторный импорт изображений"
+
+#: classes/generation/class-ip2vk-api-helper-variable.php:317
+#: classes/system/class-ip2vk-data-arr.php:670
+msgid "Import only the first variation"
+msgstr "Импортируйте только первую вариацию"
+
+#: classes/generation/class-ip2vk-api-helper-variable.php:316
+msgid "The option is enabled in the plugin settings"
+msgstr "Опция включена в настройках плагина"
+
+#: classes/system/class-ip2vk-interface-hocked.php:436
+msgid "Edit variation on VK"
+msgstr "Редактировать вариацию на VK"
+
+#: classes/system/class-ip2vk-interface-hocked.php:403
+msgid "Edit product on VK"
+msgstr "Редактировать товар на VK"
+
+#: classes/system/class-ip2vk-interface-hocked.php:401
+#: classes/system/class-ip2vk-interface-hocked.php:434
+msgid "His ID on VK"
+msgstr "Его ID в VK"
+
+#: classes/system/class-ip2vk-interface-hocked.php:400
+msgid "The product was imported to the VK"
+msgstr "Товар был импортирован в VK"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:514
+msgid "of the instructions"
+msgstr "инструкции"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:513
+msgid "Now you can go to step"
+msgstr "Теперь вы можете перейти к шагу"
+
+#: common-libs/class-icpd-promo-1-1-0.php:69
+msgid "Imports products to Yandex Market from your online store on Woocommerce using the API"
+msgstr "Импортирует товары на Яндекс Маркет из вашего интернет-магазина на Woocommerce с помощью API"
+
+#: classes/system/class-ip2vk-data-arr.php:276
+msgid "launch now"
+msgstr "запустить сейчас"
+
+#: classes/system/class-ip2vk-data-arr.php:264
+msgid "after the import, the parameter value will change to"
+msgstr "после импорта значение параметра изменится на"
+
+#: classes/system/class-ip2vk-data-arr.php:262
+#: classes/system/class-ip2vk-data-arr.php:275
+msgid "Run the full import once"
+msgstr "Запустить полный импорт один раз"
+
+#: classes/system/class-ip2vk-data-arr.php:258
+msgid "If selected"
+msgstr "При выборе"
+
+#: classes/system/class-ip2vk-data-arr.php:184
+#: classes/system/class-ip2vk-data-arr.php:201
+#: classes/system/class-ip2vk-data-arr.php:218
+msgid "See the instructions"
+msgstr "См инструкцию"
+
+#: classes/system/class-ip2vk-data-arr.php:182
+#: classes/system/class-ip2vk-data-arr.php:199
+#: classes/system/class-ip2vk-data-arr.php:216
+msgid "it will be received automatically"
+msgstr "будет получен автоматически"
+
+#: classes/system/class-ip2vk-interface-hocked.php:211
+#: classes/system/class-ip2vk-interface-hocked.php:243
+msgid "It is recommended to change its value only in special cases"
+msgstr "Рекомендуется изменять его значение только в особых случаях"
+
+#: classes/system/class-ip2vk-interface-hocked.php:207
+#: classes/system/class-ip2vk-interface-hocked.php:239
+msgid "This field is filled in automatically during the product synchronization process"
+msgstr "Это поле заполняется автоматически в процессе синхронизации товара"
+
+#: classes/system/class-ip2vk-interface-hocked.php:205
+#: classes/system/class-ip2vk-interface-hocked.php:237
+msgid "Product ID on VK.com"
+msgstr "ID товара на VK.com"
+
+#: sandbox.php:34
+msgid "The sandbox is not active. To activate, edit the file"
+msgstr "Песочница не активна. Чтобы активировать ее, отредактируйте файл"
+
+#: classes/system/class-ip2vk.php:443
+msgid "3 hours"
+msgstr "3 часа"
+
+#: classes/system/class-ip2vk-data-arr.php:495
+msgid "This text will be added to the product description"
+msgstr "Этот текст будет добавлен в описание товара"
+
+#: classes/system/class-ip2vk-data-arr.php:492
+msgid "This text will be added to all products"
+msgstr "Этот текст будет добавлен ко всем товарам"
+
+#: classes/system/class-ip2vk-data-arr.php:477
+msgid "Add after the main description"
+msgstr "Добавить после основного описания"
+
+#: classes/system/class-ip2vk-data-arr.php:473
+msgid "Add before the main description"
+msgstr "Добавить перед основным описанием"
+
+#: classes/system/class-ip2vk-data-arr.php:463
+msgid "You need to fill in the field below"
+msgstr "Вам необходимо заполнить поле ниже"
+
+#: classes/system/class-ip2vk-data-arr.php:457
+msgid "Add text to the product description"
+msgstr "Добавить текст в описание товара"
+
+#: classes/system/class-ip2vk-data-arr.php:280
+msgid "Every three hours"
+msgstr "Каждые 3 часа"
+
+#: classes/system/class-ip2vk-data-arr.php:613
+msgid "Import the amount of the product"
+msgstr "Импорт количества товара"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:110
+msgid "Go to the access section and enable \"Wall\", \"Communities\", \"Photos\", \"Products\""
+msgstr "Перейдите в раздел доступы и включите \"Стена\", \"Сообщества\", \"Фотографии\", \"Товары\""
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:57
+msgid "Authorization via VK ID"
+msgstr "Авторизация через VK ID"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:61
+msgid "The ability to import multiple images instead of one"
+msgstr "Возможность импортировать несколько изображений вместо одного"
+
+#: classes/system/class-ip2vk-data-arr.php:559
+msgid "Adds a button by clicking on which the user goes to the product card on your site"
+msgstr "Добавляет кнопку, при нажатии на которую пользователь переходит в карточку товара на вашем сайте"
+
+#: classes/system/class-ip2vk-data-arr.php:555
+msgid "Button to go to the online store"
+msgstr "Кнопка для перехода в интернет-магазин"
+
+#: classes/system/class-ip2vk-data-arr.php:515
+msgid "vk.com sometimes automatically removes links to third-party sites from product descriptions"
+msgstr "vk.com иногда автоматически удаляются ссылки на сторонние сайты из описаний товаров"
+
+#: classes/system/class-ip2vk-data-arr.php:462
+#: classes/system/class-ip2vk-data-arr.php:514
+msgid "Important"
+msgstr "Важно"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:33
+msgid "enter the ID of the group to which you are going to import products"
+msgstr "введите ID группы, в которую вы собираетесь импортировать товары"
+
+#: classes/system/class-ip2vk-data-arr.php:112
+#: classes/system/class-ip2vk-data-arr.php:130
+#: classes/system/class-ip2vk-data-arr.php:133
+msgid "For example"
+msgstr "Например"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:74
+msgid "Now"
+msgstr "Сейчас"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:72
+msgid "Get"
+msgstr "Получить"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:64
+msgid "Even more stable work"
+msgstr "Еще более стабильная работа"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:58
+msgid "The ability to сhange the product price by a certain percentage"
+msgstr "Возможность изменить цену товара на определенный процент"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:55
+msgid "The ability to exclude products at a price"
+msgstr "Возможность исключать товары по цене"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:52
+msgid "Ability to exclude products by certain tags"
+msgstr "Возможность исключать товары по определенным тегам"
+
+#: classes/system/pages/extensions-page/views/html-extensions-page.php:49
+msgid "The ability to exclude products from certain categories"
+msgstr "Возможность исключать товары из определенных категорий"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:522
+msgid "API connection error"
+msgstr "Ошибка подключения к API"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:174
+msgid "and activate the item"
+msgstr "и активируйте пункт"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:172
+msgid "After that, go to the"
+msgstr "После этого перейдите в"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:149
+msgid "Now you can go to step 10 of the instructions"
+msgstr "Теперь вы можете перейти к шагу 10 инструкции"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:512
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:148
+msgid "API connection was successful"
+msgstr "Подключение к API прошло успешно"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:144
+msgid "If everything is configured correctly, you will see the message"
+msgstr "Если все настроено правильно, вы увидите сообщение"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:143
+msgid "Click on it to test the API"
+msgstr "Нажмите на неё, чтобы протестировать API"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:138
+msgid "If the authorization was successful, then you will have a button"
+msgstr "Если авторизация прошла успешно, то у вас появится кнопка"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:99
+msgid "Now you can check its operation by clicking on this button"
+msgstr "Теперь вы можете проверить его работу, нажав на эту кнопку"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:98
+msgid "The VK API is configured"
+msgstr "VK API настроен"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:87
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:92
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:142
+msgid "Check API"
+msgstr "Проверить API"
+
+#: classes/system/class-ip2vk-data-arr.php:543
+msgid "Text before the product link"
+msgstr "Текст перед ссылкой на товар"
+
+#: classes/system/class-ip2vk-data-arr.php:542
+msgid "Text before link"
+msgstr "Текст перед ссылкой"
+
+#: classes/system/class-ip2vk-data-arr.php:529
+msgid "Add to the end of the description"
+msgstr "Добавить в конец описания"
+
+#: classes/system/class-ip2vk-data-arr.php:525
+msgid "Add to the beginning of the description"
+msgstr "Добавить в начало описания"
+
+#: classes/system/class-ip2vk-data-arr.php:509
+msgid "Add a link to the product in the description"
+msgstr "Добавить ссылку на товар в описание"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:101
+msgid "the app is on and visible to everyone"
+msgstr "приложение включено и видно всем"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:99
+msgid "Be sure to turn on the app by selecting"
+msgstr "Обязательно включите приложение, выбрав"
+
+#: common-libs/class-icpd-promo-1-1-0.php:106
+msgid "With this plugin, you can import products to OZON"
+msgstr "С помощью этого плагина вы можете импортировать товары на OZON"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:172
+msgid "I check my email several times a day"
+msgstr "Я проверяю свою электронную почту несколько раз в день"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:171
+msgid "You can write me in Russian or English"
+msgstr "Вы можете писать мне на русском или английском языке"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:170
+msgid "Enter your text to send me a message"
+msgstr "Введите свой текст, чтобы отправить мне сообщение"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:126
+msgid "The following data will be sent"
+msgstr "Следующие данные будут переданы"
+
+#: classes/generation/class-ip2vk-api-helper.php:323
+#: classes/generation/class-ip2vk-api-helper.php:333
+#: classes/generation/class-ip2vk-generation-xml.php:56
+#: classes/generation/class-ip2vk-generation-xml.php:68
+#: classes/generation/class-ip2vk-generation-xml.php:121
+#: classes/generation/class-ip2vk-generation-xml.php:213
+#: classes/generation/traits/common/trait-ip2vk-t-common-get-catid.php:95
+#: classes/generation/traits/common/trait-ip2vk-t-common-get-catid.php:110
+#: classes/system/class-ip2vk-interface-hocked.php:286
+#: classes/system/class-ip2vk-interface-hocked.php:300
+#: classes/system/class-ip2vk-interface-hocked.php:308
+#: classes/system/class-ip2vk.php:395 classes/system/class-ip2vk.php:409
+#: classes/system/class-ip2vk.php:417
+msgid "line"
+msgstr "строка"
+
+#: classes/generation/class-ip2vk-api-helper.php:145
+msgid "The product is not simple, variable or external"
+msgstr "Товар не является простым, вариативным или внешним"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:78
+msgid "specify it in the application settings"
+msgstr "укажите его в настройках приложения"
+
+#: classes/system/class-ip2vk-data-arr.php:584
+msgid "Substitute from SKU"
+msgstr "Подставлять из Артикул"
+
+#: classes/system/class-ip2vk-data-arr.php:579
+msgid "Product SKU source"
+msgstr "Источник SKU товара"
+
+#: classes/system/class-ip2vk-data-arr.php:109
+msgid "without"
+msgstr "без"
+
+#: classes/system/class-ip2vk-data-arr.php:108
+#: classes/system/class-ip2vk-data-arr.php:129
+msgid "only numbers"
+msgstr "только цифры"
+
+#: classes/system/class-ip2vk-data-arr.php:329
+msgid "If you use a separate server for storing images, then select"
+msgstr "Если вы используете отдельный сервер для хранения изображений, выберите"
+
+#: classes/system/class-ip2vk-data-arr.php:328
+msgid "Image upload method"
+msgstr "Метод загрузки изображений"
+
+#: common-libs/class-icpd-promo-1-1-0.php:114
+msgid "With this plugin, you can import products to your group on VK.com"
+msgstr "С помощью этого плагина вы можете импортировать товары в свою группу в VK.com"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:123
+msgid "Go to tab"
+msgstr "Перейдите на вкладку"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:125
+msgid "and click on the link"
+msgstr "и нажмите на ссылку"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:81
+msgid "specifying the"
+msgstr "указав"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:46
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:79
+msgid "Fill in the"
+msgstr "Заполните"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:61
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:160
+msgid "After configuring the API, edit your categories on the site by selecting a similar category for each of them in VK.com"
+msgstr "После настройки API отредактируйте свои категории на сайте, выбрав аналогичную категорию для каждой из них во ВКонтакте"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:52
+msgid "Thereafter fill in the \"Application ID\", \"Client secret\", \"Private key\", save them, and then follow this link"
+msgstr "После этого заполните \"ID приложения\", \"Сервисный ключ доступа\", \"Секретный ключ клиента\", сохраните их, а затем перейдите по этой ссылке"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:93
+msgid "tab"
+msgstr "вкладка"
+
+#: classes/system/class-ip2vk-data-arr.php:128
+#: classes/system/class-ip2vk-data-arr.php:150
+#: classes/system/class-ip2vk-data-arr.php:167
+msgid "from the app settings"
+msgstr "из настроек приложения"
+
+#: classes/generation/class-ip2vk-api-helper-external.php:144
+#: classes/generation/class-ip2vk-api-helper-simple.php:150
+#: classes/generation/class-ip2vk-api-helper-variable.php:180
+msgid "the product does not have a photo"
+msgstr "на товаре нет фотографии"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:92
+msgid "and paste them on the plugin settings page"
+msgstr "и вставьте их на страницу настроек плагина"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:89
+msgid "Secure key"
+msgstr "Ключ безопасности"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:87
+msgid "Copy the"
+msgstr "Скопируйте"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:71
+msgid "Fill in the \"Site Address\" and \"Base domain\" fields, specifying the"
+msgstr "Заполните поля \"Адрес сайта\" и \"Базовый домен\", указав"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:62
+msgid "Application type "
+msgstr "Тип приложения "
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:54
+msgid "Add application"
+msgstr "Добавить приложение"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:52
+msgid "Follow the link and click"
+msgstr "Перейдите по ссылке и нажмите"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:50
+msgid "For this"
+msgstr "Для этого"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:49
+msgid "Create application"
+msgstr "Создать приложение"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:48
+msgid "To access VK.com API you need"
+msgstr "Для доступа к VK.com API вам нужно"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:25
+msgid "here"
+msgstr "здесь"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:19
+msgid "The full version of the instruction can be found"
+msgstr "Полную версию инструкции можно найти"
+
+#: classes/system/class-ip2vk.php:480
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/system/class-ip2vk.php:474
+msgid "More features"
+msgstr "Больше функций"
+
+#: classes/system/class-ip2vk.php:451
+msgid "1 week"
+msgstr "1 неделя"
+
+#: classes/system/class-ip2vk.php:447
+msgid "6 hours"
+msgstr "6 часов"
+
+#: classes/system/class-ip2vk.php:439
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: classes/system/class-ip2vk.php:435
+msgid "70 seconds"
+msgstr "70 секунд"
+
+#: classes/system/class-ip2vk.php:282 classes/system/class-ip2vk.php:283
+msgid "Add Extensions"
+msgstr "Добавить расширение"
+
+#: classes/system/class-ip2vk.php:272
+msgid "Debug"
+msgstr "Отладка"
+
+#: classes/system/class-ip2vk.php:235
+msgid "Processed products"
+msgstr "Обработано товаров"
+
+#: classes/system/class-ip2vk.php:229
+msgid "Importing a list of categories"
+msgstr "Импорт списка категорий"
+
+#: classes/system/class-ip2vk.php:228 classes/system/class-ip2vk.php:234
+msgid "Step"
+msgstr "Шаг"
+
+#: classes/system/class-ip2vk.php:227 classes/system/class-ip2vk.php:233
+msgid "Import products is running"
+msgstr "Импорт товаров запущен"
+
+#: classes/system/class-ip2vk-interface-hocked.php:196
+msgid "Individual product settings for export to VK.com"
+msgstr "Индивидуальные настройки товара для VK.com"
+
+#: classes/system/class-ip2vk-interface-hocked.php:105
+msgid "Required element"
+msgstr "Обязательный элемент"
+
+#: classes/system/class-ip2vk-interface-hocked.php:99
+msgid "You must select"
+msgstr "Вы должны выбрать"
+
+#: classes/system/class-ip2vk-interface-hocked.php:92
+msgid "Category VK.com"
+msgstr "Категория VK.com"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:141
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:15
+msgid "Instruction"
+msgstr "Инструкция"
+
+#: classes/system/class-ip2vk-plugin-upd.php:212
+msgctxt "5 days"
+msgid "days"
+msgstr "дней"
+
+#: classes/system/class-ip2vk-plugin-upd.php:211
+msgctxt "2 days"
+msgid "days"
+msgstr "дня"
+
+#: classes/system/class-ip2vk-plugin-upd.php:210
+msgid "day"
+msgstr "день"
+
+#: classes/system/class-ip2vk-plugin-upd.php:208
+msgid "License expires in"
+msgstr "Лицензия истекает через"
+
+#: classes/system/class-ip2vk-plugin-upd.php:165
+#: classes/system/class-ip2vk-plugin-upd.php:178
+#: classes/system/class-ip2vk-plugin-upd.php:189
+msgid "purchase a new one"
+msgstr "приобретите новую"
+
+#: classes/system/class-ip2vk-plugin-upd.php:163
+#: classes/system/class-ip2vk-plugin-upd.php:176
+#: classes/system/class-ip2vk-plugin-upd.php:187
+msgid "or"
+msgstr "или"
+
+#: classes/system/class-ip2vk-plugin-upd.php:162
+#: classes/system/class-ip2vk-plugin-upd.php:175
+#: classes/system/class-ip2vk-plugin-upd.php:186
+msgid "Enter your license information"
+msgstr "Введите информацию о лицензии"
+
+#: classes/system/class-ip2vk-plugin-upd.php:161
+#: classes/system/class-ip2vk-plugin-upd.php:185
+msgid "version features do not work and you can not install updates"
+msgstr "версии не работают, и вы не можете устанавливать обновления"
+
+#: classes/system/class-ip2vk-plugin-upd.php:154
+#: classes/system/class-ip2vk-plugin-upd.php:221
+msgid "enter the new license information here"
+msgstr "введите здесь информацию о новой лицензии"
+
+#: classes/system/class-ip2vk-plugin-upd.php:153
+#: classes/system/class-ip2vk-plugin-upd.php:220
+msgid "If you have already done this"
+msgstr "Если вы уже сделали это"
+
+#: classes/system/class-ip2vk-plugin-upd.php:151
+#: classes/system/class-ip2vk-plugin-upd.php:218
+msgid "to get a discount, use this promo code"
+msgstr "чтобы получить скидку, используйте этот промо-код"
+
+#: classes/system/class-ip2vk-plugin-upd.php:150
+#: classes/system/class-ip2vk-plugin-upd.php:217
+msgid "purchase a new license"
+msgstr "приобретите новую лицензию"
+
+#: classes/system/class-ip2vk-plugin-upd.php:148
+#: classes/system/class-ip2vk-plugin-upd.php:215
+msgid "Please"
+msgstr "Пожалуйста"
+
+#: classes/system/class-ip2vk-plugin-upd.php:115
+#: classes/system/class-ip2vk-plugin-upd.php:171
+msgid "This license cannot be used on this site. The package limit has been exceeded"
+msgstr "Эта лицензия не может быть использована на этом сайте. Превышен лимит пакета"
+
+#: classes/system/class-ip2vk-plugin-upd.php:111
+#: classes/system/class-ip2vk-plugin-upd.php:122
+#: classes/system/class-ip2vk-plugin-upd.php:160
+#: classes/system/class-ip2vk-plugin-upd.php:184
+msgid "License data is invalid"
+msgstr "Данные лицензии недействительны"
+
+#: classes/system/class-ip2vk-plugin-upd.php:107
+#: classes/system/class-ip2vk-plugin-upd.php:147
+msgid "License expired"
+msgstr "Лицензия истекла"
+
+#: classes/system/class-ip2vk-plugin-upd.php:103
+msgid "License is active"
+msgstr "Лицензия активна"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:216
+msgid "Refresh this page"
+msgstr "Обновите эту страницу"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:215
+msgid "License data has been updated"
+msgstr "Лицензионные данные были обновлены"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:130
+msgid "Update License Data"
+msgstr "Обновить данные лицензии"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:113
+msgid "Order Email"
+msgstr "Email заказа"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:95
+msgid "Order ID"
+msgstr "Номер заказа"
+
+#: classes/system/class-ip2vk-plugin-form-activate.php:85
+msgid "License data"
+msgstr "Данные лицензии"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:96
+msgid "The data has been sent. Thank you"
+msgstr "Данные были отправлены. Спасибо"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:176
+msgid "Send data"
+msgstr "Отправить данные"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:166
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:160
+msgid "If you don't mind to be contacted in case of problems, please enter your email address"
+msgstr "Если вы не возражаете, чтобы с Вами связались в случае возникновения дополнительных вопросов по поводу работы плагина, то укажите Ваш адрес электронной почты"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:154
+msgid "No"
+msgstr "Нет"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:149
+msgid "Yes"
+msgstr "Да"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:141
+msgid "Did my plugin help you upload your products to the"
+msgstr "Помог ли Вам плагин загрузить продукцию на"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:134
+msgid "Technical information and plugin logs"
+msgstr "Техническая информация и логи плагина"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:133
+msgid "Multisite mode status"
+msgstr "Включен ли режим multisite"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:132
+msgid "PHP version information"
+msgstr "Информация о PHP версии"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:125
+msgid "Sending statistics you help make the plugin even better"
+msgstr "Отправляя статистику, вы помогаете сделать плагин еще лучше"
+
+#: common-libs/class-icpd-feedback-1-0-3.php:120
+msgid "Send data about the work of the plugin"
+msgstr "Отправить данные о работе плагина"
+
+#: classes/system/class-ip2vk-debug-page.php:404
+msgid "Error accessing log file. The log file may have been deleted previously"
+msgstr "Ошибка доступа к log-файлу. Возможно log-файл был удален ранее"
+
+#: classes/system/class-ip2vk-debug-page.php:401
+msgid "Logs were cleared"
+msgstr "Логи были очищены"
+
+#: classes/system/class-ip2vk-debug-page.php:385
+#: classes/system/class-ip2vk.php:204
+msgid "Updated"
+msgstr "Обновлено"
+
+#: classes/system/class-ip2vk-debug-page.php:349
+msgid "If you are a developer of one of the plugins from the list above, please contact me"
+msgstr "Если вы разработчик одного из плагинов из списка выше, пожалуйста, свяжитесь со мной"
+
+#: classes/system/class-ip2vk-debug-page.php:349
+msgid "Most likely, these plugins negatively affect the operation of"
+msgstr "Скорее всего, эти плагины негативно влияют на работу"
+
+#: classes/system/class-ip2vk-debug-page.php:305
+msgid "Please read the recommendations"
+msgstr "Пожалуйста, прочитайте рекомендации"
+
+#: classes/system/class-ip2vk-debug-page.php:305
+msgid "Your site has no global attributes! This may affect the quality of the import to ok.ru. This can also cause difficulties when setting up the plugin"
+msgstr "Ваш сайт не имеет глобальных атрибутов! Это может повлиять на качество импорта в ok.ru. Это также может вызвать трудности при настройке плагина"
+
+#: classes/system/class-ip2vk-debug-page.php:281
+msgid "Sandbox"
+msgstr "Песочница"
+
+#: classes/system/class-ip2vk-debug-page.php:269
+msgid "Self-diagnosis functions did not reveal potential problems"
+msgstr "Функции самодиагностики не выявили потенциальных проблем"
+
+#: classes/system/class-ip2vk-debug-page.php:260
+msgid "Possible problems"
+msgstr "Возможные проблемы"
+
+#: classes/system/class-ip2vk-debug-page.php:250
+msgid "Simulated"
+msgstr "Симуляция"
+
+#: classes/system/class-ip2vk-debug-page.php:176
+msgid "Request simulation"
+msgstr "Симуляция запроса"
+
+#: classes/system/class-ip2vk-debug-page.php:145
+msgid "Disable notices about the import of products"
+msgstr "Отключить уведомления об импорте товаров"
+
+#: classes/system/class-ip2vk-debug-page.php:140
+msgid "Disable notices"
+msgstr "Отключить уведомления"
+
+#: classes/system/class-ip2vk-debug-page.php:135
+msgid "Do not check this box if you are not a developer"
+msgstr "Не устанавливайте этот флажок, если вы не разработчик"
+
+#: classes/system/class-ip2vk-debug-page.php:129
+msgid "Clear logs"
+msgstr "Очистить логи"
+
+#: classes/system/class-ip2vk-debug-page.php:125
+msgid "Keep logs"
+msgstr "Вести логи"
+
+#: classes/system/class-ip2vk-debug-page.php:113
+msgid "Log-file here"
+msgstr "Логи тут"
+
+#: classes/system/class-ip2vk-debug-page.php:106
+msgid "Logs"
+msgstr "Логи"
+
+#: classes/system/class-ip2vk-debug-page.php:63
+#: classes/system/class-ip2vk.php:273
+msgid "Debug page"
+msgstr "Страница отладки"
+
+#: sandbox.php:27
+msgid "The sandbox is working correctly"
+msgstr "Песочница работает правильно"
+
+#: sandbox.php:15
+msgid "The sandbox is working. The result will appear below"
+msgstr "Песочница работает. Результат появится ниже"
+
+#: common-libs/wc-add-functions-1-0-2.php:102
+#: common-libs/wc-add-functions-1-0-2.php:128
+msgid "products"
+msgstr "товаров"
+
+#: common-libs/wc-add-functions-1-0-2.php:186
+msgid "This %s cannot be deleted"
+msgstr "%s не может быть удалён"
+
+#: common-libs/wc-add-functions-1-0-2.php:161
+msgid "No %s is associated with #%d"
+msgstr "Нет %s с таким #%d"
+
+#: import-products-to-vk.php:68
+msgid "requires WooCommerce installed and activated"
+msgstr "требуется, чтобы WooCommerce был установлен и активирован"
+
+#: import-products-to-vk.php:49
+msgid "You have the version installed"
+msgstr "У вас установлена версия"
+
+#: import-products-to-vk.php:48
+msgid "plugin requires a php version of at least"
+msgstr "для работы плагина требуется php версии не ниже"
+
+#: common-libs/class-icpd-promo-1-1-0.php:122
+#: common-libs/class-icpd-promo-1-1-0.php:127
+msgid "Сreates a XML-feed for importing your products to"
+msgstr "Создает XML-фид для импорта ваших товаров на"
+
+#: common-libs/class-icpd-promo-1-1-0.php:98
+msgid "With this plugin, you can import products to your group on ok.ru"
+msgstr "С помощью этого плагина вы можете импортировать товары в свою группу на ok.ru"
+
+#: common-libs/class-icpd-promo-1-1-0.php:90
+msgid "This plugin will add a marketing tool that will allow you to give gifts to the buyer upon purchase"
+msgstr "Этот плагин добавит маркетинговый инструмент, который позволит вам дарить подарки покупателю при покупке"
+
+#: common-libs/class-icpd-promo-1-1-0.php:85
+msgid "Сreates a XML-feed for importing your products to Hotline"
+msgstr "Создает XML-фид для импорта ваших товаров на Hotline"
+
+#: common-libs/class-icpd-promo-1-1-0.php:77
+msgid "This plugin helps setting up myTarget counter for dynamic remarketing for WooCommerce"
+msgstr "Этот плагин помогает настроить счетчик myTarget для динамического ремаркетинга для WooCommerce"
+
+#: common-libs/class-icpd-promo-1-1-0.php:64
+msgid "Imports products from YML to your shop"
+msgstr "Импортирует товары из YML в ваш магазин"
+
+#: common-libs/class-icpd-promo-1-1-0.php:56
+msgid "Сreates a YML-feed for importing your products to Yandex Market"
+msgstr "Создает YML-фид для импорта ваших товаров на Яндекс Маркет"
+
+#: common-libs/class-icpd-promo-1-1-0.php:51
+msgid "Сreates a XML-feed to upload to Google Merchant Center"
+msgstr "Создает XML-фид для загрузки в Google Merchant Center"
+
+#: common-libs/class-icpd-promo-1-1-0.php:172
+msgid "My plugins that may interest you"
+msgstr "Мои плагины, которые могут вас заинтересовать"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:60
+msgid "You can delete a previously issued token here"
+msgstr "Здесь вы можете удалить ранее выданный токен"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:58
+msgid "Be sure to click \"allow\". You will then be redirected back"
+msgstr "Обязательно нажмите кнопку \"разрешить\". Затем вы будете перенаправлены обратно"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:126
+msgid "Authorization via VK.com"
+msgstr "Авторизация через VK.com"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:23
+msgid "You need to get a token"
+msgstr "Вам нужно получить токен"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:138
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:16
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:32
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:94
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:124
+msgid "API Settings"
+msgstr "Настройки API"
+
+#: classes/system/pages/settings-page/class-ip2vk-settings-page.php:132
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:173
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#: classes/system/class-ip2vk-debug-page.php:161
+#: classes/system/pages/settings-page/views/html-admin-settings-page-save-btn.php:43
+msgid "Click to save the settings"
+msgstr "Нажмите, чтобы сохранить настройки"
+
+#: classes/system/pages/settings-page/views/html-admin-settings-page-save-btn.php:31
+msgid "Run Import"
+msgstr "Запустить импорт"
+
+#: classes/system/class-ip2vk-debug-page.php:159
+#: classes/system/pages/settings-page/views/html-admin-settings-page-save-btn.php:30
+#: classes/system/pages/settings-page/views/html-admin-settings-page-save-btn.php:36
+msgid "Save"
+msgstr "Сохранить"
+
+#: classes/system/class-ip2vk-data-arr.php:688
+msgid "In oldprice indicates the old price of the goods, which must necessarily be higher than the new price (price)"
+msgstr "В oldprice указывается старая цена товара, которая обязательно должна быть выше новой цены (price)"
+
+#: classes/system/class-ip2vk-data-arr.php:687
+msgid "Old price"
+msgstr "Старая цена"
+
+#: classes/system/class-ip2vk-data-arr.php:634
+msgid "except for products for which a pre-order is permitted"
+msgstr "за исключением товаров, для которых разрешен предварительный заказ"
+
+#: classes/system/class-ip2vk-data-arr.php:437
+msgid "The varition description takes precedence over others"
+msgstr "Описание вариации имеет приоритет над другими"
+
+#: classes/system/class-ip2vk-data-arr.php:423
+msgid "Full plus Excerpt description"
+msgstr "Полное плюс Краткое описание"
+
+#: classes/system/class-ip2vk-data-arr.php:419
+msgid "Excerpt plus Full description"
+msgstr "Краткое плюс Полное описание"
+
+#: classes/system/class-ip2vk-data-arr.php:415
+msgid "Full or Excerpt description"
+msgstr "Полное или Краткое описание"
+
+#: classes/system/class-ip2vk-data-arr.php:411
+msgid "Excerpt or Full description"
+msgstr "Краткое или Полное описание"
+
+#: classes/system/class-ip2vk-data-arr.php:407
+msgid "Only Full description"
+msgstr "Только Полное описание"
+
+#: classes/system/class-ip2vk-data-arr.php:403
+msgid "Only Excerpt description"
+msgstr "Только Краткое описание"
+
+#: classes/system/class-ip2vk-data-arr.php:397
+msgid "The source of the description"
+msgstr "Источник описания товара"
+
+#: classes/system/class-ip2vk-data-arr.php:395
+msgid "Description of the product"
+msgstr "Описание товара"
+
+#: classes/system/class-ip2vk-data-arr.php:383
+msgid "Do not update"
+msgstr "Не обновлять"
+
+#: classes/system/class-ip2vk-data-arr.php:381
+msgid "Update once"
+msgstr "Обновить один раз"
+
+#: classes/system/class-ip2vk-data-arr.php:377
+#: classes/system/class-ip2vk-plugin-form-activate.php:107
+#: classes/system/class-ip2vk-plugin-form-activate.php:124
+#: common-libs/class-icpd-promo-1-1-0.php:198
+msgid "Read more"
+msgstr "Подробнее"
+
+#: classes/system/class-ip2vk-data-arr.php:370
+msgid "then with each import, the covers in the product catalog may be lost"
+msgstr "то при каждом импорте обложки в каталоге товаров могут теряться"
+
+#: classes/system/class-ip2vk-data-arr.php:369
+#: classes/system/class-ip2vk-data-arr.php:382
+msgid "Always update"
+msgstr "Всегда обновлять"
+
+#: classes/system/class-ip2vk-data-arr.php:368
+msgid "If you set the value"
+msgstr "Если вы установите значение"
+
+#: classes/system/class-ip2vk-data-arr.php:366
+msgid "Categories on VK.com"
+msgstr "Категории на VK.com"
+
+#: classes/system/class-ip2vk-data-arr.php:314
+msgid "The maximum value allowed by VK.com"
+msgstr "Максимальное значение, разрешенное VK.com"
+
+#: classes/system/class-ip2vk-data-arr.php:297
+msgid "Determines the maximum number of products uploaded to VK.com in one minute"
+msgstr "Определяет максимальное количество товаров, загружаемых на VK.com за одну минуту"
+
+#: classes/system/class-ip2vk-data-arr.php:296
+msgid "Step export"
+msgstr "Шаг экспорта"
+
+#: classes/system/class-ip2vk-data-arr.php:284
+msgid "Once a week"
+msgstr "Раз в неделю"
+
+#: classes/system/class-ip2vk-data-arr.php:283
+msgid "Daily"
+msgstr "Раз в день"
+
+#: classes/system/class-ip2vk-data-arr.php:282
+msgid "Twice a day"
+msgstr "2 раза в день"
+
+#: classes/system/class-ip2vk-data-arr.php:281
+msgid "Every six hours"
+msgstr "Каждые 6 часов"
+
+#: classes/system/class-ip2vk-data-arr.php:279
+msgid "Hourly"
+msgstr "Раз в час"
+
+#: classes/system/class-ip2vk-data-arr.php:254
+msgid "With the specified frequency, the plugin will transmit information about all your products to VK.com"
+msgstr "С заданной периодичностью плагин будет передавать информацию обо всех ваших товарах в VK.com"
+
+#: classes/system/class-ip2vk-data-arr.php:252
+msgid "The frequency of full synchronization of products"
+msgstr "Частота полной синхронизации товаров"
+
+#: classes/system/class-ip2vk-data-arr.php:239
+#: classes/system/class-ip2vk-data-arr.php:445
+#: classes/system/class-ip2vk-data-arr.php:566
+#: classes/system/class-ip2vk-data-arr.php:619
+#: classes/system/class-ip2vk-data-arr.php:640
+#: classes/system/class-ip2vk-data-arr.php:658
+#: classes/system/class-ip2vk-data-arr.php:675
+#: classes/system/class-ip2vk-data-arr.php:695
+#: classes/system/class-ip2vk-data-arr.php:719
+msgid "Enabled"
+msgstr "Включено"
+
+#: classes/system/class-ip2vk-data-arr.php:238
+#: classes/system/class-ip2vk-data-arr.php:267
+#: classes/system/class-ip2vk-data-arr.php:271
+#: classes/system/class-ip2vk-data-arr.php:444
+#: classes/system/class-ip2vk-data-arr.php:470
+#: classes/system/class-ip2vk-data-arr.php:522
+#: classes/system/class-ip2vk-data-arr.php:565
+#: classes/system/class-ip2vk-data-arr.php:583
+#: classes/system/class-ip2vk-data-arr.php:618
+#: classes/system/class-ip2vk-data-arr.php:639
+#: classes/system/class-ip2vk-data-arr.php:657
+#: classes/system/class-ip2vk-data-arr.php:674
+#: classes/system/class-ip2vk-data-arr.php:694
+#: classes/system/class-ip2vk-data-arr.php:718
+msgid "Disabled"
+msgstr "Отключено"
+
+#: classes/system/class-ip2vk-data-arr.php:232
+msgid "Using this parameter, you can stop the plugin completely"
+msgstr "Используя этот параметр, вы можете полностью остановить работу плагина"
+
+#: classes/system/class-ip2vk-data-arr.php:231
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:175
+msgid "Syncing with VK.com"
+msgstr "Синхронизация с VK.com"
+
+#: classes/system/class-ip2vk-data-arr.php:164
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:90
+msgid "Private key"
+msgstr "Секретный ключ"
+
+#: classes/system/class-ip2vk-data-arr.php:180
+msgid "Access token"
+msgstr "Токен"
+
+#: classes/system/class-ip2vk-data-arr.php:107
+msgid "from the settings of the group to which we export products"
+msgstr "из настроек группы, в которую мы экспортируем товары"
+
+#: classes/system/class-ip2vk-data-arr.php:104
+#: classes/system/pages/settings-page/views/html-admin-settings-page-api-tab.php:47
+msgid "Group ID"
+msgstr "ID группы"
+
+#: classes/system/class-ip2vk-data-arr.php:148
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:91
+msgid "Client secret"
+msgstr "Секретный ключ клиента"
+
+#: classes/system/class-ip2vk-data-arr.php:125
+#: classes/system/pages/settings-page/views/html-admin-settings-page-instruction-tab.php:88
+msgid "Application ID"
+msgstr "ID приложения"
+
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:104
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:114
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:147
+#: classes/system/class-ip2vk-data-arr.php:653
+msgid "Skip backorders products"
+msgstr "Исключать из фида товары для предзаказа"
+
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:89
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:132
+#: classes/system/class-ip2vk-data-arr.php:633
+msgid "Skip missing products"
+msgstr "Исключать товары которых нет в наличии"
+
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:55
+msgid "The product status/visibility is"
+msgstr "Статус/видимость товара"
+
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:44
+msgid "Product is grouped"
+msgstr "Сгруппированный товар"
+
+#: classes/generation/traits/common/trait-ip2vk-t-common-get-catid.php:59
+msgid "The product has no categories"
+msgstr "У товара нет категорий"
+
+#: classes/generation/class-ip2vk-api-helper.php:86
+#: classes/generation/traits/common/trait-ip2vk-t-common-skips.php:34
+msgid "There is no product with this ID"
+msgstr "Нет товара с таким ID"
+
+#: classes/generation/class-ip2vk-api-helper-external.php:186
+#: classes/generation/class-ip2vk-api-helper-simple.php:192
+#: classes/generation/class-ip2vk-api-helper-variable.php:220
+msgid "category, the category ID is not specified on the VK.com"
+msgstr "категория, ID категории не указан на VK.com"
+
+#: classes/generation/class-ip2vk-api-helper-external.php:184
+#: classes/generation/class-ip2vk-api-helper-simple.php:190
+#: classes/generation/class-ip2vk-api-helper-variable.php:218
+msgid "For the"
+msgstr "Для"
+
+#: classes/generation/class-ip2vk-api-helper-external.php:172
+#: classes/generation/class-ip2vk-api-helper-simple.php:178
+#: classes/generation/class-ip2vk-api-helper-variable.php:206
+msgid "description"
+msgstr "описание"
+
+#: classes/generation/class-ip2vk-api-helper-external.php:159
+#: classes/generation/class-ip2vk-api-helper-simple.php:165
+msgid "I can't upload a photo"
+msgstr "Я не могу загрузить фотографию"
+
+#. Author URI of the plugin
+#: import-products-to-vk.php
+msgid "https://icopydoc.ru/"
+msgstr "https://icopydoc.ru/"
+
+#. Author of the plugin
+#: import-products-to-vk.php
+msgid "Maxim Glazunov"
+msgstr "Максим Глазунов"
+
+#. Description of the plugin
+#: import-products-to-vk.php
+msgid "Plugin for importing products from WooCommerce online store to vk.com group. Helps to increase sales."
+msgstr "Плагин для импорта товаров из интернет-магазина WooCommerce в группу vk.com. Помогает увеличить продажи."
+
+#. Plugin URI of the plugin
+#: import-products-to-vk.php
+msgid "https://icopydoc.ru/category/documentation/import-products-to-vk/"
+msgstr "https://icopydoc.ru/category/documentation/import-products-to-vk/"
+
+#. Plugin Name of the plugin
+#: import-products-to-vk.php
+#: classes/system/class-ip2vk-interface-hocked.php:176
+msgid "Import Products to VK"
+msgstr "Импорт товаров в VK.com"

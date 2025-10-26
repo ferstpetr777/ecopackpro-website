@@ -1,0 +1,45 @@
+/* Исправление для мобильного индикатора корзины */
+@media screen and (max-width: 767px) {
+    .w-cart-quantity {
+        position: absolute !important;
+        top: -8px !important;
+        right: -8px !important;
+        background: #ff4444 !important;
+        color: white !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        padding: 2px 6px !important;
+        border-radius: 50% !important;
+        min-width: 20px !important;
+        height: 20px !important;
+        line-height: 16px !important;
+        text-align: center !important;
+        z-index: 999 !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: none !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+    }
+    
+    .w-cart.empty .w-cart-quantity {
+        display: none !important;
+    }
+    
+    .w-cart:not(.empty) .w-cart-quantity {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    /* Убеждаемся, что иконка корзины видна */
+    .w-cart-link {
+        position: relative !important;
+        display: block !important;
+    }
+    
+    .w-cart-icon {
+        position: relative !important;
+        display: inline-block !important;
+    }
+}

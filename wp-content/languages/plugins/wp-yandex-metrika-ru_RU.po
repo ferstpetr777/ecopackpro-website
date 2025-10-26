@@ -1,0 +1,121 @@
+# Translation of Plugins - Yandex.Metrica - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Yandex.Metrica - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-25 11:20:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Yandex.Metrica - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: wp-yandex-metrika.php
+msgid "Yandex Metrica"
+msgstr "Яндекс Метрика"
+
+#: includes/class.ya-metrika-ninjaForms.php:18
+msgid "To collect statistics from Ninja Forms subscription forms use the settings interface on the Yandex.Metrica plugin page."
+msgstr "Для сбора статистики из форм подписки Ninja Forms используйте интерфейс настроек на странице плагина Яндекс.Метрики."
+
+#: includes/class.ya-metrika-wpforms.php:18
+msgid "To collect statistics from WPForms subscription forms use the settings interface on the Yandex.Metrica plugin page."
+msgstr "Для сбора статистики с форм подписки WPForms используйте интерфейс настроек на странице плагина Яндекс.Метрики."
+
+#: includes/class.ya-metrika-backend.php:494
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/class.ya-metrika-woocommerce.php:47
+msgid "Brand taxonomy not found on site"
+msgstr "Таксономия бренда отсутствует на сайте"
+
+#: includes/class.ya-metrika-backend.php:145
+msgid "Custom field"
+msgstr "Произвольное поле"
+
+#: includes/class.ya-metrika-logs.php:28
+msgid "Error "
+msgstr "Error "
+
+#: includes/class.ya-metrika.php:94 includes/class.ya-metrika.php:95
+msgid "For the plugin to work, the WordPress version must be 5.2.9 or higher"
+msgstr "Для работы плагина версия WordPress должна быть 5.2.9 или выше"
+
+#. Author URI of the plugin
+#: wp-yandex-metrika.php
+msgid "https://metrika.yandex.ru"
+msgstr "https://metrika.yandex.ru"
+
+#: includes/class.ya-metrika.php:31
+msgid "Invalid tag number for \"%s\""
+msgstr "Неверный номер счетчика \"%s\""
+
+#: includes/class.ya-metrika.php:50
+msgid "No Yandex.Metrica tag has been installed on the site yet. To add a tag, <a href=\"%s\" target=\"_blank\">create one</a> and <a href=\"%s\" target=\"_blank\">add its number</a> on <a href=\"%s\">the settings page</a> of the plugin."
+msgstr "На сайте еще не установлен ни один счетчик Яндекс Метрики. Для добавления счетчика <a href=\"%s\" target=\"_blank\">создайте его</a> и <a href=\"%s\" target=\"_blank\">добавьте его номер</a> на <a href=\"%s\">странице настроек</a> плагина."
+
+#: includes/class.ya-metrika-backend.php:82
+msgid "Session Replay"
+msgstr "Вебвизор"
+
+#: includes/class.ya-metrika.php:124
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class.ya-metrika-backend.php:75
+msgid "Tag number"
+msgstr "Номер счетчика"
+
+#: includes/class.ya-metrika-backend.php:61
+msgid "Tags"
+msgstr "Cчётчики"
+
+#: includes/class.ya-metrika-backend.php:142
+msgid "Term"
+msgstr "Термин"
+
+#: includes/class.ya-metrika-logs.php:36
+msgid "There are no logs"
+msgstr "Логи отсутствуют"
+
+#: view/index.php:25
+msgid "View logs"
+msgstr "Посмотреть логи"
+
+#: includes/class.ya-metrika.php:57
+msgid "Yandex.Metrica tags were found installed on the site. We automatically added them to the <a href=\"%s\">settings</a>. We recommend disabling tags in all other plugins or deactivating other plugins that work with the Yandex.Metrica tags."
+msgstr "На сайте были найдены установленные счетчики Яндекс Метрики. Мы автоматически добавили их в <a href=\"%s\">настройки</a>. Рекомендуем отключить счетчики во всех остальных плагинах или деактивировать другие плагины работающие с метрикой."
+
+#. Plugin URI of the plugin
+#: wp-yandex-metrika.php
+msgid "https://wordpress.org/plugins/wp-yandex-metrika/"
+msgstr "https://ru.wordpress.org/plugins/wp-yandex-metrika/"
+
+#. Author of the plugin
+#: wp-yandex-metrika.php
+msgid "Yandex"
+msgstr "Яндекс"
+
+#: includes/class.ya-metrika-woocommerce.php:82
+msgid "In the theme \"%s\" there is no hook on the product page \"%s\""
+msgstr "В теме \"%s\" на странице товара отсутствует вебзацеп \"%s\""
+
+#: includes/class.ya-metrika-backend.php:30
+msgid "Yandex.Metrica"
+msgstr "Яндекс Метрика"
+
+#: includes/class.ya-metrika-backend.php:29
+msgid "Yandex.Metrica settings"
+msgstr "Настройки Яндекс Метрики"
+
+#: includes/class.ya-metrika-backend.php:158
+msgid "*To transfer the product's trademark to the \"brand\" field, specify the name of the field that is used on your site."
+msgstr "*Чтобы перенести торговую марку товара в поле \"бренд\", укажите название поля, которое используется на Вашем сайте."
+
+#. Description of the plugin
+#: wp-yandex-metrika.php
+msgid "The official WordPress plugin from the Yandex Metrica team. The plugin is a free tool for connecting tags based on the WordPress CMS. It provides the ability to transfer data about user sessions and e-commerce events directly to the Yandex Metrica dashboard."
+msgstr "Официальный плагин WordPress от команды Яндекс Метрики. Плагин является бесплатным инструментом для подключения счётчиков на базе CMS WordPress. Он предоставляет возможность передавать данные о посещении пользователей и событиях электронной коммерции напрямую в панель инструментов Яндекс Метрики."

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест мобильного приложения</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f0f0f0; }
+        .container { max-width: 400px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; }
+        .cart-counter { background: #007cba; color: white; padding: 15px; margin: 15px 0; text-align: center; border-radius: 5px; }
+        .quantity { margin: 10px 0; display: flex; align-items: center; }
+        .quantity label { width: 100px; }
+        .quantity input { width: 60px; padding: 8px; margin-left: 10px; }
+        .log { background: #f8f8f8; padding: 10px; margin: 15px 0; height: 150px; overflow-y: scroll; border: 1px solid #ddd; }
+        .btn { background: #007cba; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }
+        .btn:hover { background: #005a8b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Тест счетчика корзины</h1>
+        
+        <div class="cart-counter">
+            <span class="w-cart-quantity">0</span> товаров в корзине
+        </div>
+        
+        <div class="quantity">
+            <label>Товар 1:</label>
+            <input type="number" class="qty" value="0" min="0">
+        </div>
+        
+        <div class="quantity">
+            <label>Товар 2:</label>
+            <input type="number" class="qty" value="0" min="0">
+        </div>
+        
+        <div class="quantity">
+            <label>Товар 3:</label>
+            <input type="number" class="qty" value="0" min="0">
+        </div>
+        
+        <button class="btn" onclick="testCounter()">Тест счетчика</button>
+        <button class="btn" onclick="clearLog()">Очистить логи</button>
+        
+        <h3>Логи работы:</h3>
+        <div id="log" class="log"></div>
+        
+        <h3>Информация о браузере:</h3>
+        <div id="info"></div>
+    </div>
+
+    <script>
+        // Перехватываем console.log
+        const originalLog = console.log;
+        const logDiv = document.getElementById('log');
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            const logEntry = document.createElement('div');
+            logEntry.textContent = new Date().toLocaleTimeString() + ': ' + args.join(' ');
+            logDiv.appendChild(logEntry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        };
+        
+        function clearLog() {
+            logDiv.innerHTML = '';
+        }
+        
+        function testCounter() {
+            console.log('=== РУЧНОЙ ТЕСТ СЧЕТЧИКА ===');
+            updateCartCounter();
+        }
+        
+        // Информация о браузере
+        document.getElementById('info').innerHTML = `
+            <p><strong>User Agent:</strong> ${navigator.userAgent}</p>
+            <p><strong>Платформа:</strong> ${navigator.platform}</p>
+            <p><strong>Размер экрана:</strong> ${screen.width}x${screen.height}</p>
+            <p><strong>Размер окна:</strong> ${window.innerWidth}x${window.innerHeight}</p>
+            <p><strong>Время:</strong> ${new Date().toLocaleString()}</p>
+        `;
+        
+        // Основной скрипт
+        function updateCartCounter() {
+            let total = 0;
+            document.querySelectorAll('.quantity input.qty').forEach(function(input) {
+                const val = parseInt(input.value) || 0;
+                total += val;
+                console.log('Товар: ' + val + ' (общий: ' + total + ')');
+            });
+            
+            document.querySelector('.w-cart-quantity').textContent = total > 0 ? total : '0';
+            console.log('Счетчик обновлен: ' + total);
+            return total;
+        }
+        
+        // Автоматическое обновление
+        setInterval(function() {
+            console.log('Автообновление счетчика');
+            updateCartCounter();
+        }, 2000);
+        
+        // Обновление при изменении
+        document.querySelectorAll('.quantity input.qty').forEach(function(input) {
+            input.addEventListener('change', function() {
+                console.log('Изменение количества: ' + this.value);
+                updateCartCounter();
+            });
+        });
+        
+        console.log('=== ТЕСТ НАЧАТ ===');
+        console.log('User Agent: ' + navigator.userAgent);
+        console.log('Мобильное устройство: ' + /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+        console.log('WebView: ' + /wv|WebView/i.test(navigator.userAgent));
+        updateCartCounter();
+    </script>
+</body>
+</html>

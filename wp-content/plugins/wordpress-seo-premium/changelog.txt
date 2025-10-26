@@ -1,0 +1,7 @@
+*** Yoast SEO premium Changelog ***
+
+
+2024-04-30 - version 22.6
+* add -  Improves performance on the users’ metadata for data specific to Yoast SEO Premium.
+* update -  Bumps the minimum required version of Yoast SEO to 22.6.
+

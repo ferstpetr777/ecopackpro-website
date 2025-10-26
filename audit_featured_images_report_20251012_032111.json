@@ -1,0 +1,1330 @@
+{
+  "timestamp": "2025-10-12T03:21:11.682014",
+  "stats": {
+    "total_keywords": 50,
+    "articles_found": 60,
+    "articles_with_featured": 60,
+    "articles_without_featured": 0,
+    "matches_correct": 23,
+    "matches_incorrect": 36,
+    "placeholder_issues": 14,
+    "missing_images": 1
+  },
+  "detailed_results": [
+    {
+      "post_id": 7917,
+      "title": "Курьерские пакеты с карманом",
+      "url": "https://ecopackpro.ru/?p=7917",
+      "featured_image": {
+        "id": 7160,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-с-карманом.webp",
+        "alt": "курьерские пакеты с карманом",
+        "title": "курьерские пакеты с карманом",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-с-карманом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-с-карманом.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7916,
+      "title": "Курьерские пакеты черно-белые",
+      "url": "https://ecopackpro.ru/?p=7916",
+      "featured_image": {
+        "id": 7200,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "курьерские пакеты черно-белые",
+        "title": "курьерские пакеты черно-белые",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7915,
+      "title": "Курьерские пакеты номерные",
+      "url": "https://ecopackpro.ru/?p=7915",
+      "featured_image": {
+        "id": 7174,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-номерные.webp",
+        "alt": "курьерские пакеты номерные",
+        "title": "курьерские пакеты номерные",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-номерные. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-номерные.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7932,
+      "title": "Купить курьерские пакеты с номерным штрих-кодом",
+      "url": "https://ecopackpro.ru/?p=7932",
+      "featured_image": {
+        "id": 7169,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-курьерские-пакеты-с-номерным-штрих-кодом.webp",
+        "alt": "купить курьерские пакеты с номерным штрих-кодом",
+        "title": "купить курьерские пакеты с номерным штрих-кодом",
+        "caption": "<p>Профессиональная упаковка купить-курьерские-пакеты-с-номерным-штрих-кодом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: купить-курьерские-пакеты-с-номерным-штрих-кодом.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7938,
+      "title": "Почтовые коробки размера S 260×170×80",
+      "url": "https://ecopackpro.ru/?p=7938",
+      "featured_image": {
+        "id": 7192,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-размера-S-260×170×80.webp",
+        "alt": "почтовые коробки размера S 260×170×80",
+        "title": "почтовые коробки размера S 260×170×80",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-размера-s-260×170×80. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-размера-S-260×170×80.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7939,
+      "title": "Почтовые коробки размера XL 530×360×220",
+      "url": "https://ecopackpro.ru/?p=7939",
+      "featured_image": {
+        "id": 7180,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-размера-XL-530×360×220.webp",
+        "alt": "почтовые коробки размера XL 530×360×220",
+        "title": "почтовые коробки размера XL 530×360×220",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-размера-xl-530×360×220. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-размера-XL-530×360×220.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7948,
+      "title": "Почтовые коробки с логотипом на заказ",
+      "url": "https://ecopackpro.ru/?p=7948",
+      "featured_image": {
+        "id": 7198,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-с-логотипом-на-заказ.webp",
+        "alt": "почтовые коробки с логотипом на заказ",
+        "title": "почтовые коробки с логотипом на заказ",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-с-логотипом-на-заказ. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-с-логотипом-на-заказ.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7909,
+      "title": "Зип пакеты",
+      "url": "https://ecopackpro.ru/?p=7909",
+      "featured_image": {
+        "id": 7168,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты.webp",
+        "alt": "зип пакеты",
+        "title": "зип пакеты",
+        "caption": "<p>Профессиональная упаковка зип-пакеты. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7168"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7949,
+      "title": "Зип пакеты с бегунком купить Москва",
+      "url": "https://ecopackpro.ru/?p=7949",
+      "featured_image": {
+        "id": 7167,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты-с-бегунком-купить-Москва.webp",
+        "alt": "зип пакеты с бегунком купить Москва",
+        "title": "зип пакеты с бегунком купить Москва",
+        "caption": "<p>Профессиональная упаковка зип-пакеты-с-бегунком-купить-москва. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7168"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: зип-пакеты-с-бегунком-купить-Москва.webp, Визуальное: зип-пакеты.webp"
+    },
+    {
+      "post_id": 7910,
+      "title": "Zip lock пакеты с бегунком: удобное хранение продуктов",
+      "url": "https://ecopackpro.ru/?p=7910",
+      "featured_image": {
+        "id": 7179,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "матовые zip lock пакеты с бегунком 10×15",
+        "title": "матовые zip lock пакеты с бегунком 10×15",
+        "caption": "<p>Профессиональная упаковка матовые-zip-lock-пакеты-с-бегунком-10×15. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7179"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7935,
+      "title": "Матовые zip lock пакеты с бегунком 10×15",
+      "url": "https://ecopackpro.ru/?p=7935",
+      "featured_image": {
+        "id": 7179,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "матовые zip lock пакеты с бегунком 10×15",
+        "title": "матовые zip lock пакеты с бегунком 10×15",
+        "caption": "<p>Профессиональная упаковка матовые-zip-lock-пакеты-с-бегунком-10×15. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7179"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7953,
+      "title": "Плоские конверты с воздушной подушкой для документов",
+      "url": "https://ecopackpro.ru/?p=7953",
+      "featured_image": {
+        "id": 7194,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/плоские-конверты-с-воздушной-подушкой-для-документов.webp",
+        "alt": "плоские конверты с воздушной подушкой для документов",
+        "title": "плоские конверты с воздушной подушкой для документов",
+        "caption": "<p>Профессиональная упаковка плоские-конверты-с-воздушной-подушкой-для-документов. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7937,
+      "title": "Крафт конверты с воздушной подушкой F/3",
+      "url": "https://ecopackpro.ru/?p=7937",
+      "featured_image": {
+        "id": 7185,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафт-конверты-с-воздушной-подушкой-F3.webp",
+        "alt": "крафт конверты с воздушной подушкой F/3",
+        "title": "крафт конверты с воздушной подушкой F:3",
+        "caption": "<p>Профессиональная упаковка крафт-конверты-с-воздушной-подушкой-f3. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафт-конверты-с-воздушной-подушкой-F3.webp",
+        "alt": "крафт конверты с воздушной подушкой F:3",
+        "class": [
+          "wp-image-7185",
+          "size-full"
+        ],
+        "location": "first_image"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7912,
+      "title": "Конверты с воздушной прослойкой для документов",
+      "url": "https://ecopackpro.ru/?p=7912",
+      "featured_image": {
+        "id": 7154,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/конверты-с-воздушной-прослойкой.webp",
+        "alt": "конверты с воздушной прослойкой",
+        "title": "конверты с воздушной прослойкой",
+        "caption": "<p>Профессиональная упаковка конверты-с-воздушной-прослойкой. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7913,
+      "title": "Крафтовые пакеты с воздушной подушкой для бизнеса: как выбрать оптимал",
+      "url": "https://ecopackpro.ru/?p=7913",
+      "featured_image": {
+        "id": 7173,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафтовые-пакеты-с-воздушной-подушкой.webp",
+        "alt": "крафтовые пакеты с воздушной подушкой",
+        "title": "крафтовые пакеты с воздушной подушкой",
+        "caption": "<p>Профессиональная упаковка крафтовые-пакеты-с-воздушной-подушкой. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7946,
+      "title": "Курьерские пакеты прозрачные для одежды",
+      "url": "https://ecopackpro.ru/?p=7946",
+      "featured_image": {
+        "id": 7158,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-прозрачные-для-одежды.webp",
+        "alt": "курьерские пакеты прозрачные для одежды",
+        "title": "курьерские пакеты прозрачные для одежды",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-прозрачные-для-одежды. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-прозрачные-для-одежды.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7915,
+      "title": "Курьерские пакеты номерные",
+      "url": "https://ecopackpro.ru/?p=7915",
+      "featured_image": {
+        "id": 7174,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-номерные.webp",
+        "alt": "курьерские пакеты номерные",
+        "title": "курьерские пакеты номерные",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-номерные. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-номерные.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7916,
+      "title": "Курьерские пакеты черно-белые",
+      "url": "https://ecopackpro.ru/?p=7916",
+      "featured_image": {
+        "id": 7200,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "курьерские пакеты черно-белые",
+        "title": "курьерские пакеты черно-белые",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7934,
+      "title": "Курьерские пакеты черно-белые с карманом цена",
+      "url": "https://ecopackpro.ru/?p=7934",
+      "featured_image": {
+        "id": 7176,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые-с-карманом-цена.webp",
+        "alt": "курьерские пакеты черно-белые с карманом цена",
+        "title": "курьерские пакеты черно-белые с карманом цена",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые-с-карманом-цена. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-черно-белые-с-карманом-цена.webp, Визуальное: курьерские-пакеты-черно-белые.webp"
+    },
+    {
+      "post_id": 7945,
+      "title": "Курьерские пакеты черно-белые без логотипа А4",
+      "url": "https://ecopackpro.ru/?p=7945",
+      "featured_image": {
+        "id": 7182,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые-без-логотипа-А4.webp",
+        "alt": "курьерские пакеты черно-белые без логотипа А4",
+        "title": "курьерские пакеты черно-белые без логотипа А4",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые-без-логотипа-а4. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-черно-белые-без-логотипа-А4.webp, Визуальное: курьерские-пакеты-черно-белые.webp"
+    },
+    {
+      "post_id": 7917,
+      "title": "Курьерские пакеты с карманом",
+      "url": "https://ecopackpro.ru/?p=7917",
+      "featured_image": {
+        "id": 7160,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-с-карманом.webp",
+        "alt": "курьерские пакеты с карманом",
+        "title": "курьерские пакеты с карманом",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-с-карманом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": null,
+      "is_match": false,
+      "reason": "Визуальное изображение не найдено в контенте"
+    },
+    {
+      "post_id": 7936,
+      "title": "Купить оптом zip lock пакеты матовые 30 мкм",
+      "url": "https://ecopackpro.ru/?p=7936",
+      "featured_image": {
+        "id": 7181,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-оптом-zip-lock-пакеты-матовые-30-мкм.webp",
+        "alt": "купить оптом zip lock пакеты матовые 30 мкм",
+        "title": "купить оптом zip lock пакеты матовые 30 мкм",
+        "caption": "<p>Профессиональная упаковка купить-оптом-zip-lock-пакеты-матовые-30-мкм. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-оптом-zip-lock-пакеты-матовые-30-мкм.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7181"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7920,
+      "title": "Крафтовые конверты",
+      "url": "https://ecopackpro.ru/?p=7920",
+      "featured_image": {
+        "id": 7172,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафтовые-конверты.webp",
+        "alt": "крафтовые конверты",
+        "title": "крафтовые конверты",
+        "caption": "<p>Профессиональная упаковка крафтовые-конверты. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафтовые-конверты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7172"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7921,
+      "title": "Пузырчатые пакеты ВПП",
+      "url": "https://ecopackpro.ru/?p=7921",
+      "featured_image": {
+        "id": 7163,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/пузырчатые-пакеты-ВПП.webp",
+        "alt": "пузырчатые пакеты ВПП",
+        "title": "пузырчатые пакеты ВПП",
+        "caption": "<p>Профессиональная упаковка пузырчатые-пакеты-впп. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/пузырчатые-пакеты-ВПП.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7163"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7922,
+      "title": "Коробки для почты",
+      "url": "https://ecopackpro.ru/?p=7922",
+      "featured_image": {
+        "id": 7189,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/коробки-для-почты.webp",
+        "alt": "коробки для почты",
+        "title": "коробки для почты",
+        "caption": "<p>Профессиональная упаковка коробки-для-почты. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/коробки-для-почты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7189"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7940,
+      "title": "Купить самоклеящиеся карманы SD для документов",
+      "url": "https://ecopackpro.ru/?p=7940",
+      "featured_image": {
+        "id": 7193,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "купить самоклеящиеся карманы SD для документов",
+        "title": "купить самоклеящиеся карманы SD для документов",
+        "caption": "<p>Профессиональная упаковка купить-самоклеящиеся-карманы-sd-для-документов. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7193"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7924,
+      "title": "Самоклеящиеся карманы",
+      "url": "https://ecopackpro.ru/?p=7924",
+      "featured_image": {
+        "id": 7193,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "купить самоклеящиеся карманы SD для документов",
+        "title": "купить самоклеящиеся карманы SD для документов",
+        "caption": "<p>Профессиональная упаковка купить-самоклеящиеся-карманы-sd-для-документов. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7193"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7956,
+      "title": "Самоклеящиеся карманы для транспортных накладных",
+      "url": "https://ecopackpro.ru/?p=7956",
+      "featured_image": {
+        "id": 7157,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/самоклеящиеся-карманы-для-транспортных-накладных.webp",
+        "alt": "самоклеящиеся карманы для транспортных накладных",
+        "title": "самоклеящиеся карманы для транспортных накладных",
+        "caption": "<p>Профессиональная упаковка самоклеящиеся-карманы-для-транспортных-накладных. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/самоклеящиеся-карманы.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7159"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: самоклеящиеся-карманы-для-транспортных-накладных.webp, Визуальное: самоклеящиеся-карманы.webp"
+    },
+    {
+      "post_id": 7925,
+      "title": "Антимагнитная пломба",
+      "url": "https://ecopackpro.ru/?p=7925",
+      "featured_image": {
+        "id": 7191,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "антимагнитная пломба цена за 100 штук",
+        "title": "антимагнитная пломба цена за 100 штук",
+        "caption": "<p>Профессиональная упаковка антимагнитная-пломба-цена-за-100-штук. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7191"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7942,
+      "title": "Антимагнитная пломба цена за 100 штук",
+      "url": "https://ecopackpro.ru/?p=7942",
+      "featured_image": {
+        "id": 7191,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "антимагнитная пломба цена за 100 штук",
+        "title": "антимагнитная пломба цена за 100 штук",
+        "caption": "<p>Профессиональная упаковка антимагнитная-пломба-цена-за-100-штук. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7191"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7926,
+      "title": "Наклейка пломба антимагнит",
+      "url": "https://ecopackpro.ru/?p=7926",
+      "featured_image": {
+        "id": 7155,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/наклейка-пломба-антимагнит.webp",
+        "alt": "наклейка пломба антимагнит",
+        "title": "наклейка пломба антимагнит",
+        "caption": "<p>Профессиональная упаковка наклейка-пломба-антимагнит. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7927,
+      "title": "Пломбиратор для бочек",
+      "url": "https://ecopackpro.ru/?p=7927",
+      "featured_image": {
+        "id": 7199,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/пломбиратор-для-бочек.webp",
+        "alt": "пломбиратор для бочек",
+        "title": "пломбиратор для бочек",
+        "caption": "<p>Профессиональная упаковка пломбиратор-для-бочек. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/пломбиратор-для-бочек.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7199"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7928,
+      "title": "Номерные пломбы наклейки",
+      "url": "https://ecopackpro.ru/?p=7928",
+      "featured_image": {
+        "id": 7183,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/номерные-пломбы-наклейки.webp",
+        "alt": "номерные пломбы наклейки",
+        "title": "номерные пломбы наклейки",
+        "caption": "<p>Профессиональная упаковка номерные-пломбы-наклейки. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7929,
+      "title": "Zip lock пакеты с белой полосой",
+      "url": "https://ecopackpro.ru/?p=7929",
+      "featured_image": {
+        "id": 7171,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/zip-lock-пакеты-с-белой-полосой.webp",
+        "alt": "zip lock пакеты с белой полосой",
+        "title": "zip lock пакеты с белой полосой",
+        "caption": "<p>Профессиональная упаковка zip-lock-пакеты-с-белой-полосой. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7930,
+      "title": "Белые крафт пакеты с пузырчатой плёнкой",
+      "url": "https://ecopackpro.ru/?p=7930",
+      "featured_image": {
+        "id": 7195,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/белые-крафт-пакеты-с-пузырчатой-плёнкой.webp",
+        "alt": "белые крафт пакеты с пузырчатой плёнкой",
+        "title": "белые крафт пакеты с пузырчатой плёнкой",
+        "caption": "<p>Профессиональная упаковка белые-крафт-пакеты-с-пузырчатой-плёнкой. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7932,
+      "title": "Купить курьерские пакеты с номерным штрих-кодом",
+      "url": "https://ecopackpro.ru/?p=7932",
+      "featured_image": {
+        "id": 7169,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-курьерские-пакеты-с-номерным-штрих-кодом.webp",
+        "alt": "купить курьерские пакеты с номерным штрих-кодом",
+        "title": "купить курьерские пакеты с номерным штрих-кодом",
+        "caption": "<p>Профессиональная упаковка купить-курьерские-пакеты-с-номерным-штрих-кодом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: купить-курьерские-пакеты-с-номерным-штрих-кодом.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7933,
+      "title": "Заказать прозрачные курьерские пакеты оптом",
+      "url": "https://ecopackpro.ru/?p=7933",
+      "featured_image": {
+        "id": 7177,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/заказать-прозрачные-курьерские-пакеты-оптом.webp",
+        "alt": "заказать прозрачные курьерские пакеты оптом",
+        "title": "заказать прозрачные курьерские пакеты оптом",
+        "caption": "<p>Профессиональная упаковка заказать-прозрачные-курьерские-пакеты-оптом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/заказать-прозрачные-курьерские-пакеты-оптом.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7177"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7934,
+      "title": "Курьерские пакеты черно-белые с карманом цена",
+      "url": "https://ecopackpro.ru/?p=7934",
+      "featured_image": {
+        "id": 7176,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые-с-карманом-цена.webp",
+        "alt": "курьерские пакеты черно-белые с карманом цена",
+        "title": "курьерские пакеты черно-белые с карманом цена",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые-с-карманом-цена. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-черно-белые-с-карманом-цена.webp, Визуальное: курьерские-пакеты-черно-белые.webp"
+    },
+    {
+      "post_id": 7935,
+      "title": "Матовые zip lock пакеты с бегунком 10×15",
+      "url": "https://ecopackpro.ru/?p=7935",
+      "featured_image": {
+        "id": 7179,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "матовые zip lock пакеты с бегунком 10×15",
+        "title": "матовые zip lock пакеты с бегунком 10×15",
+        "caption": "<p>Профессиональная упаковка матовые-zip-lock-пакеты-с-бегунком-10×15. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-с-бегунком-10×15.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7179"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7936,
+      "title": "Купить оптом zip lock пакеты матовые 30 мкм",
+      "url": "https://ecopackpro.ru/?p=7936",
+      "featured_image": {
+        "id": 7181,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-оптом-zip-lock-пакеты-матовые-30-мкм.webp",
+        "alt": "купить оптом zip lock пакеты матовые 30 мкм",
+        "title": "купить оптом zip lock пакеты матовые 30 мкм",
+        "caption": "<p>Профессиональная упаковка купить-оптом-zip-lock-пакеты-матовые-30-мкм. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-оптом-zip-lock-пакеты-матовые-30-мкм.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7181"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7937,
+      "title": "Крафт конверты с воздушной подушкой F/3",
+      "url": "https://ecopackpro.ru/?p=7937",
+      "featured_image": {
+        "id": 7185,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафт-конверты-с-воздушной-подушкой-F3.webp",
+        "alt": "крафт конверты с воздушной подушкой F/3",
+        "title": "крафт конверты с воздушной подушкой F:3",
+        "caption": "<p>Профессиональная упаковка крафт-конверты-с-воздушной-подушкой-f3. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/крафт-конверты-с-воздушной-подушкой-F3.webp",
+        "alt": "крафт конверты с воздушной подушкой F:3",
+        "class": [
+          "wp-image-7185",
+          "size-full"
+        ],
+        "location": "first_image"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7938,
+      "title": "Почтовые коробки размера S 260×170×80",
+      "url": "https://ecopackpro.ru/?p=7938",
+      "featured_image": {
+        "id": 7192,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-размера-S-260×170×80.webp",
+        "alt": "почтовые коробки размера S 260×170×80",
+        "title": "почтовые коробки размера S 260×170×80",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-размера-s-260×170×80. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-размера-S-260×170×80.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7939,
+      "title": "Почтовые коробки размера XL 530×360×220",
+      "url": "https://ecopackpro.ru/?p=7939",
+      "featured_image": {
+        "id": 7180,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-размера-XL-530×360×220.webp",
+        "alt": "почтовые коробки размера XL 530×360×220",
+        "title": "почтовые коробки размера XL 530×360×220",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-размера-xl-530×360×220. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-размера-XL-530×360×220.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7940,
+      "title": "Купить самоклеящиеся карманы SD для документов",
+      "url": "https://ecopackpro.ru/?p=7940",
+      "featured_image": {
+        "id": 7193,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "купить самоклеящиеся карманы SD для документов",
+        "title": "купить самоклеящиеся карманы SD для документов",
+        "caption": "<p>Профессиональная упаковка купить-самоклеящиеся-карманы-sd-для-документов. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/купить-самоклеящиеся-карманы-SD-для-документов.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7193"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7941,
+      "title": "Антимагнитные наклейки для водяных счётчиков",
+      "url": "https://ecopackpro.ru/?p=7941",
+      "featured_image": {
+        "id": 7190,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитные-наклейки-для-водяных-счётчиков.webp",
+        "alt": "антимагнитные наклейки для водяных счётчиков",
+        "title": "антимагнитные наклейки для водяных счётчиков",
+        "caption": "<p>Профессиональная упаковка антимагнитные-наклейки-для-водяных-счётчиков. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7942,
+      "title": "Антимагнитная пломба цена за 100 штук",
+      "url": "https://ecopackpro.ru/?p=7942",
+      "featured_image": {
+        "id": 7191,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "антимагнитная пломба цена за 100 штук",
+        "title": "антимагнитная пломба цена за 100 штук",
+        "caption": "<p>Профессиональная упаковка антимагнитная-пломба-цена-за-100-штук. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитная-пломба-цена-за-100-штук.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7191"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7943,
+      "title": "Пломбиратор для евробочек 2 дюйма",
+      "url": "https://ecopackpro.ru/?p=7943",
+      "featured_image": {
+        "id": 7184,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/пломбиратор-для-евробочек-2-дюйма.webp",
+        "alt": "пломбиратор для евробочек 2 дюйма",
+        "title": "пломбиратор для евробочек 2 дюйма",
+        "caption": "<p>Профессиональная упаковка пломбиратор-для-евробочек-2-дюйма. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7944,
+      "title": "Инструмент для опломбирования бочек ¾ дюйма",
+      "url": "https://ecopackpro.ru/?p=7944",
+      "featured_image": {
+        "id": 7197,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/инструмент-для-опломбирования-бочек-¾-дюйма.webp",
+        "alt": "инструмент для опломбирования бочек ¾ дюйма",
+        "title": "инструмент для опломбирования бочек ¾ дюйма",
+        "caption": "<p>Профессиональная упаковка инструмент-для-опломбирования-бочек-¾-дюйма. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7945,
+      "title": "Курьерские пакеты черно-белые без логотипа А4",
+      "url": "https://ecopackpro.ru/?p=7945",
+      "featured_image": {
+        "id": 7182,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые-без-логотипа-А4.webp",
+        "alt": "курьерские пакеты черно-белые без логотипа А4",
+        "title": "курьерские пакеты черно-белые без логотипа А4",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-черно-белые-без-логотипа-а4. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-черно-белые.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7200"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-черно-белые-без-логотипа-А4.webp, Визуальное: курьерские-пакеты-черно-белые.webp"
+    },
+    {
+      "post_id": 7946,
+      "title": "Курьерские пакеты прозрачные для одежды",
+      "url": "https://ecopackpro.ru/?p=7946",
+      "featured_image": {
+        "id": 7158,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-прозрачные-для-одежды.webp",
+        "alt": "курьерские пакеты прозрачные для одежды",
+        "title": "курьерские пакеты прозрачные для одежды",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-прозрачные-для-одежды. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-прозрачные-для-одежды.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7947,
+      "title": "Курьерские пакеты для маркетплейсов Ozon",
+      "url": "https://ecopackpro.ru/?p=7947",
+      "featured_image": {
+        "id": 7178,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты-для-маркетплейсов-Ozon.webp",
+        "alt": "курьерские пакеты для маркетплейсов Ozon",
+        "title": "курьерские пакеты для маркетплейсов Ozon",
+        "caption": "<p>Профессиональная упаковка курьерские-пакеты-для-маркетплейсов-ozon. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/курьерские-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7175"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: курьерские-пакеты-для-маркетплейсов-Ozon.webp, Визуальное: курьерские-пакеты.webp"
+    },
+    {
+      "post_id": 7948,
+      "title": "Почтовые коробки с логотипом на заказ",
+      "url": "https://ecopackpro.ru/?p=7948",
+      "featured_image": {
+        "id": 7198,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки-с-логотипом-на-заказ.webp",
+        "alt": "почтовые коробки с логотипом на заказ",
+        "title": "почтовые коробки с логотипом на заказ",
+        "caption": "<p>Профессиональная упаковка почтовые-коробки-с-логотипом-на-заказ. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/почтовые-коробки.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7203"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: почтовые-коробки-с-логотипом-на-заказ.webp, Визуальное: почтовые-коробки.webp"
+    },
+    {
+      "post_id": 7949,
+      "title": "Зип пакеты с бегунком купить Москва",
+      "url": "https://ecopackpro.ru/?p=7949",
+      "featured_image": {
+        "id": 7167,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты-с-бегунком-купить-Москва.webp",
+        "alt": "зип пакеты с бегунком купить Москва",
+        "title": "зип пакеты с бегунком купить Москва",
+        "caption": "<p>Профессиональная упаковка зип-пакеты-с-бегунком-купить-москва. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/зип-пакеты.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7168"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: зип-пакеты-с-бегунком-купить-Москва.webp, Визуальное: зип-пакеты.webp"
+    },
+    {
+      "post_id": 7950,
+      "title": "Матовые zip lock пакеты для чая",
+      "url": "https://ecopackpro.ru/?p=7950",
+      "featured_image": {
+        "id": 7201,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-для-чая.webp",
+        "alt": "матовые zip lock пакеты для чая",
+        "title": "матовые zip lock пакеты для чая",
+        "caption": "<p>Профессиональная упаковка матовые-zip-lock-пакеты-для-чая. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/матовые-zip-lock-пакеты-для-чая.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7201"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7951,
+      "title": "Zip lock пакеты с подвесом",
+      "url": "https://ecopackpro.ru/?p=7951",
+      "featured_image": {
+        "id": 7161,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/zip-lock-пакеты-с-подвесом.webp",
+        "alt": "zip lock пакеты с подвесом",
+        "title": "zip lock пакеты с подвесом",
+        "caption": "<p>Профессиональная упаковка zip-lock-пакеты-с-подвесом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/zip-lock-пакеты-с-подвесом.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7161"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": true,
+      "reason": "Изображения совпадают"
+    },
+    {
+      "post_id": 7952,
+      "title": "Белые крафт-пакеты с пузырчатой плёнкой оптом",
+      "url": "https://ecopackpro.ru/?p=7952",
+      "featured_image": {
+        "id": 7165,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/белые-крафт-пакеты-с-пузырчатой-плёнкой-оптом.webp",
+        "alt": "белые крафт-пакеты с пузырчатой плёнкой оптом",
+        "title": "белые крафт-пакеты с пузырчатой плёнкой оптом",
+        "caption": "<p>Профессиональная упаковка белые-крафт-пакеты-с-пузырчатой-плёнкой-оптом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7953,
+      "title": "Плоские конверты с воздушной подушкой для документов",
+      "url": "https://ecopackpro.ru/?p=7953",
+      "featured_image": {
+        "id": 7194,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/плоские-конверты-с-воздушной-подушкой-для-документов.webp",
+        "alt": "плоские конверты с воздушной подушкой для документов",
+        "title": "плоские конверты с воздушной подушкой для документов",
+        "caption": "<p>Профессиональная упаковка плоские-конверты-с-воздушной-подушкой-для-документов. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7954,
+      "title": "Пакеты из воздушно-пузырьковой плёнки оптом",
+      "url": "https://ecopackpro.ru/?p=7954",
+      "featured_image": {
+        "id": 7156,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/пакеты-из-воздушно-пузырьковой-плёнки-оптом.webp",
+        "alt": "пакеты из воздушно-пузырьковой плёнки оптом",
+        "title": "пакеты из воздушно-пузырьковой плёнки оптом",
+        "caption": "<p>Профессиональная упаковка пакеты-из-воздушно-пузырьковой-плёнки-оптом. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7955,
+      "title": "Антимагнитные пломбы для газовых счётчиков",
+      "url": "https://ecopackpro.ru/?p=7955",
+      "featured_image": {
+        "id": 7196,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/антимагнитные-пломбы-для-газовых-счётчиков.webp",
+        "alt": "антимагнитные пломбы для газовых счётчиков",
+        "title": "антимагнитные пломбы для газовых счётчиков",
+        "caption": "<p>Профессиональная упаковка антимагнитные-пломбы-для-газовых-счётчиков. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/09/Tvist-PRO_blue_09.jpg",
+        "alt": "",
+        "class": [
+          "wp-image-7146"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Визуально отображается placeholder: Tvist-PRO_blue_09.jpg"
+    },
+    {
+      "post_id": 7956,
+      "title": "Самоклеящиеся карманы для транспортных накладных",
+      "url": "https://ecopackpro.ru/?p=7956",
+      "featured_image": {
+        "id": 7157,
+        "url": "https://ecopackpro.ru/wp-content/uploads/2025/10/самоклеящиеся-карманы-для-транспортных-накладных.webp",
+        "alt": "самоклеящиеся карманы для транспортных накладных",
+        "title": "самоклеящиеся карманы для транспортных накладных",
+        "caption": "<p>Профессиональная упаковка самоклеящиеся-карманы-для-транспортных-накладных. Надежная защита товаров при транспортировке.</p>\n"
+      },
+      "visible_image": {
+        "src": "https://ecopackpro.ru/wp-content/uploads/2025/10/самоклеящиеся-карманы.webp",
+        "alt": "",
+        "class": [
+          "wp-image-7159"
+        ],
+        "location": "figure_block"
+      },
+      "is_match": false,
+      "reason": "Разные изображения. Главное: самоклеящиеся-карманы-для-транспортных-накладных.webp, Визуальное: самоклеящиеся-карманы.webp"
+    }
+  ]
+}

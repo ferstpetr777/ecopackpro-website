@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Диагностика мобильного приложения</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug-info { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffebee; color: #c62828; }
+        .success { background: #e8f5e8; color: #2e7d32; }
+        .warning { background: #fff3e0; color: #ef6c00; }
+    </style>
+</head>
+<body>
+    <h1>Диагностика мобильного приложения</h1>
+    
+    <div class="debug-info">
+        <h3>Информация о браузере:</h3>
+        <p id="userAgent"></p>
+        <p id="screenSize"></p>
+        <p id="timestamp"></p>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Проверка JavaScript:</h3>
+        <p id="jsStatus"></p>
+        <p id="jqueryStatus"></p>
+        <p id="consoleStatus"></p>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Проверка элементов корзины:</h3>
+        <p id="cartElements"></p>
+        <p id="quantityElements"></p>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Тест счетчика корзины:</h3>
+        <div style="margin: 10px 0;">
+            <label>Количество товара: </label>
+            <input type="number" class="qty" value="5" min="0" max="100" style="width: 60px;">
+        </div>
+        <div style="margin: 10px 0;">
+            <label>Счетчик корзины: </label>
+            <span class="w-cart-quantity">0</span>
+        </div>
+        <button onclick="testCartCounter()">Тестировать счетчик</button>
+        <p id="testResult"></p>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Логи консоли:</h3>
+        <div id="consoleLogs" style="background: #000; color: #0f0; padding: 10px; height: 200px; overflow-y: scroll; font-family: monospace;"></div>
+    </div>
+
+    <script>
+        // Перехватываем console.log
+        var originalLog = console.log;
+        var logContainer = document.getElementById('consoleLogs');
+        
+        console.log = function() {
+            originalLog.apply(console, arguments);
+            var message = Array.prototype.slice.call(arguments).join(' ');
+            logContainer.innerHTML += '<div>' + new Date().toLocaleTimeString() + ': ' + message + '</div>';
+            logContainer.scrollTop = logContainer.scrollHeight;
+        };
+        
+        // Заполняем информацию о браузере
+        document.getElementById('userAgent').textContent = 'User Agent: ' + navigator.userAgent;
+        document.getElementById('screenSize').textContent = 'Размер экрана: ' + screen.width + 'x' + screen.height;
+        document.getElementById('timestamp').textContent = 'Время: ' + new Date().toLocaleString();
+        
+        // Проверяем JavaScript
+        document.getElementById('jsStatus').textContent = 'JavaScript: Работает ✓';
+        document.getElementById('jqueryStatus').textContent = 'jQuery: ' + (typeof jQuery !== 'undefined' ? 'Загружен ✓' : 'НЕ загружен ✗');
+        document.getElementById('consoleStatus').textContent = 'Console: Работает ✓';
+        
+        // Проверяем элементы корзины
+        var cartElements = document.querySelectorAll('.w-cart-quantity');
+        var quantityElements = document.querySelectorAll('.quantity input.qty');
+        
+        document.getElementById('cartElements').textContent = 'Элементы .w-cart-quantity: ' + cartElements.length;
+        document.getElementById('quantityElements').textContent = 'Элементы .quantity input.qty: ' + quantityElements.length;
+        
+        // Функция тестирования счетчика
+        function testCartCounter() {
+            console.log('=== ТЕСТ СЧЕТЧИКА КОРЗИНЫ ===');
+            
+            var total = 0;
+            var qtyInputs = document.querySelectorAll('.quantity input.qty');
+            
+            for (var i = 0; i < qtyInputs.length; i++) {
+                var value = parseInt(qtyInputs[i].value) || 0;
+                total += value;
+                console.log('Товар ' + (i+1) + ': ' + value);
+            }
+            
+            var cartQuantity = document.querySelectorAll('.w-cart-quantity');
+            for (var j = 0; j < cartQuantity.length; j++) {
+                cartQuantity[j].innerHTML = total > 0 ? total : '0';
+                console.log('Обновлен счетчик ' + (j+1) + ': ' + cartQuantity[j].innerHTML);
+            }
+            
+            document.getElementById('testResult').textContent = 'Результат: ' + total + ' товаров в корзине';
+            console.log('Итого товаров: ' + total);
+        }
+        
+        // Автоматический тест при загрузке
+        setTimeout(function() {
+            console.log('=== АВТОМАТИЧЕСКИЙ ТЕСТ ===');
+            testCartCounter();
+        }, 1000);
+        
+        // Обновляем счетчик каждые 3 секунды
+        setInterval(function() {
+            console.log('=== АВТООБНОВЛЕНИЕ СЧЕТЧИКА ===');
+            testCartCounter();
+        }, 3000);
+        
+        console.log('=== ДИАГНОСТИКА ЗАГРУЖЕНА ===');
+    </script>
+</body>
+</html>

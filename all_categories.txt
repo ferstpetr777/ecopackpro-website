@@ -1,0 +1,41 @@
+term_id	name	slug
+643	Курьер-пакеты черно-белые с карманом	kurer-pakety-cherno-belye-s-karmanom
+616	Пакеты из ВПП	pakety-iz-vpp
+642	Пломбираторы и пломбы-крышки для бочек	plombirator-dlya-bochek
+399	ZIP-LOCK пакеты с бегунком	zip-lock-paket-s-begunkom
+418	Матовые Zip Lock с бегунком	matovye-zip-lock-s-begunkom
+419	Прозрачные Zip Lock с бегунком	pakety-zip-lock
+15	Без категории	uncategorized
+402	Воздушно-пузырьковая пленка	vozdushno-puzyrkovaya-plenka
+400	Конверты почтовые	konverty-1
+406	Курьерские Пакеты	kurer-pakety
+409	Почтовые пакеты	pakety-pr
+412	Сейф-пакеты	sejf-pakety
+611	Курьер-пакеты номерные	kurer-pakety-nomernye
+610	Курьер-пакеты прозрачные	kurer-pakety-prozrachnye
+609	Курьер-пакеты черно-белые без нанесения	kurer-pakety-cherno-belye-bez-naneseniya
+405	Пакеты с воздушной подушкой	konverty-s-vozdushnoj-podushkoj
+612	Белые крафт-пакеты с воздушной подушкой	belye-kraft-pakety-s-vozdushnoy-podushkoy
+613	Крафтовые пакеты с воздушной подушкой	kraftovye-pakety-s-vozdushnoy-podushkoy
+414	Средства опломбировки	sredstva-oplombirovki
+420	Антимагнитные пломбы	naklejka-plomba-antimagnit
+421	Индикаторная лента	plomby-naklejki
+422	Пломба-наклейка Контур Термо	naklejka-plomba-konurtermo
+423	Пломба-наклейка Терра	naklejka-plomba-terra
+425	Пластиковые затяжные пломбы	plomby-plastikovye
+427	Мешковые пломбы	plomby-dlya-meshkov
+426	Пломбираторы и свинцовые пломбы	plombir
+429	Пломбы с проволокой	plomby-s-provolokoj
+614	Пломбы тросового типа	plomby-trosovogo-tipa
+431	РЖД пломбы	plomby-trosovye
+432	Проволока пломбировочная витая	provoloka-spiral
+415	Термоэтикетки	termo-etiketka
+591	Товары для упаковки	tovary-dlya-upakovki
+403	Индикаторы	indicators
+411	Самоклеящиеся карманы для документов	karman-sd
+413	Скотч	skotch
+416	Стрейч-плёнка	upakovochnaya-pljonka
+417	Шпагат	shpagat
+603	Коробки	korobki
+404	Картонные четырёхклапанные коробки	samosbornye-korobki
+407	Почтовые коробки	korobki-dlya-pochty

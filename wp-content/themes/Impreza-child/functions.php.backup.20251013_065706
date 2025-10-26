@@ -1,0 +1,307 @@
+<?php
+/* Custom functions code goes here. */
+// Разрешение загрузки файлов с расширением .apk в WordPress
+function allow_apk_upload($mimes) {
+    $mimes['apk'] = 'application/vnd.android.package-archive'; // Добавление MIME-типа для .apk
+    return $mimes;
+}
+add_filter('upload_mimes', 'allow_apk_upload');
+// Подключение скрипта jQuery Masked Input
+add_action('wp_enqueue_scripts', 'wpmidia_enqueue_masked_input');
+function wpmidia_enqueue_masked_input(){
+wp_enqueue_script('masked-input', get_template_directory_uri().'/js/jquery.maskedinput.min.js', array('jquery'));
+}
+add_action('wp_footer', 'wpmidia_activate_masked_input');
+function wpmidia_activate_masked_input(){
+?>
+<script type="text/javascript">
+jQuery( function($){
+$(".data").mask("99/99/9999");
+$(".tel").mask("+7 (999) 999-99-99");
+$("#billing_phone").mask("+7 (999) 999-99-99");
+$(".cpf").mask("999.999.999-99");
+$(".cnpj").mask("99.999.999/9999-99");
+});
+</script>
+<?php
+}
+
+//Вывод рейтинга в звездах в каталог
+add_filter('woocommerce_product_get_rating_html', 'your_get_rating_html', 10, 2);
+function your_get_rating_html($rating_html, $rating)
+{
+  if ($rating > 0) {
+    $title = sprintf(__('Rated %s out of 5', 'woocommerce'), $rating);
+  } else {
+    $title = 'Пока нет оценок';
+    $rating = 0;
+  }
+  $rating_html  = '<div class="star-rating" title="' . $title . '">';
+  $rating_html .= '<span style="width:' . (($rating / 5) * 100) . '%"><strong class="rating">' . $rating . '</strong> ' . __('out of 5', 'woocommerce') . '</span>';
+  $rating_html .= '</div>';
+  return $rating_html;
+}
+add_action('woocommerce_before_cart', 'check_custom_promo_code');
+
+function check_custom_promo_code() {
+    if (isset($_POST['coupon_code'])) {
+        $coupon_code = sanitize_text_field($_POST['coupon_code']);
+        
+        // Проверяем, соответствует ли код формату PROMO2024XXXX (где XXXX от 1000 до 9999)
+        if (preg_match('/^PROMO2024([0-9]{4})$/', $coupon_code, $matches)) {
+            $code_number = (int)$matches[1]; // Получаем число XXXX
+            
+            if ($code_number >= 1000 && $code_number <= 9999) {
+                $discount_value = 5; // Скидка в процентах
+
+                // Применяем скидку
+                WC()->cart->add_fee('Скидка по промокоду', - (WC()->cart->subtotal * ($discount_value / 100)));
+
+                wc_print_notice("Купон применен! Вам предоставлена скидка {$discount_value}%.", 'success');
+                return;
+            }
+        }
+        
+        wc_print_notice("Этот купон недействителен.", 'error');
+    }
+}
+
+// Добавляем форму для ввода купона на странице корзины
+add_action('woocommerce_before_checkout_form', 'add_custom_coupon_field');
+
+function add_custom_coupon_field() {
+    echo '<div class="woocommerce-form-coupon-toggle">';
+    echo '<p>У вас есть промокод? Введите его ниже:</p>';
+    echo '<form method="post">';
+    echo '<input type="text" name="coupon_code" placeholder="Введите код" />';
+    echo '<button type="submit">Применить</button>';
+    echo '</form>';
+    echo '</div>';
+}
+
+
+function woo_discount_total(WC_Cart $cart) {
+
+	if (is_admin() && !defined('DOING_AJAX')) return;
+
+	$product_excluded_id = 4598; // исключённый товар
+	$allowed_categories = array(339, 609); // ID категорий для скидки
+
+	$total_cart_subtotal = 0;
+	$discountable_subtotal = 0;
+
+	foreach ($cart->get_cart_contents() as $item) {
+		$product_id = $item['product_id'];
+		$line_subtotal = $item['line_subtotal'];
+		$total_cart_subtotal += $line_subtotal;
+
+		// Проверка: товар не исключён и принадлежит нужным категориям
+		if ($product_id != $product_excluded_id && has_term($allowed_categories, 'product_cat', $product_id)) {
+			$discountable_subtotal += $line_subtotal;
+		}
+	}
+
+	// Условия скидки рассчитываются от полной суммы корзины
+	if ($total_cart_subtotal >= 6000 && $total_cart_subtotal <= 14999) {
+		$discount = $discountable_subtotal * 0.08;
+		if ($discount > 0) {
+			$cart->add_fee('Скидка 8% (от 6 000 до 15 000 ₽)', -$discount);
+		}
+
+	} elseif ($total_cart_subtotal >= 15000 && $total_cart_subtotal <= 39999) {
+		$discount = $discountable_subtotal * 0.13;
+		if ($discount > 0) {
+			$cart->add_fee('Скидка 13% (от 15 000 до 40 000 ₽)', -$discount);
+		}
+
+	} elseif ($total_cart_subtotal >= 40000 && $total_cart_subtotal <= 119999) {
+		$discount = $discountable_subtotal * 0.14;
+		if ($discount > 0) {
+			$cart->add_fee('Скидка 14% (от 40 000 до 120 000 ₽)', -$discount);
+		}
+
+	} elseif ($total_cart_subtotal > 120000) {
+		$discount = $discountable_subtotal * 0.16;
+		if ($discount > 0) {
+			$cart->add_fee('Скидка 16% (от 120 000 ₽)', -$discount);
+		}
+	}
+}
+
+add_action('woocommerce_cart_calculate_fees', 'woo_discount_total');
+
+
+
+
+
+add_action('woocommerce_cart_calculate_fees', 'custom_discount_on_product_based_on_cart_total', 20, 1);
+
+function custom_discount_on_product_based_on_cart_total($cart) {
+    if (is_admin() && !defined('DOING_AJAX')) return;
+    if ($cart->is_empty()) return;
+
+    $product_id = 4598; // ← УКАЖИТЕ ID товара, на который нужна скидка
+    $discount_percent = 0;
+
+    // Получаем сумму корзины (без учета доставки и налогов)
+    $cart_total = $cart->get_subtotal();
+
+    // Условия по сумме корзины
+    if ($cart_total >= 15000) {
+        $discount_percent = 12;
+    } elseif ($cart_total >= 6000) {
+        $discount_percent = 8;
+    }
+
+    if ($discount_percent > 0) {
+        $discount_amount = 0;
+        $product_title = get_the_title($product_id);
+
+        // Проходимся по товарам в корзине
+        foreach ($cart->get_cart() as $cart_item_key => $cart_item) {
+            // Проверяем ID
+            if ($cart_item['product_id'] == $product_id) {
+                // Вычисляем скидку
+                $line_price = $cart_item['line_total'];
+                $line_discount = ($line_price * $discount_percent) / 100;
+                $discount_amount += $line_discount;
+
+                // ❗️Удаляем все скидки и купоны на этот товар
+                $cart_item['data']->set_price($cart_item['data']->get_regular_price());
+            }
+        }
+
+        if ($discount_amount > 0) {
+            // Добавляем пояснение к скидке
+            $comment = "Скидка {$discount_percent}% на \"{$product_title}\" за заказ на сумму от " .
+                       ($discount_percent === 12 ? "15 000 руб." : "6 000 руб.");
+            $cart->add_fee($comment, -$discount_amount);
+        }
+    }
+}
+
+// ❗️Отключаем купоны на определённый товар
+add_filter('woocommerce_coupon_is_valid_for_product', 'disable_coupons_for_specific_product', 10, 4);
+
+function disable_coupons_for_specific_product($valid, $product, $coupon, $values) {
+    $excluded_product_id = 1234; // ← тот же ID
+    if ($product->get_id() == $excluded_product_id) {
+        return false; // купоны не применяются
+    }
+    return $valid;
+}
+
+
+
+
+
+// === Performance: Preload critical CSS and fonts, defer non-critical JS ===
+add_action('wp_head', function () {
+    if (is_admin()) {
+        return;
+    }
+    // Preload theme main CSS
+    echo "\n<link rel=\"preload\" as=\"style\" href=\"/wp-content/themes/Impreza/css/style.min.css\" />\n";
+    // Preload key font (example from plugins)
+    echo "\n<link rel=\"preload\" as=\"font\" type=\"font/woff2\" href=\"/wp-content/plugins/ti-woocommerce-wishlist/assets/fonts/tinvwl-webfont.woff2\" crossorigin />\n";
+}, 1);
+
+// Defer non-critical scripts, keep jQuery and WooCommerce core sync
+add_filter('script_loader_tag', function ($tag, $handle, $src) {
+    if (is_admin()) {
+        return $tag;
+    }
+    $denylist = [
+        'jquery', 'jquery-core', 'jquery-migrate',
+        'wc-add-to-cart', 'woocommerce', 'wc-cart-fragments',
+    ];
+    foreach ($denylist as $deny) {
+        if ($handle === $deny) {
+            return $tag;
+        }
+    }
+    if (strpos($tag, ' defer') === false && strpos($tag, ' type="module"') === false) {
+        $tag = str_replace('<script ', '<script defer ', $tag);
+    }
+    return $tag;
+}, 10, 3);
+
+// Blog page redirect handler
+add_action('init', 'handle_blog_redirect');
+function handle_blog_redirect() {
+    $request_uri = $_SERVER['REQUEST_URI'];
+    $decoded_uri = urldecode($request_uri);
+    
+    // Check for both encoded and decoded versions of the blog URL
+    if (strpos($decoded_uri, 'блог-ecopackpro-упаковочные-материалы-и-решен-2') !== false ||
+        strpos($request_uri, '%d0%b1%d0%bb%d0%be%d0%b3-ecopackpro') !== false ||
+        strpos($request_uri, '%D0%B1%D0%BB%D0%BE%D0%B3-ecopackpro') !== false) {
+        wp_redirect('https://ecopackpro.ru/blog-ecopackpro-upakovochnye-materialy-i-reshen-2/', 301);
+        exit();
+    }
+}
+
+// Redirect old blog page (ID 12) to new blog page (ID 8365)
+add_action('init', 'redirect_old_blog_page');
+function redirect_old_blog_page() {
+    if (is_page(12)) {
+        wp_redirect('https://ecopackpro.ru/blog-ecopackpro-upakovochnye-materialy-i-reshen-2/', 301);
+        exit();
+    }
+}
+
+// Fix early textdomain loading warnings - IMPROVED VERSION
+add_action('plugins_loaded', 'fix_textdomain_loading', 5);
+function fix_textdomain_loading() {
+    // Force proper textdomain loading for problematic plugins
+    $plugins_to_fix = [
+        'js_composer',
+        'acf', 
+        'woocommerce-1c',
+        'wordpress-seo-news',
+        'wc-quantity-plus-minus-button',
+        'tier-pricing-table',
+        'health-check'
+    ];
+    
+    foreach ($plugins_to_fix as $plugin_domain) {
+        // Load textdomain with proper path
+        $plugin_path = WP_PLUGIN_DIR . '/' . $plugin_domain;
+        if (file_exists($plugin_path)) {
+            load_plugin_textdomain($plugin_domain, false, $plugin_domain . '/languages/');
+        }
+    }
+}
+
+// Additional fix for early loading - suppress warnings temporarily
+add_action('init', 'suppress_early_textdomain_warnings', 1);
+function suppress_early_textdomain_warnings() {
+    // This helps reduce log spam while we fix the root cause
+    if (defined('WP_DEBUG_LOG') && WP_DEBUG_LOG) {
+        error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_RECOVERABLE_ERROR);
+    }
+}
+
+// Suppress specific textdomain warnings in logs
+add_filter('wp_php_error_message', 'suppress_textdomain_warnings_in_logs', 10, 2);
+function suppress_textdomain_warnings_in_logs($message, $error) {
+    if (strpos($message, '_load_textdomain_just_in_time') !== false) {
+        return ''; // Don't log these warnings
+    }
+    return $message;
+}
+
+// Fix deprecated PHP functions
+add_action('init', 'fix_deprecated_functions');
+function fix_deprecated_functions() {
+    // Replace deprecated FILTER_SANITIZE_STRING with FILTER_SANITIZE_FULL_SPECIAL_CHARS
+    if (defined('FILTER_SANITIZE_STRING')) {
+        // This constant is deprecated in PHP 8.1+
+        // WordPress core and plugins should use FILTER_SANITIZE_FULL_SPECIAL_CHARS instead
+    }
+    
+    // Fix setcookie null parameter warnings
+    add_filter('wp_yandex_metrika_cookie_value', function($value) {
+        return $value ?? '';
+    });
+}

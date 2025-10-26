@@ -1,0 +1,68 @@
+ID	post_title	post_name
+7923	Коробки для отправки	korobki-dlya-otpravki
+7956	Самоклеящиеся карманы для транспортных накладных	samokleyaschiesya-karmany-dlya-transportnyh-nakladnyh
+7955	Антимагнитные пломбы для газовых счётчиков	antimagnitnye-plomby-dlya-gazovyh-schyotchikov
+7954	Пакеты из воздушно-пузырьковой плёнки оптом	pakety-iz-vozdushno-puzyrkovoy-plyonki-optom
+7953	Плоские конверты с воздушной подушкой для документов	ploskie-konverty-s-vozdushnoy-podushkoy-dlya-dokumentov
+7952	Белые крафт-пакеты с пузырчатой плёнкой оптом	belye-kraft-pakety-s-puzyrchatoy-plyonkoy-optom
+7951	Zip lock пакеты с подвесом	zip-lock-pakety-s-podvesom
+7950	Матовые zip lock пакеты для чая	matovye-zip-lock-pakety-dlya-chaya
+7949	Зип пакеты с бегунком купить Москва	zip-pakety-s-begunkom-kupit-moskva
+7948	Почтовые коробки с логотипом на заказ	pochtovye-korobki-s-logotipom-na-zakaz
+7947	Курьерские пакеты для маркетплейсов Ozon	kurerskie-pakety-dlya-marketpleysov-ozon
+7946	Курьерские пакеты прозрачные для одежды	kurerskie-pakety-prozrachnye-dlya-odezhdy
+7945	Курьерские пакеты черно-белые без логотипа А4	kurerskie-pakety-cherno-belye-bez-logotipa-a4
+7944	Инструмент для опломбирования бочек ¾ дюйма	instrument-dlya-oplombirovaniya-bochek-dyuyma
+7943	Пломбиратор для евробочек 2 дюйма	plombirator-dlya-evrobochek-2-dyuyma
+7942	Антимагнитная пломба цена за 100 штук	antimagnitnaya-plomba-tsena-za-100-shtuk
+7941	Антимагнитные наклейки для водяных счётчиков	antimagnitnye-nakleyki-dlya-vodyanyh-schyotchikov
+7940	Купить самоклеящиеся карманы SD для документов	kupit-samokleyaschiesya-karmany-sd-dlya-dokumentov
+7939	Почтовые коробки размера XL 530×360×220	pochtovye-korobki-razmera-xl-530360220
+7938	Почтовые коробки размера S 260×170×80	pochtovye-korobki-razmera-s-26017080
+7937	Крафт конверты с воздушной подушкой F/3	kraft-konverty-s-vozdushnoy-podushkoy-f3
+7936	Купить оптом zip lock пакеты матовые 30 мкм	kupit-optom-zip-lock-pakety-matovye-30-mkm
+7935	Матовые zip lock пакеты с бегунком 10×15	matovye-zip-lock-pakety-s-begunkom-1015
+7934	Курьерские пакеты черно-белые с карманом цена	kurerskie-pakety-cherno-belye-s-karmanom-tsena
+7933	Заказать прозрачные курьерские пакеты оптом	zakazat-prozrachnye-kurerskie-pakety-optom
+7932	Купить курьерские пакеты с номерным штрих-кодом	kupit-kurerskie-pakety-s-nomernym-shtrih-kodom
+7931	Прозрачные zip lock пакеты	%d0%bf%d1%80%d0%be%d0%b7%d1%80%d0%b0%d1%87%d0%bd%d1%8b%d0%b5-zip-lock-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d1%8b
+7930	Белые крафт пакеты с пузырчатой плёнкой	belye-kraft-pakety-s-puzyrchatoy-plyonkoy
+7929	Zip lock пакеты с белой полосой	zip-lock-pakety-s-beloy-polosoy
+7928	Номерные пломбы наклейки	nomernye-plomby-nakleyki
+7927	Пломбиратор для бочек	plombirator-dlya-bochek
+7926	Наклейка пломба антимагнит	nakleyka-plomba-antimagnit
+7925	Антимагнитная пломба	antimagnitnaya-plomba
+7924	Самоклеящиеся карманы	samokleyaschiesya-karmany
+7922	Коробки для почты	korobki-dlya-pochty
+7921	Пузырчатые пакеты ВПП	puzyrchatye-pakety-vpp
+7920	Крафтовые конверты	kraftovye-konverty
+7919	Zip lock пакеты оптом	zip-lock-pakety-optom
+7918	Zip lock пакеты матовые	zip-lock-pakety-matovye
+7917	Курьерские пакеты с карманом	kurerskie-pakety-s-karmanom
+7916	Курьерские пакеты черно-белые	kurerskie-pakety-cherno-belye
+7915	Курьерские пакеты номерные	kurerskie-pakety-nomernye
+7914	Курьерские пакеты прозрачные	kurerskie-pakety-prozrachnye
+7913	Крафтовые пакеты с воздушной подушкой для бизнеса: как выбрать оптимал	kraftovye-pakety-s-vozdushnoy-podushkoy
+7912	Конверты с воздушной прослойкой для документов	konverty-s-vozdushnoy-prosloykoy
+7911	Конверты с воздушной подушкой для хрупких товаров	konverty-s-vozdushnoy-podushkoy
+7910	Zip lock пакеты с бегунком: удобное хранение продуктов	zip-lock-pakety-s-begunkom
+7909	Зип пакеты	zip-pakety
+7908	Почтовые коробки: размеры, виды, цены и где купить	pochtovye-korobki
+7907	Курьерские пакеты: полный гид по выбору и применению	kurierskie-pakety
+7009	Упаковка для товаров	upakovka-dlya-tovarov
+7005	Упаковка оптом	upakovka-optom
+6998	Упаковочные материалы	upakovochnye-materialy
+6993	Пакеты с отрывной лентой	pakety-s-otryvnoy-lentoy
+6988	Упаковка для торговли	upakovka-dlya-torgovli
+6984	Упаковка с логотипом	upakovka-s-logotipom
+6978	Упаковочные решения для бизнеса	upakovochnye-resheniya-dlya-biznesa
+6974	Бесплатная доставка упаковки	besplatnaya-dostavka-upakovki
+6965	Сейф пакеты	seyf-pakety
+6960	Крафтовый пакет с воздушно-пузырьковой пленкой	kraftovyy-paket-s-vozdushno-puzyrkovoy-plenkoy
+6956	Пакеты с воздушно-пузырьковой пленкой	pakety-s-vozdushno-puzyrkovoy-plenkoy
+6942	Почтовые пакеты для Почты России	pochtovye-pakety-dlya-pochty-rossii
+6929	Пакеты с трубной лентой	pakety-s-trubnoy-lentoy
+6924	Пакеты с зип лентой	pakety-s-zip-lentoy
+6919	Пакеты для интернет магазинов	pakety-dlya-internet-magazinov
+6913	Недорогая упаковка для интернет магазинов	nedorogaya-upakovka-dlya-internet-magazinov
+6908	Упаковка для интернет магазинов	upakovka-dlya-internet-magazinov

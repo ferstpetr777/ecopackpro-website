@@ -1,0 +1,8 @@
+*** Yoast SEO: WooCommerce Changelog ***
+
+
+2024-12-18 - version 16.5
+* add -  Adds support for the new `priceSpecification` schema type format introduced by WooCommerce 9.5.0.
+* update -  Sets the _WordPress tested up to_ version to 6.7.
+* update -  Bumps the minimum required version of Yoast SEO to 24.1.
+

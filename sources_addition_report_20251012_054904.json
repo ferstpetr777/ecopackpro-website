@@ -1,0 +1,1166 @@
+{
+  "timestamp": "2025-10-12T05:49:04.690663",
+  "duration": "0:15:33.253290",
+  "summary": {
+    "total": 50,
+    "success": 48,
+    "skipped": 0,
+    "failed": 2
+  },
+  "results": [
+    {
+      "id": 7907,
+      "title": "курьерские пакеты",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7908,
+      "title": "почтовые коробки",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты упаковки для международной почты",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Технические требования к почтовой упаковке",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7909,
+      "title": "Зип пакеты",
+      "status": "failed",
+      "reason": "Не удалось обновить пост",
+      "sources_count": 0
+    },
+    {
+      "id": 7910,
+      "title": "Zip lock пакеты с бегунком: удобное хранение продуктов",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7911,
+      "title": "Конверты с воздушной подушкой для хрупких товаров",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для хрупких товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Технологии защитной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Воздушно-пузырчатая пленка",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке электроники",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7912,
+      "title": "Конверты с воздушной прослойкой для документов",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для документов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Технологии защитной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Воздушно-пузырчатая пленка",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке документов",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7913,
+      "title": "Крафтовые пакеты с воздушной подушкой для бизнеса: как выбрать оптимал",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Экологичная упаковка - тренды 2025",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Крафт-бумага",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты экологической упаковки",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7914,
+      "title": "Курьерские пакеты прозрачные",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7915,
+      "title": "Курьерские пакеты номерные",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7916,
+      "title": "Курьерские пакеты черно-белые",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7917,
+      "title": "Курьерские пакеты с карманом",
+      "status": "skipped",
+      "reason": "Источники уже добавлены",
+      "sources_count": 0
+    },
+    {
+      "id": 7918,
+      "title": "Zip lock пакеты матовые",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7919,
+      "title": "Zip lock пакеты оптом",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7920,
+      "title": "Крафтовые конверты",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Экологичная упаковка - тренды 2025",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Крафт-бумага",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты экологической упаковки",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7921,
+      "title": "Пузырчатые пакеты ВПП",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для хрупких товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Технологии защитной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Воздушно-пузырчатая пленка",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке хрупких товаров",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7922,
+      "title": "Коробки для почты",
+      "status": "failed",
+      "reason": "Не удалось обновить пост",
+      "sources_count": 0
+    },
+    {
+      "id": 7923,
+      "title": "Коробки для отправки",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты упаковки для международной почты",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Технические требования к почтовой упаковке",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7924,
+      "title": "Самоклеящиеся карманы",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для документов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Организационные решения для офиса",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Самоклеящиеся материалы",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке документов",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7925,
+      "title": "Антимагнитная пломба",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон о защите приборов учета",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты защиты от магнитного воздействия",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Защитные элементы",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к пломбированию приборов учета",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7926,
+      "title": "Наклейка пломба антимагнит",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон об упаковке и маркировке товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы упаковочных материалов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковочной индустрии - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7927,
+      "title": "Пломбиратор для бочек",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон о защите приборов учета",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты пломбирования оборудования",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Инструменты пломбирования",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к пломбированию оборудования",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7928,
+      "title": "Номерные пломбы наклейки",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон о защите приборов учета",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты идентификации пломб",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Нумерация пломб",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к нумерации пломб",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7929,
+      "title": "Zip lock пакеты с белой полосой",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7930,
+      "title": "Белые крафт пакеты с пузырчатой плёнкой",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Экологичная упаковка - тренды 2025",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Крафт-бумага",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты экологической упаковки",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7931,
+      "title": "Прозрачные zip lock пакеты",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7932,
+      "title": "Купить курьерские пакеты с номерным штрих-кодом",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7933,
+      "title": "Заказать прозрачные курьерские пакеты оптом",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7934,
+      "title": "Курьерские пакеты черно-белые с карманом цена",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7935,
+      "title": "Матовые zip lock пакеты с бегунком 10×15",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7936,
+      "title": "Купить оптом zip lock пакеты матовые 30 мкм",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7937,
+      "title": "Крафт конверты с воздушной подушкой F/3",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для хрупких товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Технологии защитной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Воздушно-пузырчатая пленка",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке электроники",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7938,
+      "title": "Почтовые коробки размера S 260×170×80",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты упаковки для международной почты",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Технические требования к почтовой упаковке",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7939,
+      "title": "Почтовые коробки размера XL 530×360×220",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты упаковки для международной почты",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Технические требования к почтовой упаковке",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7940,
+      "title": "Купить самоклеящиеся карманы SD для документов",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для документов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Организационные решения для офиса",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Самоклеящиеся материалы",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке документов",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7941,
+      "title": "Антимагнитные наклейки для водяных счётчиков",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон об упаковке и маркировке товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы упаковочных материалов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковочной индустрии - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7942,
+      "title": "Антимагнитная пломба цена за 100 штук",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон о защите приборов учета",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты защиты от магнитного воздействия",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Защитные элементы",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к пломбированию приборов учета",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7943,
+      "title": "Пломбиратор для евробочек 2 дюйма",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон о защите приборов учета",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты пломбирования оборудования",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Инструменты пломбирования",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к пломбированию оборудования",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7944,
+      "title": "Инструмент для опломбирования бочек ¾ дюйма",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон об упаковке и маркировке товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы упаковочных материалов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковочной индустрии - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7945,
+      "title": "Курьерские пакеты черно-белые без логотипа А4",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7946,
+      "title": "Курьерские пакеты прозрачные для одежды",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7947,
+      "title": "Курьерские пакеты для маркетплейсов Ozon",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 51760-2001 - Пакеты из полимерных материалов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы курьерских пакетов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковки для логистики",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7948,
+      "title": "Почтовые коробки с логотипом на заказ",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 3,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Стандарты упаковки для международной почты",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Технические требования к почтовой упаковке",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7949,
+      "title": "Зип пакеты с бегунком купить Москва",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7950,
+      "title": "Матовые zip lock пакеты для чая",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Технические требования к упаковке пищевых продуктов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Zip lock технологии",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты пищевой упаковки - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7951,
+      "title": "Zip lock пакеты с подвесом",
+      "status": "skipped",
+      "reason": "Источники уже добавлены",
+      "sources_count": 0
+    },
+    {
+      "id": 7952,
+      "title": "Белые крафт-пакеты с пузырчатой плёнкой оптом",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "ГОСТ Р 53636-2009 - Упаковка из картона",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Экологичная упаковка - тренды 2025",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Крафт-бумага",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты экологической упаковки",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7953,
+      "title": "Плоские конверты с воздушной подушкой для документов",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для хрупких товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Технологии защитной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Воздушно-пузырчатая пленка",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке электроники",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7954,
+      "title": "Пакеты из воздушно-пузырьковой плёнки оптом",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон об упаковке и маркировке товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы упаковочных материалов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковочной индустрии - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7955,
+      "title": "Антимагнитные пломбы для газовых счётчиков",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Федеральный закон об упаковке и маркировке товаров",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Ассоциация производителей полимерной упаковки",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Типы упаковочных материалов",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Стандарты упаковочной индустрии - Роспотребнадзор",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    },
+    {
+      "id": 7956,
+      "title": "Самоклеящиеся карманы для транспортных накладных",
+      "status": "success",
+      "reason": "Источники успешно добавлены",
+      "sources_count": 4,
+      "sources": [
+        {
+          "title": "Стандарты упаковки для документов",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19109/"
+        },
+        {
+          "title": "Организационные решения для офиса",
+          "url": "https://www.unipack.ru/"
+        },
+        {
+          "title": "Энциклопедия упаковки - Самоклеящиеся материалы",
+          "url": "https://ru.wikipedia.org/wiki/Полиэтиленовый_пакет"
+        },
+        {
+          "title": "Требования к упаковке документов",
+          "url": "https://rospotrebnadzor.ru/"
+        }
+      ]
+    }
+  ]
+}

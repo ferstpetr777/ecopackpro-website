@@ -1,0 +1,411 @@
+{
+  "timestamp": "2025-10-12T05:58:45.735158",
+  "summary": {
+    "total": 50,
+    "with_sources": 50,
+    "without_sources": 0,
+    "errors": 0
+  },
+  "results": [
+    {
+      "id": 7907,
+      "title": "курьерские пакеты",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7908,
+      "title": "почтовые коробки",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7909,
+      "title": "Зип пакеты",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7910,
+      "title": "Zip lock пакеты с бегунком: удобное хранение продуктов",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7911,
+      "title": "Конверты с воздушной подушкой для хрупких товаров",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7912,
+      "title": "Конверты с воздушной прослойкой для документов",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7913,
+      "title": "Крафтовые пакеты с воздушной подушкой для бизнеса: как выбрать оптимал",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 17
+    },
+    {
+      "id": 7914,
+      "title": "Курьерские пакеты прозрачные",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7915,
+      "title": "Курьерские пакеты номерные",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7916,
+      "title": "Курьерские пакеты черно-белые",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7917,
+      "title": "Курьерские пакеты с карманом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7918,
+      "title": "Zip lock пакеты матовые",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7919,
+      "title": "Zip lock пакеты оптом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7920,
+      "title": "Крафтовые конверты",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 17
+    },
+    {
+      "id": 7921,
+      "title": "Пузырчатые пакеты ВПП",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7922,
+      "title": "Коробки для почты",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7923,
+      "title": "Коробки для отправки",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7924,
+      "title": "Самоклеящиеся карманы",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7925,
+      "title": "Антимагнитная пломба",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7926,
+      "title": "Наклейка пломба антимагнит",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7927,
+      "title": "Пломбиратор для бочек",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7928,
+      "title": "Номерные пломбы наклейки",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7929,
+      "title": "Zip lock пакеты с белой полосой",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7930,
+      "title": "Белые крафт пакеты с пузырчатой плёнкой",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7931,
+      "title": "Прозрачные zip lock пакеты",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7932,
+      "title": "Купить курьерские пакеты с номерным штрих-кодом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7933,
+      "title": "Заказать прозрачные курьерские пакеты оптом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7934,
+      "title": "Курьерские пакеты черно-белые с карманом цена",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7935,
+      "title": "Матовые zip lock пакеты с бегунком 10×15",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7936,
+      "title": "Купить оптом zip lock пакеты матовые 30 мкм",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7937,
+      "title": "Крафт конверты с воздушной подушкой F/3",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 5
+    },
+    {
+      "id": 7938,
+      "title": "Почтовые коробки размера S 260×170×80",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 14
+    },
+    {
+      "id": 7939,
+      "title": "Почтовые коробки размера XL 530×360×220",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7940,
+      "title": "Купить самоклеящиеся карманы SD для документов",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7941,
+      "title": "Антимагнитные наклейки для водяных счётчиков",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 17
+    },
+    {
+      "id": 7942,
+      "title": "Антимагнитная пломба цена за 100 штук",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 4
+    },
+    {
+      "id": 7943,
+      "title": "Пломбиратор для евробочек 2 дюйма",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7944,
+      "title": "Инструмент для опломбирования бочек ¾ дюйма",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7945,
+      "title": "Курьерские пакеты черно-белые без логотипа А4",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 4
+    },
+    {
+      "id": 7946,
+      "title": "Курьерские пакеты прозрачные для одежды",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7947,
+      "title": "Курьерские пакеты для маркетплейсов Ozon",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7948,
+      "title": "Почтовые коробки с логотипом на заказ",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7949,
+      "title": "Зип пакеты с бегунком купить Москва",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7950,
+      "title": "Матовые zip lock пакеты для чая",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7951,
+      "title": "Zip lock пакеты с подвесом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 22
+    },
+    {
+      "id": 7952,
+      "title": "Белые крафт-пакеты с пузырчатой плёнкой оптом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7953,
+      "title": "Плоские конверты с воздушной подушкой для документов",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7954,
+      "title": "Пакеты из воздушно-пузырьковой плёнки оптом",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    },
+    {
+      "id": 7955,
+      "title": "Антимагнитные пломбы для газовых счётчиков",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 16
+    },
+    {
+      "id": 7956,
+      "title": "Самоклеящиеся карманы для транспортных накладных",
+      "status": "success",
+      "reason": "Источники найдены",
+      "has_sources": true,
+      "sources_count": 15
+    }
+  ]
+}

@@ -1,0 +1,1860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clearfy Pro\n"
+"POT-Creation-Date: 2022-09-23 12:31+0300\n"
+"PO-Revision-Date: 2022-09-23 12:35+0300\n"
+"Last-Translator: Sergey <c.aleynikov@gmail.com>\n"
+"Language-Team: wpocncom@163.com\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: clearfy-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: plugin-update-checker\n"
+
+#: admin/clearfy-admin.php:148
+msgid "Choose avatar"
+msgstr "选择头像"
+
+#: admin/clearfy-admin.php:149
+msgid "Select"
+msgstr "选择"
+
+#: admin/clearfy-admin.php:150
+msgid "Crop"
+msgstr "裁剪"
+
+#: admin/clearfy-admin.php:164 admin/clearfy-admin.php:331
+msgid "Settings"
+msgstr "设置"
+
+#: admin/clearfy-admin.php:336
+msgid "Enable all"
+msgstr "启用全部"
+
+#: admin/clearfy-admin.php:337
+msgid "Enable recommended"
+msgstr "启用推荐"
+
+#: admin/clearfy-admin.php:338
+msgid "Disable all"
+msgstr "禁用全部"
+
+#: admin/clearfy-admin.php:340
+msgid ""
+"For default we recommend enable only recommended settings.<br>If you are "
+"expert - you can configure manually."
+msgstr ""
+"默认情况下，我们建议仅启用推荐的设置。<br>如果您是专家 - 您可以手动配置。"
+
+#: admin/clearfy-admin.php:341
+msgid "Don't forget to save settings"
+msgstr "请勿忘记保存设置"
+
+#: admin/clearfy-admin.php:351
+msgid "General"
+msgstr "常规"
+
+#: admin/clearfy-admin.php:352
+msgid "Code"
+msgstr "代码"
+
+#: admin/clearfy-admin.php:353
+msgid "SEO"
+msgstr "搜索引擎优化"
+
+#: admin/clearfy-admin.php:354
+msgid "Duplicate"
+msgstr "重复"
+
+#: admin/clearfy-admin.php:355
+msgid "Defence"
+msgstr "防御"
+
+#: admin/clearfy-admin.php:356
+msgid "Modules"
+msgstr "模块"
+
+#: admin/clearfy-admin.php:357
+msgid "Additionally"
+msgstr "其他"
+
+#: admin/clearfy-admin.php:358 admin/clearfy-admin.php:1787
+msgid "Redirect"
+msgstr "重定向"
+
+#: admin/clearfy-admin.php:359 admin/clearfy-admin.php:1805
+msgid "404"
+msgstr "404"
+
+#: admin/clearfy-admin.php:360 admin/clearfy-admin.php:1869
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: admin/clearfy-admin.php:365
+msgid "Instructions"
+msgstr "说明"
+
+#: admin/clearfy-admin.php:373
+msgid "Documentation"
+msgstr "文档"
+
+#: admin/clearfy-admin.php:374
+msgid ""
+"If you have a question about our product - perhaps the answer is already in "
+"our documentation."
+msgstr "如果您对我们的产品有任何疑问 - 也许答案已经在我们的文档中。"
+
+#: admin/clearfy-admin.php:382
+msgid "FAQ"
+msgstr "常见问题"
+
+#: admin/clearfy-admin.php:383
+msgid ""
+"Section of frequently asked questions and their answers. You can quickly "
+"find an answer to your question."
+msgstr "常见问题及其答案部分。您可以快速找到问题的答案。"
+
+#: admin/clearfy-admin.php:391
+msgid "Video tutorials"
+msgstr "视频教程"
+
+#: admin/clearfy-admin.php:392
+msgid ""
+"Video tutorials on the plugin and its functions. Subscribe to the channel so "
+"you don't miss it."
+msgstr "关于插件及其功能的视频教程。订阅频道，以免错过。"
+
+#: admin/clearfy-admin.php:398
+msgid "Our pages"
+msgstr "我们的页面"
+
+#: admin/clearfy-admin.php:405
+msgid "Affiliate program"
+msgstr "会员计划"
+
+#: admin/clearfy-admin.php:410
+msgid ""
+"For quick start just enable Recommended settings and click Save. But we "
+"recommend watch all possible Clearfy Pro features."
+msgstr ""
+"要快速启动，只需启用推荐的设置，然后单击\"保存\"。但我们建议观看所有可能的清"
+"真专业版功能。"
+
+#: admin/clearfy-admin.php:411
+msgid ""
+"Bloggers need attention to RSS feeds. If you use them, do not disable it."
+msgstr "博客需要注意RSS源。如果您使用它们，请不要禁用它们。"
+
+#: admin/clearfy-admin.php:412
+msgid "Just enable needed settings and click save. All done."
+msgstr "只需启用所需的设置，然后单击保存。 全部完成。"
+
+#: admin/clearfy-admin.php:413
+msgid "Any questions? Send message to our technical support."
+msgstr "有问题吗？向我们的技术支持部门发送消息。"
+
+#: admin/clearfy-admin.php:417
+msgid "License key"
+msgstr "许可证密钥"
+
+#: admin/clearfy-admin.php:419
+msgid ""
+"You can remove your license key by clicking the button below. Warning! After "
+"removing the key, the plugin will no longer work."
+msgstr ""
+"您可以通过单击下面的按钮删除您的许可证密钥。警告！删除密钥后，插件将不再工"
+"作。"
+
+#: admin/clearfy-admin.php:422
+msgid "Remove license key"
+msgstr "删除许可证密钥"
+
+#: admin/clearfy-admin.php:427
+msgid "Questions, changelog"
+msgstr "问题及变更日志"
+
+#: admin/clearfy-admin.php:428
+#, php-format
+msgid ""
+"FAQ and changelog you can find in <a href=\"%s\">our knowledge base</a>."
+msgstr "您可以在<a href=\"%s\">我们的知识库</a>中找到常见问题解答和更新日志。"
+
+#: admin/clearfy-admin.php:432
+msgid "Export / Import settings"
+msgstr "导出/导入设置"
+
+#: admin/clearfy-admin.php:437
+msgid "Copy this code to any text file to save all site settings."
+msgstr "将此代码复制到任何文本文件以保存所有站点设置。"
+
+#: admin/clearfy-admin.php:444
+msgid "Warning! Old settings will be deleted before importing!"
+msgstr "警告！导入前将删除旧设置！"
+
+#: admin/clearfy-admin.php:445
+msgid "Import"
+msgstr "导入"
+
+#: admin/clearfy-admin.php:450
+msgid "Team WPShop.ru"
+msgstr "团队WPShop.ru"
+
+#: admin/clearfy-admin.php:453
+msgid "We thank you for purchasing Clearfy Pro!"
+msgstr "感谢您购买 Clearfy Pro！"
+
+#: admin/clearfy-admin.php:455
+msgid ""
+"Our goal is to make a powerful plugin that will be among the first must-have "
+"plugins for WP."
+msgstr "我们的目标是制作一个功能强大的插件，它将成为 WP 的首批必备插件之一。"
+
+#: admin/clearfy-admin.php:461
+msgid "Clear code"
+msgstr "清除代码"
+
+#: admin/clearfy-admin.php:465
+msgid "Disable JSON REST API"
+msgstr "禁用 JSON REST API"
+
+#: admin/clearfy-admin.php:467 admin/clearfy-admin.php:500
+#: admin/clearfy-admin.php:513 admin/clearfy-admin.php:547
+#: admin/clearfy-admin.php:558 admin/clearfy-admin.php:569
+#: admin/clearfy-admin.php:580 admin/clearfy-admin.php:596
+#: admin/clearfy-admin.php:729 admin/clearfy-admin.php:742
+#: admin/clearfy-admin.php:756 admin/clearfy-admin.php:769
+#: admin/clearfy-admin.php:809 admin/clearfy-admin.php:822
+#: admin/clearfy-admin.php:835 admin/clearfy-admin.php:953
+#: admin/clearfy-admin.php:966 admin/clearfy-admin.php:979
+#: admin/clearfy-admin.php:992 admin/clearfy-admin.php:1005
+#: admin/clearfy-admin.php:1019 admin/clearfy-admin.php:1061
+#: admin/clearfy-admin.php:1074 admin/clearfy-admin.php:1087
+#: admin/clearfy-admin.php:1198 admin/clearfy-admin.php:1211
+#: admin/clearfy-admin.php:1224 admin/clearfy-admin.php:1572
+#: admin/clearfy-admin.php:1662
+msgid "Recommended"
+msgstr "推荐"
+
+#: admin/clearfy-admin.php:471
+msgid ""
+"WP 4.4 and up create technical pages /wp-json/, which successfully indexing "
+"search engines like Google and reduce rank and positions of site."
+msgstr ""
+"WP 4.4 及更高版本创建技术页面 /wp-json/，它成功地索引了谷歌等搜索引擎并降低了"
+"网站的排名和位置。"
+
+#: admin/clearfy-admin.php:472
+#, php-format
+msgid "Remove REST API links from %s and create redirect on front."
+msgstr "从 %s 中删除 REST API 链接并在前面创建重定向。"
+
+#: admin/clearfy-admin.php:481
+msgid "Show registered path's REST API"
+msgstr "显示注册路径的 REST API"
+
+#: admin/clearfy-admin.php:498
+msgid "Disable Emoji"
+msgstr "禁用Emoji表情"
+
+#: admin/clearfy-admin.php:504
+msgid ""
+"WP 4.2 and up add support Emoji smiles in source code for old browsers. It "
+"use external JavaScript library which slowly page and create request to "
+"external resources."
+msgstr ""
+"WP 4.2 及更高版本在旧浏览器的源代码中添加了对 Emoji 微笑的支持。 它使用外部 "
+"JavaScript 库缓慢分页并创建对外部资源的请求。"
+
+#: admin/clearfy-admin.php:505
+#, php-format
+msgid "Removes Emoji from %s"
+msgstr "从 %s 中删除表情符号"
+
+#: admin/clearfy-admin.php:511
+msgid "Delete dns-prefetch"
+msgstr "删除 dns 预装"
+
+#: admin/clearfy-admin.php:517
+msgid "Do not delete"
+msgstr "请勿删除"
+
+#: admin/clearfy-admin.php:518
+msgid "Delete all"
+msgstr "全部删除"
+
+#: admin/clearfy-admin.php:519
+msgid "Selected"
+msgstr "已选"
+
+#: admin/clearfy-admin.php:524
+#, php-format
+msgid "Since version 4.6.1 WordPress add new links in section %s like this: %s"
+msgstr "自 4.6.1 版 WordPress 在 %s 部分添加新链接，如下所示： %s"
+
+#: admin/clearfy-admin.php:525
+msgid ""
+"You can delete all dns-prefetch links or optionally, just put domains in "
+"textarea. One domain on new line. Example: s.w.org"
+msgstr ""
+"您可以删除所有 dns-prefetch 链接，也可以选择将域放在 textarea 中。 一个域在新"
+"行上。 示例：s.w.org"
+
+#: admin/clearfy-admin.php:526
+#, php-format
+msgid "Removes dns-prefetch links from %s section"
+msgstr "从 %s 部分删除 dns-prefetch 链接"
+
+#: admin/clearfy-admin.php:532
+msgid "Remove jquery-migrate.min.js"
+msgstr "删除 jquery-migrate.min.js"
+
+#: admin/clearfy-admin.php:537
+msgid ""
+"File jquery-migrate.min.js require for old version of jQuery before 1.9.х. "
+"In most cases it unnecessary file to load."
+msgstr ""
+"文件 jquery-migrate.min.js 需要 1.9.х 之前的旧版本 jQuery。 在大多数情况下，"
+"它不需要加载文件。"
+
+#: admin/clearfy-admin.php:538
+#, php-format
+msgid "Delete including jquery-migrate.min.js from %s"
+msgstr "从 %s 中删除包括 jquery-migrate.min.js"
+
+#: admin/clearfy-admin.php:539 admin/clearfy-admin.php:652
+msgid "Check your site after enable this setting"
+msgstr "启用此设置后检查您的网站"
+
+#: admin/clearfy-admin.php:545
+msgid "Delete RSD link"
+msgstr "删除 RSD 链接"
+
+#: admin/clearfy-admin.php:556
+msgid "Delete WLW Manifest link"
+msgstr "删除WLW清单链接"
+
+#: admin/clearfy-admin.php:567
+#, php-format
+msgid "Delete shortlink %s"
+msgstr "删除短链接%s"
+
+#: admin/clearfy-admin.php:578
+msgid "Remove previous and next post links"
+msgstr "删除上一个和下一个帖子链接"
+
+#: admin/clearfy-admin.php:586
+msgid ""
+"You can not enable this option, because with WordPress 5.6 these links are "
+"removed from the core."
+msgstr "您不能启用此选项，因为在 WordPress 5.6 中，这些链接已从核心中删除。"
+
+#: admin/clearfy-admin.php:594
+msgid "Remove .recentcomments styles"
+msgstr "删除 .recentcomments 样式"
+
+#: admin/clearfy-admin.php:600
+msgid ""
+"By default for widget \"recent comments\" WordPress add styles to source "
+"code that you can't change, because to them apply !important."
+msgstr ""
+"默认情况下，对于小工具“最近的评论”，WordPress 将样式添加到您无法更改的源代码"
+"中，因为对它们应用 !important。"
+
+#: admin/clearfy-admin.php:601
+#, php-format
+msgid "Removes .recentcomments styles from %s"
+msgstr "从 %s 中删除 .recentcomments 样式"
+
+#: admin/clearfy-admin.php:607
+#, php-format
+msgid "Code in %s"
+msgstr "%s 中的代码"
+
+#: admin/clearfy-admin.php:615
+msgid ""
+"This usually adds verification codes from the webmaster, retarget code or JS "
+"code, which should be executed first."
+msgstr "这通常会添加来自站长的验证码、重定向代码或 JS 代码，应先执行。"
+
+#: admin/clearfy-admin.php:616 admin/clearfy-admin.php:632
+#, php-format
+msgid "Insert the code before the closing %s"
+msgstr "在结束 %s 之前插入代码"
+
+#: admin/clearfy-admin.php:623
+#, php-format
+msgid "Code before %s"
+msgstr "%s之前的代码"
+
+#: admin/clearfy-admin.php:631
+msgid "This usually adds counters, analytics and other JS scripts."
+msgstr "这通常会添加计数器、分析和其他 JS 脚本。"
+
+#: admin/clearfy-admin.php:638
+msgid "Minify"
+msgstr "压缩"
+
+#: admin/clearfy-admin.php:642
+msgid "Enable HTML minify"
+msgstr "启用 HTML 压缩"
+
+#: admin/clearfy-admin.php:647
+msgid ""
+"Reduces page weight about 20-30&#37 by removing line breaks, tabs, spaces, "
+"etc. Improve Google PageSpeed scores."
+msgstr ""
+"通过删除换行符、制表符、空格等，将页面重量减少约 20-30&#37。提高谷歌页面速度"
+"分数。"
+
+#: admin/clearfy-admin.php:648
+msgid "After turn on this settings - clear cache if you have."
+msgstr "打开此设置后 - 如果有，请清除缓存。"
+
+#: admin/clearfy-admin.php:649
+msgid ""
+"JS scripts are not minified in code, because in 90&#37 of cases minifier "
+"braking them."
+msgstr "JS 脚本在代码中没有被压缩，因为在 90&#37 的情况下，压缩会停止它们。"
+
+#: admin/clearfy-admin.php:650
+msgid "HTML comments are not deleted, because it can brake ad or analytics."
+msgstr "HTML评论不会被删除，因为它会阻碍广告或分析。"
+
+#: admin/clearfy-admin.php:651
+msgid "Minify pages"
+msgstr "压缩页面"
+
+#: admin/clearfy-admin.php:653
+msgid ""
+"In some cases minifier can't work correct - please send report to our "
+"technical support."
+msgstr "在某些情况下，minifier 无法正常工作 - 请将报告发送给我们的技术支持。"
+
+#: admin/clearfy-admin.php:663
+msgid "Automatically set Last Modified"
+msgstr "自动设置上次修改时间"
+
+#: admin/clearfy-admin.php:669
+msgid "Exclude pages:"
+msgstr "排除页面："
+
+#: admin/clearfy-admin.php:672
+#, php-format
+msgid ""
+"You can specify a page mask, such as %s or %s. It will exclude all pages "
+"than contain string."
+msgstr "您可以指定页面掩码，例如 %s 或 %s。它将排除所有页面而不是包含字符串。"
+
+#: admin/clearfy-admin.php:675
+#, php-format
+msgid ""
+"If you set %s, all pages containing %s will be excluded, including %s, %s, "
+"%s, etc."
+msgstr "如果设置 %s，所有包含 %s 的页面都将被排除，包括 %s、%s、%s 等。"
+
+#: admin/clearfy-admin.php:685
+msgid ""
+"WordPress does not know how to give the server response header Last Modified "
+"(date of last modification of the document) and give the correct response "
+"304 Not Modified. And this header is very important for search engines. Its "
+"presence accelerates indexing, reduces the load and allows search engines to "
+"load more pages at a time in the index."
+msgstr ""
+"WordPress 不知道如何给服务器响应头 Last Modified（文档的最后修改日期）并给出"
+"正确的响应 304 Not Modified。而这个标头对于搜索引擎来说非常重要。它的存在加速"
+"了索引编制，减少了负载，并允许搜索引擎在索引中一次加载更多页面。"
+
+#: admin/clearfy-admin.php:691
+#, php-format
+msgid ""
+"Set for all posts, pages, archives (categories, tags, etc.) the header %s "
+"and returns the correct answer if the page has not been changed."
+msgstr ""
+"为所有帖子、页面、归档（类别、标签等）设置标题 %s，如果页面未更改，则返回正确"
+"答案。"
+
+#: admin/clearfy-admin.php:695
+#, php-format
+msgid "It does not work on your hosting, please, read %s."
+msgstr "它不适用于您的主机，请阅读 %s。"
+
+#: admin/clearfy-admin.php:696
+msgctxt "last modified manual"
+msgid "manual"
+msgstr "手动"
+
+#: admin/clearfy-admin.php:704
+msgid "Set header If-Modified-Since"
+msgstr "设置标题 If-Modified-Since"
+
+#: admin/clearfy-admin.php:714
+msgid "Automatically set the alt attribute"
+msgstr "自动设置alt属性"
+
+#: admin/clearfy-admin.php:719
+msgid ""
+"The most of SEO specialists advise to fill alt attribute. If you missed or "
+"did not fill it, it will be automatically assigned and equal the title of "
+"article."
+msgstr ""
+"大多数 SEO 专家建议填写 alt 属性。 如果您错过或没有填写它，它将被自动分配并与"
+"文章标题相同。"
+
+#: admin/clearfy-admin.php:720
+#, php-format
+msgid "Add attribute %s to image without it."
+msgstr "将属性 %s 添加到没有它的图像。"
+
+#: admin/clearfy-admin.php:721
+#, php-format
+msgid "Only works for images in content since it uses %s filter."
+msgstr "仅适用于内容中的图像，因为它使用 %s 过滤器。"
+
+#: admin/clearfy-admin.php:727
+msgid "Hide external links in comments by JS"
+msgstr "通过JS隐藏评论中的外部链接"
+
+#: admin/clearfy-admin.php:733
+msgid ""
+"A lot of external links in comments reduce page rank and positions in search "
+"engines like Google."
+msgstr "评论中的大量外部链接会降低页面在谷歌等搜索引擎中的排名和位置。"
+
+#: admin/clearfy-admin.php:734
+msgid ""
+"Replaces only external links in comments by JS and it looks like a regular "
+"link."
+msgstr "仅用 JS 替换评论中的外部链接，它看起来像一个常规链接。"
+
+#: admin/clearfy-admin.php:740
+msgid "Hide authors external links in comments by JS"
+msgstr "在 JS 的评论中隐藏作者外部链接"
+
+#: admin/clearfy-admin.php:746
+msgid ""
+"Up to 90&#37 comments may be left on your site for external link. Even "
+"nofollow can't stop reduce page rank."
+msgstr ""
+"您的网站上最多可留下 90&#37 条评论以供外部链接。即使 nofollow 也无法停止降低"
+"页面排名。"
+
+#: admin/clearfy-admin.php:747
+msgid ""
+"Replaces authors external links in comments by JS, and it looks like a "
+"regular link."
+msgstr "用JS替换评论中的作者外部链接，看起来像普通链接。"
+
+#: admin/clearfy-admin.php:748
+msgid "Perhaps it will not work with your theme"
+msgstr "也许它不适用于您的主题"
+
+#: admin/clearfy-admin.php:754
+msgid "Noindex for pagination"
+msgstr "分页无索引"
+
+#: admin/clearfy-admin.php:760
+msgid ""
+"Pagination pages are included in search engine results /page/2/, /page/3/, "
+"etc."
+msgstr "分页页面包含在搜索引擎结果/page/2/、/page/3/等中。"
+
+#: admin/clearfy-admin.php:761
+msgid "Add noindex meta tag on pagination pages /page/2/, /page/3/, etc."
+msgstr "在分页页面 /page/2/、/page/3/ 等上添加 noindex 元标记。"
+
+#: admin/clearfy-admin.php:767
+msgid "Create an optimized robots.txt"
+msgstr "创建优化 robots.txt"
+
+#: admin/clearfy-admin.php:774
+msgid "Attention! A robots.txt was detected."
+msgstr "注意！检测到 robots.txt。"
+
+#: admin/clearfy-admin.php:775
+msgid ""
+"Make a backup of the current robots.txt file and delete it to make this "
+"feature work"
+msgstr "备份当前 robots.txt 文件并将其删除以使此功能正常工作"
+
+#: admin/clearfy-admin.php:777
+msgid ""
+"After installing WP, there is no robots.txt file and you have to create it "
+"manually. We've checked more then 30 different best examples to create the "
+"perfect robots.txt"
+msgstr ""
+"安装 WP 后，没有 robots.txt 文件，您必须手动创建它。我们检查了 30 多个不同的"
+"最佳示例来创建完美的 robots.txt"
+
+#: admin/clearfy-admin.php:778
+msgid "Automatically creates the perfect robots.txt"
+msgstr "自动创建完美的 robots.txt"
+
+#: admin/clearfy-admin.php:779
+msgid "You can change your robots.txt in the box below:"
+msgstr "您可以在下面的框中更改您的 robots.txt："
+
+#: admin/clearfy-admin.php:793
+msgid ""
+"Warning! Before you activate it, make sure that your site opens via https"
+msgstr "警告！在激活它之前，请确保您的网站通过 https 打开"
+
+#: admin/clearfy-admin.php:794
+msgid ""
+"If your site uses an SSL certificate, check this box to enable redirection "
+"from http to https"
+msgstr "如果您的站点使用 SSL 证书，请选中此框以启用从 http 到 https 的重定向"
+
+#: admin/clearfy-admin.php:795
+msgid "It redirects from http to https."
+msgstr "它从http重定向到HTTPS。"
+
+#: admin/clearfy-admin.php:802
+msgid "For Yoast SEO plugin"
+msgstr "对于 Yoast SEO 插件"
+
+#: admin/clearfy-admin.php:807
+msgid "Remove last duplicate title in breadcrumbs WP SEO by Yoast"
+msgstr "Yoast 删除面包屑 WP SEO 中最后一个重复的标题"
+
+#: admin/clearfy-admin.php:813
+msgid ""
+"Last element in breadcrubms in Yoast SEO plugin duplicate article title. "
+"Some SEO specialists thinks that it's worse for optimization."
+msgstr ""
+"Yoast SEO 插件重复文章标题中面包屑中的最后一个元素。 一些 SEO 专家认为优化更"
+"糟糕。"
+
+#: admin/clearfy-admin.php:814
+msgid "Removes duplicate title in breadcrumbs WP SEO by Yoast"
+msgstr "Yoast 删除面包屑 WP SEO 中的重复标题"
+
+#: admin/clearfy-admin.php:820
+msgid ""
+"Replace the title of an entry with the title in WP SEO Yoast breadcrumbs"
+msgstr "将条目的标题替换为 WP SEO Yoast 面包屑中的标题"
+
+#: admin/clearfy-admin.php:826
+msgid ""
+"In the last element of the breadcrumbs plugin Yoast SEO displays the name of "
+"the record. To avoid duplication, you can replace it with the title of the "
+"record."
+msgstr ""
+"在面包屑插件的最后一个元素中，Yoast SEO 显示了记录的名称。为避免重复，您可以"
+"将其替换为记录的标题。"
+
+#: admin/clearfy-admin.php:827
+msgid ""
+"Replaces the name of the record with the title of the record in the "
+"breadcrumbs of the WP SEO Yoast plugin"
+msgstr "将记录的名称替换为 WP SEO Yoast 插件的面包屑中的记录标题"
+
+#: admin/clearfy-admin.php:833
+#, php-format
+msgid "Remove tag %s from XML sitemap"
+msgstr "从 XML 站点地图中删除标记 %s"
+
+#: admin/clearfy-admin.php:839
+#, php-format
+msgid ""
+"Yandex.Webmaster is fighting the standard XML map from the Yoast plugin, "
+"because it has a specific tag %s Read more on our blog."
+msgstr ""
+"Yandex.Webmaster 正在与来自 Yoast 插件的标准 XML 映射作斗争，因为它有一个特定"
+"的标签 %s 在我们的博客上阅读更多信息。"
+
+#: admin/clearfy-admin.php:840
+#, php-format
+msgid "Remove tag %s from XML sitemap plugin Yoast SEO."
+msgstr "从 XML 站点地图插件 Yoast SEO 中删除标记 %s。"
+
+#: admin/clearfy-admin.php:841
+msgid "Warning!"
+msgstr "警告！"
+
+#: admin/clearfy-admin.php:841
+msgid ""
+"After activation, turn off the sitemap and turn it back on to regenerate it."
+msgstr "激活后，关闭站点地图并重新打开以重新生成它。"
+
+#: admin/clearfy-admin.php:842
+msgid "* On older versions of Yoast SEO may not work - update the Yoast plugin"
+msgstr "* 在旧版本的 Yoast SEO 上可能无法正常工作 - 更新 Yoast 插件"
+
+#: admin/clearfy-admin.php:848
+#, php-format
+msgid "Delete a comment from a section %s"
+msgstr "从部分%s中删除评论"
+
+#: admin/clearfy-admin.php:854
+#, php-format
+msgid "Yoast SEO plugin displays a comment of the kind %s in a section %s"
+msgstr "Yoast SEO 插件在 %s 部分显示 %s 类型的评论"
+
+#: admin/clearfy-admin.php:855
+#, php-format
+msgid "Removes the Yoast SEO plugin comment from the section %s."
+msgstr "从部分 %s 中删除 Yoast SEO 插件评论。"
+
+#: admin/clearfy-admin.php:861 admin/clearfy-admin.php:913
+msgid "Canonical in pagination pages"
+msgstr "分页页面中的规范"
+
+#: admin/clearfy-admin.php:866
+msgid ""
+"Yoast SEO plugin displays canonical links /page/2/, /page/3/, etc. on "
+"pagination pages."
+msgstr "Yoast SEO 插件在分页页面上显示规范链接 /page/2/、/page/3/ 等。"
+
+#: admin/clearfy-admin.php:867 admin/clearfy-admin.php:919
+msgid "Changes the canonical link to the homepage or the rubric itself."
+msgstr "更改指向主页或量规本身的规范链接。"
+
+#: admin/clearfy-admin.php:873 admin/clearfy-admin.php:925
+msgid "Remove application/ld+json"
+msgstr "删除application/ld+json"
+
+#: admin/clearfy-admin.php:878 admin/clearfy-admin.php:930
+msgid ""
+"JSON-LD is a markup format. Plugin outputs in the header information about "
+"the site and a link to the search using this format."
+msgstr ""
+"JSON-LD是一种标记格式。插件在标题中输出关于网站的信息和使用这种格式的搜索链"
+"接。"
+
+#: admin/clearfy-admin.php:879 admin/clearfy-admin.php:931
+msgid "Disables the output of application/ld+json code in the site header."
+msgstr "禁用站点标题中的application/ld+json代码的输出。"
+
+#: admin/clearfy-admin.php:887 admin/clearfy-admin.php:938
+#, php-format
+msgid ""
+"Settings for %s are hidden because the plugin is not active at the moment."
+msgstr "对 %s 的设置被隐藏了，因为该插件目前还没有激活。"
+
+#: admin/clearfy-admin.php:897
+msgid "For Rank Math plugin"
+msgstr "对于 Rank Math 插件"
+
+#: admin/clearfy-admin.php:901
+msgid "Enable white label"
+msgstr "启用白色标签"
+
+#: admin/clearfy-admin.php:906
+msgid ""
+"Rank Math adds comments in HTML, links, social media links to source code."
+msgstr "排名数学在HTML、链接、社交媒体链接的源代码中添加评论。"
+
+#: admin/clearfy-admin.php:907
+msgid "Remove all HTML comments, links, social media links about Rank Math."
+msgstr "删除所有关于Rank Math的HTML评论、链接、社会媒体链接。"
+
+#: admin/clearfy-admin.php:918
+msgid ""
+"Rank Math plugin displays canonical links /page/2/, /page/3/, etc. on "
+"pagination pages."
+msgstr "Rank Math 插件在分页页面上显示规范链接 /page/2/、/page/3/ 等。"
+
+#: admin/clearfy-admin.php:946
+msgid "Duplicate pages"
+msgstr "重复页面"
+
+#: admin/clearfy-admin.php:951
+msgid "Delete date archives"
+msgstr "删除日期归档"
+
+#: admin/clearfy-admin.php:957
+msgid ""
+"A huge number of duplicates in date archives. Imagine, besides the fact that "
+"your article will be displayed on the main page and in the category, you "
+"will get at least 3 doubles: in the archives by year, month and date, for "
+"example /2016/ /2016/02/ /2016/02/15."
+msgstr ""
+"日期归档中有大量重复项。想象一下，除了您的文章将显示在主页和类别中的事实之"
+"外，您还将获得至少 3 个双倍：按年、月和日期在归档中，例"
+"如 /2016/ /2016/02/ /2016 /02/15。"
+
+#: admin/clearfy-admin.php:958
+msgid "Deletes the date archives completely and sets a redirect."
+msgstr "完全删除日期存档并设置重定向。"
+
+#: admin/clearfy-admin.php:964
+msgid "Delete user archives"
+msgstr "删除用户归档"
+
+#: admin/clearfy-admin.php:970
+msgid ""
+"If you are the only one filling the site, it's a must. Allows you to get rid "
+"of duplicates on user archives, such as /author/admin/."
+msgstr ""
+"如果您是唯一填写该站点的人，那么这是必须的。允许您删除用户归档中的重复项，例"
+"如 /author/admin/。"
+
+#: admin/clearfy-admin.php:971
+msgid "Deletes user archives completely and puts a redirect."
+msgstr "完全删除用户归档并进行重定向。"
+
+#: admin/clearfy-admin.php:977
+msgid "Delete tag archives"
+msgstr "删除标签归档"
+
+#: admin/clearfy-admin.php:983
+msgid ""
+"If you use tags only for the Related posts block or don't use them at all, "
+"it's better to close them to avoid duplicates."
+msgstr "如果您仅将标签用于相关帖子块或根本不使用它们，最好关闭它们以避免重复。"
+
+#: admin/clearfy-admin.php:984
+msgid "It redirects from the tag pages to the main page."
+msgstr "它从标签页面重定向到主页。"
+
+#: admin/clearfy-admin.php:990
+msgid "Delete attachment pages"
+msgstr "删除附件页面"
+
+#: admin/clearfy-admin.php:996
+msgid ""
+"Each uploaded picture has its own page on the site, consisting of only one "
+"picture. Such pages are successfully indexed and create duplicates. The site "
+"may have thousands of pages of the same type of attachments."
+msgstr ""
+"每张上传的图片在网站上都有自己的页面，仅包含一张图片。此类页面已成功编入索引"
+"并创建重复项。该站点可能有数千页相同类型的附件。"
+
+#: admin/clearfy-admin.php:997
+msgid "Deletes attachment pages and puts a redirect on the entry."
+msgstr "删除附件页面并对条目进行重定向。"
+
+#: admin/clearfy-admin.php:1003
+msgid "Remove duplicate pagination of posts"
+msgstr "删除重复的帖子分页"
+
+#: admin/clearfy-admin.php:1009
+msgid ""
+"In WordPress, any entry can be divided into parts (pages), each part has its "
+"own address. But this functionality is rarely used, but can cause you "
+"trouble. For example, to the address of any record of your blog can add a "
+"number, /privet-mir/1/ - will open the record itself, which will be a "
+"double. The number can be any number."
+msgstr ""
+"在 WordPress 中，任何条目都可以分为多个部分（页面），每个部分都有自己的地址。"
+"但是这个功能很少使用，但会给你带来麻烦。例如，可以向您博客的任何记录的地址添"
+"加一个数字，/privet-mir/1/ - 将打开记录本身，这将是一个双精度数。该数字可以是"
+"任何数字。"
+
+#: admin/clearfy-admin.php:1010
+msgid ""
+"The option can not be included, because with WordPress 5.5 fixed in the core."
+msgstr "不能包含该选项，因为 WordPress 5.5 已固定在核心中。"
+
+#: admin/clearfy-admin.php:1011
+msgid "It redirects to the entry itself."
+msgstr "它重定向到条目本身。"
+
+#: admin/clearfy-admin.php:1017
+msgid "Delete ?replytocom"
+msgstr "删除?replytocom"
+
+#: admin/clearfy-admin.php:1023
+msgid ""
+"WordPress adds ?replytocom= to the Reply link in comments if tree comments "
+"are enabled"
+msgstr "如果启用了树评论，WordPress 会将 ?replytocom= 添加到评论中的回复链接"
+
+#: admin/clearfy-admin.php:1024
+msgid "Deletes ?relpytocom and puts a redirect on the entry"
+msgstr "删除 ?relpytocom 并对条目进行重定向"
+
+#: admin/clearfy-admin.php:1031
+msgid "Protection"
+msgstr "保护"
+
+#: admin/clearfy-admin.php:1035
+msgid "Hide wp-login.php"
+msgstr "隐藏 wp-login.php"
+
+#: admin/clearfy-admin.php:1040
+msgid ""
+"You can hide the login page wp-login.php, and replace its address with the "
+"new one."
+msgstr "您可以隐藏登录页面 wp-login.php，并将其地址替换为新地址。"
+
+#: admin/clearfy-admin.php:1041
+msgid ""
+"Important: Be sure to memorize and write down the new login page. After "
+"activating this option - the old login page will be unavailable."
+msgstr ""
+"重要提示：请务必记住并记下新的登录页面。激活此选项后 - 旧的登录页面将不可用。"
+
+#: admin/clearfy-admin.php:1042
+msgid "If possible, do not use the words login, sign-in, admin, dashboard."
+msgstr "如果可能，不要使用登录、登录、管理员、仪表板等词。"
+
+#: admin/clearfy-admin.php:1047
+msgid "You can use the ones just generated for you:"
+msgstr "您可以使用刚刚为您生成的代码："
+
+#: admin/clearfy-admin.php:1052
+msgid ""
+"If you forget the address of the new page - you will have to either delete "
+"the plugin or use the hook from the "
+msgstr "如果您忘记了新页面的地址 - 您将不得不删除插件或使用 "
+
+#: admin/clearfy-admin.php:1052
+msgid "documentation"
+msgstr "文档"
+
+#: admin/clearfy-admin.php:1059
+msgid "Remove the ability to know the username of the administrator"
+msgstr "删除了解管理员用户名的功能"
+
+#: admin/clearfy-admin.php:1065
+#, php-format
+msgid ""
+"Have you changed your username from admin to another so that intruders do "
+"not know your login? Don't get excited, type in the address bar %s and you "
+"will be redirected to the author's page in 90&#37 of cases %s, thus giving "
+"away your login."
+msgstr ""
+"您是否将用户名从 admin 更改为另一个，以便入侵者不知道您的登录名？不要激动，在"
+"地址栏输入 %s，在 90&#37 的情况下，您将被重定向到作者的页面 %s，从而放弃您的"
+"登录。"
+
+#: admin/clearfy-admin.php:1066
+msgid "Removes the ability to find out the username of the administrator"
+msgstr "删除了查找管理员用户名的功能"
+
+#: admin/clearfy-admin.php:1072
+msgid "Hide login errors"
+msgstr "隐藏登录错误"
+
+#: admin/clearfy-admin.php:1078
+msgid ""
+"WP by default shows if you entered the wrong username or the wrong password, "
+"which gives attackers to understand if a particular user exists on the site, "
+"and then start brute-forcing passwords."
+msgstr ""
+"默认情况下，WP 会显示您是否输入了错误的用户名或密码，这使攻击者可以了解网站上"
+"是否存在特定用户，然后开始暴力破解密码。"
+
+#: admin/clearfy-admin.php:1079
+msgid ""
+" Changes the text of the error so that attackers can not pick up the login."
+msgstr " 更改错误文本，使攻击者无法获取登录信息。"
+
+#: admin/clearfy-admin.php:1085
+msgid "Disable xmlrpc.php"
+msgstr "禁用 xmlrpc.php"
+
+#: admin/clearfy-admin.php:1091
+msgid ""
+"One of the reasons why your site on WP started to slow down is an attack on "
+"the site, when there are a lot of requests to the file xmlrpc.php, which is "
+"responsible for pingback's, remote access to WP. Through the file xmlrpc.php "
+"can go DDoS or Brutforce attack."
+msgstr ""
+"您的网站在 WP 上开始变慢的原因之一是对网站的攻击，当有很多对文件 xmlrpc.php "
+"的请求时，该文件负责 pingback 对 WP 的远程访问。通过文件 xmlrpc.php 可以进行 "
+"DDoS 或 Brutforce 攻击。"
+
+#: admin/clearfy-admin.php:1092
+msgid ""
+"It removes the link to xmlrpc.php in the server response, and closes the "
+"possibility of spamming the site with pingbacks."
+msgstr ""
+"它会在服务器响应中删除指向 xmlrpc.php 的链接，并关闭使用 pingback 向站点发送"
+"垃圾邮件的可能性。"
+
+#: admin/clearfy-admin.php:1101
+msgid "Password brute force protection"
+msgstr "密码暴力保护"
+
+#: admin/clearfy-admin.php:1105
+msgid "Limit the number of attempts"
+msgstr "限制尝试次数"
+
+#: admin/clearfy-admin.php:1111
+msgid ""
+"Bruteforcing or brute-forcing passwords to sites happens all the time. In "
+"addition to potential hacking, you get a constant load on the server."
+msgstr ""
+"网站的暴力破解或暴力破解密码一直在发生。除了潜在的黑客攻击之外，您还会在服务"
+"器上获得持续的负载。"
+
+#: admin/clearfy-admin.php:1112
+msgid "If you forget your username/password and get locked out - "
+msgstr "如果您忘记了用户名/密码并被锁定 - "
+
+#: admin/clearfy-admin.php:1112
+msgid "this protection can be disabled"
+msgstr "可以禁用此保护"
+
+#: admin/clearfy-admin.php:1113 admin/clearfy-admin.php:1114
+msgid "After "
+msgstr "超过 "
+
+#: admin/clearfy-admin.php:1113
+msgid "  incorrect attempts to enter will be blocked for "
+msgstr " 次错误的输入尝试将被阻止 "
+
+#: admin/clearfy-admin.php:1113
+msgid " minutes."
+msgstr " 分钟。"
+
+#: admin/clearfy-admin.php:1114
+msgid " blockings, access will be blocked for "
+msgstr " 次错误的输入尝试将被阻止 "
+
+#: admin/clearfy-admin.php:1114
+msgid " hours."
+msgstr " 小时。"
+
+#: admin/clearfy-admin.php:1116
+msgid "Protects the site from password brute-forcing."
+msgstr "保护网站免受密码暴力破解。"
+
+#: admin/clearfy-admin.php:1120
+msgid "It was already blocked: "
+msgstr "它已被阻止: "
+
+#: admin/clearfy-admin.php:1130
+msgid "IP Whitelist"
+msgstr "IP白名单"
+
+#: admin/clearfy-admin.php:1135
+msgid "Add here the IPs that will not be restricted. 1 line - 1 IP."
+msgstr "在此处添加不受限制的 IP。 1 行 - 1 个 IP。"
+
+#: admin/clearfy-admin.php:1143
+msgid "IP Blacklist"
+msgstr "IP黑名单"
+
+#: admin/clearfy-admin.php:1148
+msgid "Add here the IPs to be blocked. 1 line - 1 IP."
+msgstr "在此处添加要阻止的 IP。 1 行 - 1 个 IP。"
+
+#: admin/clearfy-admin.php:1157
+msgid "Current lockouts"
+msgstr "当前锁定"
+
+#: admin/clearfy-admin.php:1165
+msgid "Expired"
+msgstr "过期"
+
+#: admin/clearfy-admin.php:1174
+msgid "h."
+msgstr "小时"
+
+#: admin/clearfy-admin.php:1176
+msgid "m."
+msgstr "分钟"
+
+#: admin/clearfy-admin.php:1182
+msgid "Remove"
+msgstr "删除"
+
+#: admin/clearfy-admin.php:1192
+msgid "Versions"
+msgstr "版本"
+
+#: admin/clearfy-admin.php:1196
+msgid "Remove meta generator"
+msgstr "删除meta生成器"
+
+#: admin/clearfy-admin.php:1202
+msgid ""
+"Allows attackers to find out the WP version installed on the site. This meta "
+"tag has no useful function."
+msgstr "允许攻击者找出站点上安装的 WP 版本。这个元标记没有有用的功能。"
+
+#: admin/clearfy-admin.php:1203
+#, php-format
+msgid "Removes the meta tag from the section  %s"
+msgstr "从部分 %s 中删除meta标记"
+
+#: admin/clearfy-admin.php:1209
+msgid "Remove version from styles"
+msgstr "从样式中删除版本"
+
+#: admin/clearfy-admin.php:1215
+#, php-format
+msgid ""
+"WP, themes and plugins often include styles with the version of the file, "
+"plugin or engine, it looks like this: %s. First, this allows attackers to "
+"know the version of the plugin, the engine, and secondly, disables caching "
+"for these files, which reduces the time it takes to load the page."
+msgstr ""
+"WP、主题和插件通常包含带有文件、插件或引擎版本的样式，它看起来像这样：%s。首"
+"先，这允许攻击者知道插件的版本、引擎，其次，禁用这些文件的缓存，从而减少加载"
+"页面所需的时间。"
+
+#: admin/clearfy-admin.php:1216
+msgid "Deletes versions of styles"
+msgstr "删除样式的版本"
+
+#: admin/clearfy-admin.php:1222
+msgid "Remove the version from the scripts"
+msgstr "从脚本中删除版本"
+
+#: admin/clearfy-admin.php:1228
+#, php-format
+msgid ""
+"As with styles, scripts are connected by specifying the version of the file, "
+"plugin or engine, it looks like this: %s. Firstly, this allows attackers to "
+"know the version of the plugin, the engine, and secondly, disables caching "
+"for these files, which reduces the page load time."
+msgstr ""
+"与样式一样，脚本通过指定文件、插件或引擎的版本来连接，如下所示：%s。首先，这"
+"允许攻击者知道插件的版本、引擎，其次，禁用这些文件的缓存，从而减少页面加载时"
+"间。"
+
+#: admin/clearfy-admin.php:1229
+msgid "Removes versions from scripts"
+msgstr "从脚本中删除版本"
+
+#: admin/clearfy-admin.php:1242
+msgid "Transliteration"
+msgstr "音译"
+
+#: admin/clearfy-admin.php:1246
+msgid "Transliteration of headers and files"
+msgstr "标题和文件的音译"
+
+#: admin/clearfy-admin.php:1251
+msgid ""
+"Analogue to Rus To Lat, Cyr2Lat and other plugins. Transliteration of "
+"permanent links and file names. For example, the post \"hello world!\" "
+"becomes \"privet-mir\", and the file \"picture.jpg\" becomes \"kartinka.jpg"
+"\"."
+msgstr ""
+"类似于Rus to Lat、Cyr2Lat和其他插件。永久链接和文件名的音译。例如，帖"
+"子“Hello World！”变成“Priet-mir”，文件“picture.jpg”变成“kartinka.jpg”。"
+
+#: admin/clearfy-admin.php:1253
+msgid "Attention!"
+msgstr "注意!"
+
+#: admin/clearfy-admin.php:1253
+msgid ""
+"The plugin does not automatically translate existing slugs. Click the button "
+"below to transliterate them"
+msgstr "该插件不会自动翻译现有的塞子。点击下面的按钮来翻译它们"
+
+#: admin/clearfy-admin.php:1254
+msgid "Transliterate existing slugs"
+msgstr "对现有的词组进行音译"
+
+#: admin/clearfy-admin.php:1256
+msgid "Performs transliteration of permanent links and downloadable files."
+msgstr "执行永久链接和可下载文件的音译。"
+
+#: admin/clearfy-admin.php:1264
+msgid "Avatars"
+msgstr "头像"
+
+#: admin/clearfy-admin.php:1270
+msgid "Disable gravatars"
+msgstr "禁用头像"
+
+#: admin/clearfy-admin.php:1275
+msgid ""
+"As avatars in WP are automatically displayed gravatars from gravatar.com, an "
+"unnecessary external resource to download."
+msgstr ""
+"因为WP中的头像会自动显示来自gravatar.com的Gravatar，这是一个不必要的下载外部"
+"资源。"
+
+#: admin/clearfy-admin.php:1276
+msgid ""
+"You can specify the address of any of your images, or leave this field blank."
+msgstr "您可以指定任何图像的地址，也可以将此字段留空。"
+
+#: admin/clearfy-admin.php:1277
+#, php-format
+msgid "You can create our own unique avatar on %s"
+msgstr "您可以在 %s 上创建我们自己的独特头像"
+
+#: admin/clearfy-admin.php:1280
+msgid "Upload avatar"
+msgstr "上传头像"
+
+#: admin/clearfy-admin.php:1283
+msgid "Disables gravatars and displays the default image as an avatar."
+msgstr "禁用Gravatar并将默认图像显示为头像。"
+
+#: admin/clearfy-admin.php:1289
+msgid "Enable local avatars"
+msgstr "启用本地头像"
+
+#: admin/clearfy-admin.php:1294
+msgid ""
+"Enable the ability for registered users to upload their avatars on the user "
+"edit page."
+msgstr "允许注册用户在用户编辑页面上传他们的头像。"
+
+#: admin/clearfy-admin.php:1295
+msgid "Adds image uploading for local avatars on profile edit page."
+msgstr "在个人资料编辑页面上添加本地头像的图像上传。"
+
+#: admin/clearfy-admin.php:1303
+msgid "Comments"
+msgstr "评论"
+
+#: admin/clearfy-admin.php:1307
+msgid "Disables comments"
+msgstr "禁用评论"
+
+#: admin/clearfy-admin.php:1312
+msgid "Select post types to disable comments:"
+msgstr "选择帖子类型以禁用评论："
+
+#: admin/clearfy-admin.php:1330
+msgid "Fully or partially disables commenting."
+msgstr "完全或部分禁用评论。"
+
+#: admin/clearfy-admin.php:1337
+msgid "Disable XML-RPC comments"
+msgstr "禁用 XML-RPC评论"
+
+#: admin/clearfy-admin.php:1342
+msgid ""
+"Comments in WordPress can be added through external applications using XML-"
+"RPC."
+msgstr "WordPress 中的评论可以通过使用 XML-RPC 的外部应用程序添加。"
+
+#: admin/clearfy-admin.php:1343
+msgid "Disables commenting via XML-RPC."
+msgstr "通过 XML-RPC 禁用评论。"
+
+#: admin/clearfy-admin.php:1350
+msgid "Disable REST API comments"
+msgstr "禁用 REST API 评论"
+
+#: admin/clearfy-admin.php:1355
+msgid "Comments in WordPress can be added through the REST API."
+msgstr "可以通过 REST API 添加 WordPress 中的评论。"
+
+#: admin/clearfy-admin.php:1356
+msgid "Disables commenting via the REST API."
+msgstr "通过 REST API 禁用评论。"
+
+#: admin/clearfy-admin.php:1363
+msgid "Remove from interface"
+msgstr "从界面中移除"
+
+#: admin/clearfy-admin.php:1368
+msgid "Remove comments from all menus, admin bar, widgets, feeds etc."
+msgstr "从所有菜单、管理栏、小工具、feeds等中删除评论。"
+
+#: admin/clearfy-admin.php:1369
+msgid "Removes comments from interface."
+msgstr "从界面中删除评论。"
+
+#: admin/clearfy-admin.php:1377
+msgid "Content protection"
+msgstr "内容保护"
+
+#: admin/clearfy-admin.php:1383
+msgid "Link to source when copying"
+msgstr "复制时链接到源"
+
+#: admin/clearfy-admin.php:1388 clearfy-pro.php:1485
+msgid "<br>Source: %link%"
+msgstr "<br>来源：%link%"
+
+#: admin/clearfy-admin.php:1389
+msgid ""
+"Adds a link to the source of the article when copying text. Be sure to add "
+"the word: %link% it will be replaced by the link. &lt;br&gt; is a line break."
+msgstr ""
+"复制文本时添加指向文章来源的链接。请务必添加单词：%link%，它将被链接替换。 "
+"&lt;br&gt;是换行符。"
+
+#: admin/clearfy-admin.php:1390
+msgid "For example:"
+msgstr "示例："
+
+#: admin/clearfy-admin.php:1391
+msgid "Source: %link%"
+msgstr "来源：%link%"
+
+#: admin/clearfy-admin.php:1392
+msgid "- Read more at: %link%"
+msgstr "- 阅读更多：%link%"
+
+#: admin/clearfy-admin.php:1398
+msgid "Disable the right mouse button"
+msgstr "禁用鼠标右键"
+
+#: admin/clearfy-admin.php:1403 admin/clearfy-admin.php:1415
+#: admin/clearfy-admin.php:1427
+msgid "One way to combat text copying."
+msgstr "防止文本复制的方法。"
+
+#: admin/clearfy-admin.php:1404
+msgid "Disables the right mouse button"
+msgstr "禁用鼠标右键"
+
+#: admin/clearfy-admin.php:1410
+msgid "Disable text selection"
+msgstr "禁用文本选择"
+
+#: admin/clearfy-admin.php:1416
+msgid "Disables text selection on the page"
+msgstr "禁用页面上的文本选择"
+
+#: admin/clearfy-admin.php:1422
+msgid "Disable hotkeys"
+msgstr "禁用热键"
+
+#: admin/clearfy-admin.php:1428
+msgid ""
+"Disables key operation Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S, Ctrl+X, Ctrl+Shift+C"
+msgstr "禁用按键操作 Ctrl+C、Ctrl+A、Ctrl+U、Ctrl+S、Ctrl+X、Ctrl+Shift+C"
+
+#: admin/clearfy-admin.php:1434 admin/clearfy-admin.php:1438
+msgid "Cookie notice"
+msgstr "Cookie 通知"
+
+#: admin/clearfy-admin.php:1445
+msgid "You can set the text for the cookie notification, for example:"
+msgstr "您可以设置 cookie 通知的文本，例如："
+
+#: admin/clearfy-admin.php:1448
+msgid ""
+"Displays a notification at the bottom about the use of cookies on the site."
+msgstr "在底部显示有关在网站上使用 cookie 的通知。"
+
+#: admin/clearfy-admin.php:1454
+msgid "Position"
+msgstr "位置"
+
+#: admin/clearfy-admin.php:1458
+msgid "Bottom"
+msgstr "底部"
+
+#: admin/clearfy-admin.php:1459
+msgid "Left"
+msgstr "左边"
+
+#: admin/clearfy-admin.php:1460
+msgid "Right"
+msgstr "右边"
+
+#: admin/clearfy-admin.php:1469
+msgid "Text color"
+msgstr "文本颜色"
+
+#: admin/clearfy-admin.php:1478
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: admin/clearfy-admin.php:1487
+msgid "Button text"
+msgstr "按钮文本"
+
+#: admin/clearfy-admin.php:1496
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: admin/clearfy-admin.php:1509
+msgid "Hide entries"
+msgstr "隐藏条目"
+
+#: admin/clearfy-admin.php:1514
+msgid "On the main page"
+msgstr "在主页上"
+
+#: admin/clearfy-admin.php:1519
+msgid ""
+"Hide records from the main page, specify the IDs of records, separated by "
+"commas."
+msgstr "从主页隐藏记录，指定记录的ID，用逗号分隔。"
+
+#: admin/clearfy-admin.php:1525
+msgid "In the archives"
+msgstr "在归档上"
+
+#: admin/clearfy-admin.php:1530
+msgid ""
+"Hide the output of records from all archives (headings, labels, etc.), "
+"specify the record IDs separated by commas."
+msgstr "隐藏所有归档（标题、标签等）的记录输出，指定用逗号分隔的记录 ID。"
+
+#: admin/clearfy-admin.php:1536
+msgid "In search"
+msgstr "正在搜索"
+
+#: admin/clearfy-admin.php:1541
+msgid ""
+"Hide the records from the search page, specify the IDs of the records, "
+"separated by commas."
+msgstr "从搜索页面隐藏记录，指定记录的 ID，用逗号分隔。"
+
+#: admin/clearfy-admin.php:1549
+msgid "XML sitemap"
+msgstr "XML 站点地图"
+
+#: admin/clearfy-admin.php:1552
+msgid ""
+"These settings apply only to the standard XML sitemap, which appeared since "
+"WP 5.5."
+msgstr "这些设置仅适用于从 WP 5.5 开始出现的标准 XML 站点地图。"
+
+#: admin/clearfy-admin.php:1553
+msgid "Built-in XML sitemap is located at /wp-sitemap.xml."
+msgstr "内置 XML 站点地图位于 /wp-sitemap.xml。"
+
+#: admin/clearfy-admin.php:1559
+msgid "Disable standard XML Sitemap"
+msgstr "禁用标准 XML 站点地图"
+
+#: admin/clearfy-admin.php:1563
+msgid ""
+"By default, since version 5.5 in WordPress appeared XML sitemap. If you use "
+"SEO plugins, you can disable the default map."
+msgstr ""
+"默认情况下，从 WordPress 5.5 版本开始出现 XML 站点地图。 如果您使用 SEO 插"
+"件，则可以禁用默认地图。"
+
+#: admin/clearfy-admin.php:1564
+msgid "Completely disables the built-in XML sitemap."
+msgstr "完全禁用内置 XML 站点地图。"
+
+#: admin/clearfy-admin.php:1570
+msgid "Disable users"
+msgstr "禁用用户"
+
+#: admin/clearfy-admin.php:1576
+msgid ""
+"By default, the XML sitemap displays links to user pages. In 99&#37; of "
+"cases they are not needed and it is recommended to disable them."
+msgstr ""
+"默认情况下，XML 站点地图显示指向用户页面的链接。 在 99&#37; 在不需要的情况"
+"下，建议禁用它们。"
+
+#: admin/clearfy-admin.php:1577
+msgid "Disable user list in wp-sitemap-users-1.xml"
+msgstr "在 wp-sitemap-users-1.xml 中禁用用户列表"
+
+#: admin/clearfy-admin.php:1587
+msgid "Extras"
+msgstr "附加功能"
+
+#: admin/clearfy-admin.php:1592
+msgid "Disable Gutenberg"
+msgstr "禁用古腾堡"
+
+#: admin/clearfy-admin.php:1597
+msgid ""
+"After upgrading WordPress to version 5.0, everyone had the Gutenberg editor "
+"turned on by default, which brought not a few problems and issues."
+msgstr ""
+"WordPress 升级到 5.0 版本后，大家都默认开启了古腾堡编辑器，这带来了不少问题。"
+
+#: admin/clearfy-admin.php:1598
+msgid "Completely turns off Gutenberg."
+msgstr "完全关闭古腾堡。"
+
+#: admin/clearfy-admin.php:1605
+msgid "Disable Gutenberg widgets"
+msgstr "禁用古腾堡小工具"
+
+#: admin/clearfy-admin.php:1610
+msgid ""
+"In WordPress 5.8, the usual widgets have been replaced by Gutenberg, it is "
+"not very convenient and many do not need. Analogue to Classic Widgets."
+msgstr ""
+"在 WordPress 5.8 中，通常的小工具已被 Gutenberg 取代，这不是很方便，很多都不"
+"需要。类似于经典小工具。"
+
+#: admin/clearfy-admin.php:1611
+msgid "Returns classic widgets."
+msgstr "返回经典小工具。"
+
+#: admin/clearfy-admin.php:1619
+msgid "PageSpeed passive listeners"
+msgstr "PageSpeed 被动侦听器"
+
+#: admin/clearfy-admin.php:1624
+msgid ""
+"Activate the option if Google PageSpeed is berating \"Passive event "
+"listeners are not used to improve scrolling performance\"."
+msgstr ""
+"如果 Google PageSpeed 指责“不使用被动事件侦听器来提高滚动性能”，请激活该选"
+"项。"
+
+#: admin/clearfy-admin.php:1625
+msgid "Does not work: with Yandex.Market widget."
+msgstr "不起作用：使用 Yandex.Market 小工具。"
+
+#: admin/clearfy-admin.php:1626
+msgid "Adds passive for scroll and touch-action listeners."
+msgstr "为滚动和触摸动作监听器添加被动。"
+
+#: admin/clearfy-admin.php:1635
+msgid "Disable RSS Feeds"
+msgstr "禁用RSS Feeds"
+
+#: admin/clearfy-admin.php:1640
+msgid ""
+"The main hole from which they will parse your content is RSS feeds. For "
+"article sites, business card sites, corporate sites - disable it."
+msgstr ""
+"他们解析您的内容的主要漏洞是RSS Feeds。对于文章网站、名片网站、公司网站 - 禁"
+"用它。"
+
+#: admin/clearfy-admin.php:1641
+msgid ""
+"Removes the link to the RSS feed from the &lt;head&gt; section, closes it "
+"and puts a redirect from all RSS feeds."
+msgstr ""
+"从 &lt;head&gt; 中删除指向 RSS 提要的链接。部分，将其关闭并从所有 RSS 提要中"
+"进行重定向。"
+
+#: admin/clearfy-admin.php:1647
+msgid "Remove the \"Site\" field in the comment form"
+msgstr "删除评论表单中的“站点”字段"
+
+#: admin/clearfy-admin.php:1652
+msgid ""
+"Tired of spam comments? Visitors leaving \"empty\" comments for a link to "
+"your site?"
+msgstr "厌倦了垃圾评论？访问者留下“空”评论链接到你的网站？"
+
+#: admin/clearfy-admin.php:1653
+msgid "Removes the \"Site\" field from the comment form."
+msgstr "从评论表单中删除“站点”字段。"
+
+#: admin/clearfy-admin.php:1654
+msgid ""
+"* Works with the standard commenting form, if your topic has a manually "
+"prescribed form - most likely will not work!"
+msgstr ""
+"* 如果您的主题有手动规定的表格，则适用于标准评论表格 - 很可能无法使用！"
+
+#: admin/clearfy-admin.php:1660
+msgid "Remove links to wordpress.org from the admin bar"
+msgstr "从管理栏中删除指向 wordpress.org 的链接"
+
+#: admin/clearfy-admin.php:1666
+msgid ""
+"The first item in the top bar is the WordPress logo and external links to "
+"wordpress.org, documentation, and forums."
+msgstr ""
+"顶部栏中的第一项是 WordPress 徽标和指向 wordpress.org、文档和论坛的外部链接。"
+
+#: admin/clearfy-admin.php:1667
+msgid "Removes all links to wordpress.org from the toolbar."
+msgstr "从工具栏中删除所有指向 wordpress.org 的链接。"
+
+#: admin/clearfy-admin.php:1677 admin/clearfy-admin.php:1683
+msgid "Disable admin bar"
+msgstr "禁用管理栏"
+
+#: admin/clearfy-admin.php:1682
+msgid "By default, the top admin panel is shown for authorized users."
+msgstr "默认情况下，会为授权用户显示顶部管理面板。"
+
+#: admin/clearfy-admin.php:1689
+msgid "Update notifications"
+msgstr "更新通知"
+
+#: admin/clearfy-admin.php:1694
+msgid ""
+"Since version 3.7, WordPress has learned how to automatically update itself "
+"and send you an email about the update each time. Since version 5.5, two "
+"more types of emails have been added."
+msgstr ""
+"自 3.7 版以来，WordPress 已经学会了如何自动更新自己并每次都向您发送有关更新的"
+"电子邮件。从 5.5 版开始，又添加了两种类型的电子邮件。"
+
+#: admin/clearfy-admin.php:1695
+msgid "Disables email notifications about automatic updates."
+msgstr "禁用有关自动更新的电子邮件通知。"
+
+#: admin/clearfy-admin.php:1708
+msgid "Widgets"
+msgstr "小工具"
+
+#: admin/clearfy-admin.php:1715
+msgid "Remove \"Pages\" widget"
+msgstr "删除“页面”小工具"
+
+#: admin/clearfy-admin.php:1724
+msgid "Remove \"Calendar\" widget"
+msgstr "删除“日历”小工具"
+
+#: admin/clearfy-admin.php:1733
+msgid "Remove \"Tag Cloud\" widget"
+msgstr "删除“标签云”小工具"
+
+#: admin/clearfy-admin.php:1737
+msgid ""
+"Widgets \"Pages\", \"Calendar\", \"Label Cloud\" create unnecessary requests "
+"to the database, and are now used very rarely, because \"Pages\" is easily "
+"replaced by the widget \"Menu\", and the other two only create duplicate "
+"pages."
+msgstr ""
+"小工具“页面”、“日历”、“标签云”向数据库创建不必要的请求，现在很少使用，因"
+"为“Pages”很容易被小工具“Menu”替换，而其他两个只创建重复页面。"
+
+#: admin/clearfy-admin.php:1738
+msgid "Disables these widgets, reducing the number of database queries."
+msgstr "禁用这些小工具，减少数据库查询的数量。"
+
+#: admin/clearfy-admin.php:1745
+msgid "Revisions"
+msgstr "修订"
+
+#: admin/clearfy-admin.php:1752
+msgid "Disable revisions completely"
+msgstr "完全禁用修订"
+
+#: admin/clearfy-admin.php:1761
+msgid "Limit the number of revisions"
+msgstr "限制修订数量"
+
+#: admin/clearfy-admin.php:1769
+msgid ""
+"Warning. In the file wp-config.php found a constant WP_POST_REVISIONS, it "
+"defines the number of revisions. Remove it, so you can change this value "
+"through the admin panel."
+msgstr ""
+"警告。在文件 wp-config.php 中找到了一个常量 WP_POST_REVISIONS，它定义了修订的"
+"数量。删除它，以便您可以通过管理面板更改此值。"
+
+#: admin/clearfy-admin.php:1772
+msgid ""
+"When you save and update any record or page, a copy (revision) of it is "
+"created, which you can view or restore in the future. But over time, a large "
+"number of such revisions (and there can be dozens of them for each page) "
+"clog the database, wasting space and slowing down the work. Usually, it is "
+"sufficient to keep up to 3-5 recent revisions."
+msgstr ""
+"当您保存和更新任何记录或页面时，会创建它的副本（修订），您可以在将来查看或恢"
+"复它。但随着时间的推移，大量此类修订（每个页面可能有几十个）会堵塞数据库，浪"
+"费空间并减慢工作速度。通常，最多保留 3-5 个最新版本就足够了。"
+
+#: admin/clearfy-admin.php:1781
+msgid "Redirect Manager"
+msgstr "重定向管理"
+
+#: admin/clearfy-admin.php:1796
+msgid ""
+"301 redirect from one address to another. For example, if the article is not "
+"accessible at the old address."
+msgstr "301 从一个地址重定向到另一个地址。例如，如果在旧地址无法访问文章。"
+
+#: admin/clearfy-admin.php:1797
+msgid "You can specify both internal and external links."
+msgstr "您可以指定内部和外部链接。"
+
+#: admin/clearfy-admin.php:1798
+#, php-format
+msgid "Put * to replace any number of characters. For example: %s."
+msgstr "将 * 替换为任意数量的字符。例如：%s。"
+
+#: admin/clearfy-admin.php:1816
+msgid "Disable logging"
+msgstr "禁用日志记录"
+
+#: admin/clearfy-admin.php:1820
+msgid ""
+"If you are sure that 404 error logging is not required - you can disable it "
+"completely."
+msgstr "如果您确定不需要 404 错误记录 - 您可以完全禁用它。"
+
+#: admin/clearfy-admin.php:1824
+msgid ""
+"On this page you can see a log of the most recent requests for which a 404 "
+"error was returned."
+msgstr "在此页面上，您可以看到返回 404 错误的最新请求的日志。"
+
+#: admin/clearfy-admin.php:1825
+msgid ""
+"This information will help you properly configure redirects from articles in "
+"which you have changed the address, to find pictures, styles and scripts "
+"that do not open on the site, to monitor the security of the site, time to "
+"see the problem areas."
+msgstr ""
+"此信息将帮助您正确配置来自您已更改地址的文章的重定向，以查找未在站点上打开的"
+"图片、样式和脚本，监控站点的安全性，及时查看问题区域。"
+
+#: admin/clearfy-admin.php:1826
+msgid "At most, the most recent "
+msgstr "最多最近的 "
+
+#: admin/clearfy-admin.php:1826 admin/clearfy-admin.php:1913
+msgid " entries."
+msgstr " 条目。"
+
+#: admin/clearfy-admin.php:1828
+msgid "Clear log"
+msgstr "清除日志"
+
+#: admin/clearfy-admin.php:1878
+msgid "Include IndexNow"
+msgstr "包括IndexNow"
+
+#: admin/clearfy-admin.php:1883
+msgid "Automatically notify search engines of changes to the site."
+msgstr "自动通知搜索引擎网站的更改。"
+
+#: admin/clearfy-admin.php:1889
+msgid "IndexNow key"
+msgstr "IndexNow密钥"
+
+#: admin/clearfy-admin.php:1895
+msgid ""
+"It is generated automatically, you can change it to your own. The key can "
+"contain the characters a-z, A-Z , 0-9, -."
+msgstr ""
+"它是自动生成的，您可以将其更改为您自己的。密钥可以包含字符 a-z、A-Z、0-9、-。"
+
+#: admin/clearfy-admin.php:1896
+msgid "Length from 8 to 128 characters."
+msgstr "长度为 8 到 128 个字符。"
+
+#: admin/clearfy-admin.php:1897
+msgid "You can delete it to generate a new one automatically."
+msgstr "您可以删除它以自动生成一个新的。"
+
+#: admin/clearfy-admin.php:1904
+msgid "Dispatch History"
+msgstr "调度历史"
+
+#: admin/clearfy-admin.php:1909
+msgid "Help:"
+msgstr "帮助："
+
+#: admin/clearfy-admin.php:1910
+msgid "What does code 202 mean"
+msgstr "代码202是什么意思"
+
+#: admin/clearfy-admin.php:1911
+msgid "which means "
+msgstr "这意味着 "
+
+#: admin/clearfy-admin.php:1913
+msgid "The table shows the last "
+msgstr "该表显示了最后 "
+
+#: admin/clearfy-admin.php:1984
+msgid "Plugin version"
+msgstr "插件版本"
+
+#: admin/clearfy-admin.php:2013
+msgid "Help"
+msgstr "帮助"
+
+#: clearfy-pro.php:162
+msgid ""
+"This website uses cookies to improve user experience. By continuing to use "
+"the site, you consent to the use of cookies."
+msgstr ""
+"本网站使用 cookie 来改善用户体验。继续使用本网站，即表示您同意使用 cookie。"
+
+#: inc/class-disable-comments.php:133 inc/class-disable-comments.php:152
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: inc/class-disable-rest-api.php:77
+msgid "Access denied by Clearfy Pro."
+msgstr "Clearfy Pro 拒绝访问。"
+
+#: inc/class-hide-admin.php:173
+msgid "Sorry, this is private territory."
+msgstr "对不起，这是私人领地。"
+
+#: inc/class-local-avatars.php:65
+msgid "Choose local avatar"
+msgstr "选择本地头像"
+
+#: inc/class-local-avatars.php:72
+msgid "Remove local avatar"
+msgstr "删除本地头像"
+
+#: inc/class-login-attempts.php:112 inc/class-login-attempts.php:279
+msgid "<strong>ERROR</strong>: Access denied."
+msgstr "<strong>错误</strong>：访问被拒绝。"
+
+#: inc/class-login-attempts.php:155 inc/class-login-attempts.php:214
+#, php-format
+msgid "Attempts remaining: <strong>%d</strong>"
+msgstr "剩余尝试次数：<strong>%d</strong>"
+
+#: inc/class-login-attempts.php:293
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>错误</strong>：登录尝试失败次数过多。"
+
+#: inc/class-login-attempts.php:297
+msgid "Please try again later."
+msgstr "请稍候重试。"
+
+#: inc/class-login-attempts.php:306
+#, php-format
+msgid "Please try again after %dh."
+msgstr "请在%d小时后重试。"
+
+#: inc/class-login-attempts.php:308
+#, php-format
+msgid "Please try again after %dm."
+msgstr "请在 %d分钟后重试。"
+
+#: inc/class-settings-migrate.php:42
+msgid "Import successfully done"
+msgstr "导入成功"
+
+#. Plugin Name of the plugin/theme
+msgid "Clearfy Pro"
+msgstr "Clearfy Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpshop.ru/plugins/clearfy"
+msgstr "https://wpshop.ru/plugins/clearfy"
+
+#. Author of the plugin/theme
+msgid "WPShop.ru"
+msgstr "WPShop.ru"
+
+#. Author URI of the plugin/theme
+msgid "https://wpshop.ru/"
+msgstr "https://wpshop.ru/"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Commands:"
+#~ msgstr "评论"
+
+#, fuzzy
+#~| msgid "For example:"
+#~ msgid "Examples:"
+#~ msgstr "示例："
+
+#~ msgid "There is no changelog available."
+#~ msgstr "暂无可用的更改日志。"
+
+#~ msgid "Check for updates"
+#~ msgstr "检查更新"
+
+#~ msgid "This plugin is up to date."
+#~ msgstr "此插件是最新的。"
+
+#~ msgid "A new version of this plugin is available."
+#~ msgstr "此插件的新版本可用。"
+
+#, php-format
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "未知的更新检查器状态“%s”"

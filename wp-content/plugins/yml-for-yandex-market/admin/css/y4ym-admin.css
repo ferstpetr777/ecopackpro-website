@@ -1,0 +1,120 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ */
+.y4ym_bold {
+    font-weight: 700;
+}
+
+#y4ym_wrap .y4ym-postbox a,
+#y4ym_wrap .y4ym-postbox a:visited {
+    color: #ff5301;
+    text-decoration: underline
+}
+
+#y4ym_wrap .y4ym-postbox a:hover {
+    color: #cd4200;
+    text-decoration: none
+}
+
+#y4ym_wrap th,
+#y4ym_wrap td {
+    vertical-align: top;
+    padding: 20px 10px 20px 10px;
+}
+
+.y4ym_label {
+    padding: 26px 10px 8px 0 !important;
+    display: inline-block;
+    color: #23282d;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+
+}
+
+/* Нечетные строки */
+#y4ym_wrap table tbody tr:nth-child(odd) {
+    background: auto;
+}
+
+/* Четные строки */
+#y4ym_wrap table tbody tr:nth-child(even) {
+    background: rgba(220, 220, 222, .3);
+}
+
+.y4ym_th label {
+    color: #23282d;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.y4ym_th p,
+.y4ym_td p {
+    font-weight: 600;
+    margin: 2px 0 5px;
+    color: #646970;
+}
+
+.y4ym_select {
+    width: 100%;
+    align-items: center;
+    background: #fdfdff;
+    border: 1px solid #c2c2c5 !important;
+    border-radius: 4px;
+    height: 36px;
+    position: relative;
+    font-size: 25px;
+}
+
+.y4ym_input {
+    width: 100%;
+    align-items: center;
+    background: #fdfdff;
+    border: 1px solid #c2c2c5;
+    border-radius: 4px;
+    height: 36px;
+    position: relative;
+    padding: 0 8px;
+}
+
+.y4ym_textarea {
+    width: 100%;
+    align-items: center;
+    background: #fdfdff;
+    border: 1px solid #c2c2c5;
+    border-radius: 4px;
+    min-height: 72px;
+    position: relative;
+    padding: 5px 8px;
+}
+
+.y4ym_input::placeholder,
+.y4ym_textarea::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+#y4ym_wrap .meta-box-sortables input[type="number"] {
+    width: 100% !important;
+}
+
+#y4ym_wrap .woocommerce table.form-table input[type="text"],
+#y4ym_wrap .woocommerce table.form-table input[type="number"] {
+    max-width: 100% !important;
+}
+
+.y4ym_notice {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.y4ym_uppercase {
+    text-transform: uppercase;
+}
+
+input.pw {
+    -webkit-text-security: disc;
+}
