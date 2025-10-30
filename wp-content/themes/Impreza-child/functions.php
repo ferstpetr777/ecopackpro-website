@@ -12,37 +12,58 @@ function impreza_child_enqueue_styles() {
 }
 
 /**
- * ИСПРАВЛЕНИЕ: Добавляем .w-cart-quantity в WooCommerce cart fragments
- * БЕЗ ЭТОГО badge НЕ ОБНОВЛЯЕТСЯ!
+ * ИСПРАВЛЕНИЕ: Обновление badge на странице корзины
+ * Использует ТОЛЬКО стандартные события WooCommerce: updated_cart_totals
+ * Подсчитывает количество товаров из таблицы корзины на странице
  */
-add_filter( 'woocommerce_add_to_cart_fragments', 'impreza_child_add_cart_quantity_fragment' );
-function impreza_child_add_cart_quantity_fragment( $fragments ) {
-    if ( class_exists( 'WooCommerce' ) && WC()->cart ) {
-        $cart_count = WC()->cart->get_cart_contents_count();
-        $fragments['.w-cart-quantity'] = '<span class="w-cart-quantity">' . esc_html( $cart_count ) . '</span>';
-    }
-    return $fragments;
+add_action( 'wp_footer', 'impreza_child_update_cart_badge_on_cart_page' );
+function impreza_child_update_cart_badge_on_cart_page() {
+	if ( ! is_cart() ) {
+		return;
+	}
+	?>
+	<script>
+	jQuery(document).ready(function($) {
+		// Функция обновления badge из таблицы корзины
+		function updateCartBadgeFromTable() {
+			var total = 0;
+			
+			// Считаем количество товаров из таблицы корзины
+			$('.woocommerce-cart-form__cart-item').each(function() {
+				var qty = $(this).find('.quantity input.qty').val();
+				if (qty) {
+					total += parseInt(qty) || 0;
+				}
+			});
+			
+			// Обновляем badge в нижнем меню (мобильная версия)
+			$('.l-subheader.at_bottom .w-cart-quantity').text(total);
+			$('.l-subheader.at_bottom .w-cart').toggleClass('empty', total === 0);
+			
+			// Обновляем badge в хедере (desktop версия)
+			$('.l-header .w-cart-quantity').text(total);
+			$('.l-header .w-cart').toggleClass('empty', total === 0);
+			
+			console.log('Cart badge updated from table:', total);
+		}
+		
+		// Обновляем ПОСЛЕ того как WooCommerce cart-fragments отработает
+		$(document.body).on('wc_fragments_loaded wc_fragments_refreshed', function() {
+			setTimeout(updateCartBadgeFromTable, 100);
+		});
+		
+		// Обновляем сразу при загрузке (с задержкой, чтобы cart-fragments успел отработать)
+		setTimeout(updateCartBadgeFromTable, 500);
+		
+		// Обновляем при стандартном событии WooCommerce
+		$(document.body).on('updated_cart_totals updated_wc_div', updateCartBadgeFromTable);
+		
+		// Обновляем при изменении количества
+		$(document).on('change', '.quantity input.qty', function() {
+			setTimeout(updateCartBadgeFromTable, 100);
+		});
+	});
+	</script>
+	<?php
 }
-
-/**
- * ОТКЛЮЧЕНО: Подключение Mobile WebView Cart Bridge
- * Используется только стандартный WooCommerce механизм!
- */
-// add_action( 'wp_enqueue_scripts', 'ecopackpro_enqueue_mobile_cart_bridge', 999 );
-function ecopackpro_enqueue_mobile_cart_bridge() {
-    // ОТКЛЮЧЕНО - возвращаемся к стандартному WooCommerce
-    /*
-    if ( class_exists( 'WooCommerce' ) ) {
-        wp_enqueue_script(
-            'ecopackpro-mobile-cart-bridge',
-            get_stylesheet_directory_uri() . '/mobile-webview-cart-bridge.js',
-            array( 'jquery' ),
-            '1.0.0',
-            true
-        );
-    }
-    */
-}
-
-// УДАЛЕНО: Весь мой код для WebView - используем ТОЛЬКО стандартный WooCommerce!
 

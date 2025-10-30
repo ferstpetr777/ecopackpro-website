@@ -318,6 +318,26 @@ function us_add_to_cart_fragments( $fragments ) {
 
 	$fragments['a.cart-contents'] = '<a class="cart-contents" href="' . esc_url( wc_get_cart_url() ) . '">' . $woocommerce->cart->get_cart_total() . '</a>';
 
+	// ИСПРАВЛЕНИЕ: Добавляем .w-cart-quantity с inline style для правильного отображения
+	$cart_count = WC()->cart->get_cart_contents_count();
+	
+	// Получаем настройки цветов из header (те же переменные что и в cart.php шаблоне)
+	$quantity_color_bg = '_header_middle_text_hover';
+	$quantity_color_text = '_header_middle_bg';
+	
+	// Генерируем inline CSS через стандартные функции темы
+	$quantity_inline_css = '';
+	if ( function_exists( 'us_prepare_inline_css' ) AND function_exists( 'us_get_color' ) ) {
+		$quantity_inline_css = us_prepare_inline_css(
+			array(
+				'background' => us_get_color( $quantity_color_bg, /* Gradient */ TRUE ),
+				'color' => us_get_color( $quantity_color_text ),
+			)
+		);
+	}
+	
+	$fragments['.w-cart-quantity'] = '<span class="w-cart-quantity"' . $quantity_inline_css . '>' . esc_html( $cart_count ) . '</span>';
+
 	return $fragments;
 }
 

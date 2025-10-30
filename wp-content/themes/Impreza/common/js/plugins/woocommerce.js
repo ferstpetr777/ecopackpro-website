@@ -231,12 +231,12 @@
 						total += quantity;
 					} );
 					
-					// Принудительно обновляем индикатор
-					$cartQuantity.html( total > 0 ? total : '0' );
-					$cart[ total > 0 ? 'removeClass' : 'addClass' ]( 'empty' );
-					
-					// Дополнительная проверка: обновляем все индикаторы корзины на странице
-					$( '.w-cart-quantity' ).html( total > 0 ? total : '0' );
+				// Принудительно обновляем индикатор
+				$cartQuantity.text( total > 0 ? total : '0' );
+				$cart[ total > 0 ? 'removeClass' : 'addClass' ]( 'empty' );
+				
+				// Дополнительная проверка: обновляем все индикаторы корзины на странице
+				$( '.w-cart-quantity' ).text( total > 0 ? total : '0' );
 					$( '.w-cart' ).each( function() {
 						let $cartEl = $( this );
 						$cartEl[ total > 0 ? 'removeClass' : 'addClass' ]( 'empty' );

@@ -35,8 +35,10 @@ $quantity_inline_css = us_prepare_inline_css(
 	)
 );
 
-// Set quantity for AMP pages because JS isn't supported
-$quantity = ( us_amp() AND class_exists( 'WC_Cart' ) ) ? WC()->cart->get_cart_contents_count() : '';
+// Set quantity from WooCommerce cart
+// For non-AMP pages it will be updated via cart-fragments.js on most pages
+// But on cart page itself cart-fragments.js is NOT active, so we need correct server-side rendering
+$quantity = ( class_exists( 'WC_Cart' ) AND WC()->cart ) ? WC()->cart->get_cart_contents_count() : '';
 
 if ( ! $quantity ) {
 	$_atts['class'] .= ' empty';
