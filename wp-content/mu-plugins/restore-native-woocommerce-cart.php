@@ -154,41 +154,56 @@ function ecopackpro_add_proper_cart_update_script() {
     (function() {
         'use strict';
         
-        console.log('[EcopackPro Native Cart] Initializing proper cart update mechanism');
-        
-        // Слушаем ТОЛЬКО нативные события WooCommerce
-        jQuery(document.body).on('wc_fragments_refreshed', function(e, fragments) {
-            console.log('[EcopackPro Native Cart] Fragments refreshed:', fragments);
-            
-            // Обновляем все .w-cart-quantity элементы из fragments
-            if (fragments && fragments['.w-cart-quantity']) {
-                jQuery('.w-cart-quantity').each(function() {
-                    var $this = jQuery(this);
-                    var count = parseInt(jQuery(fragments['.w-cart-quantity']).text()) || 0;
-                    $this.text(count);
-                    
-                    // Обновляем класс empty
-                    $this.closest('.w-cart').toggleClass('empty', count === 0);
+        function setHeaderCartCount(count) {
+            jQuery('.w-cart-quantity').each(function() {
+                var $this = jQuery(this);
+                $this.text(count);
+                $this.closest('.w-cart').toggleClass('empty', count === 0);
+                if (count > 0) {
+                    $this.css('display', 'inline-block');
+                }
+            });
+        }
+
+        function computeCountFromMiniCart() {
+            var total = 0;
+            var $content = jQuery('div.widget_shopping_cart_content');
+            if ($content.length) {
+                $content.find('.woocommerce-mini-cart-item .quantity').each(function() {
+                    var qty = parseInt(String(jQuery(this).text()).replace(/[^\d]/g, '')) || 0;
+                    total += qty;
                 });
-                
-                console.log('[EcopackPro Native Cart] Cart indicators updated from fragments');
             }
-        });
-        
-        // Слушаем добавление в корзину
-        jQuery(document.body).on('added_to_cart', function(e, fragments, cart_hash, $button) {
-            console.log('[EcopackPro Native Cart] Product added, fragments:', fragments);
-            
-            // WooCommerce уже обновил fragments, просто логируем
+            return total;
+        }
+
+        // Слушаем нативные события WooCommerce
+        jQuery(document.body).on('wc_fragments_refreshed', function(e, fragments) {
             if (fragments && fragments['.w-cart-quantity']) {
                 var count = parseInt(jQuery(fragments['.w-cart-quantity']).text()) || 0;
-                console.log('[EcopackPro Native Cart] New cart count:', count);
+                setHeaderCartCount(count);
+            } else {
+                // Фолбэк: пробуем посчитать из мини-корзины
+                setHeaderCartCount(computeCountFromMiniCart());
             }
         });
-        
-        // НЕ используем setInterval! Полагаемся только на события WooCommerce
-        console.log('[EcopackPro Native Cart] Ready. Using native WooCommerce events only.');
-        
+
+        jQuery(document.body).on('added_to_cart removed_from_cart updated_cart_totals', function() {
+            // Обновляем фрагменты
+            jQuery(document.body).trigger('wc_fragment_refresh');
+        });
+
+        // Форсируем начальную синхронизацию на загрузке страницы
+        jQuery(function() {
+            jQuery(document.body).trigger('wc_fragment_refresh');
+            // А также один фолбэк через 600мс, если фрагменты не пришли
+            setTimeout(function() {
+                var text = jQuery('.w-cart-quantity').first().text().trim();
+                if (!text || text === '0') {
+                    setHeaderCartCount(computeCountFromMiniCart());
+                }
+            }, 600);
+        });
     })();
     </script>
     <?php

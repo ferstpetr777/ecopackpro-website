@@ -42,6 +42,15 @@ function ecopackpro_enqueue_mobile_cart_bridge() {
         true
     );
     
+    // Подключаем группировщик навигации
+    wp_enqueue_script(
+        'ecopackpro-mobile-nav-grouper',
+        content_url('mu-plugins/mobile-nav-grouper.js'),
+        array(),
+        '1.0.0',
+        true
+    );
+    
     // Подключаем КОМПЛЕКСНЫЙ CSS для всех исправлений
     wp_enqueue_style(
         'ecopackpro-fix-all-cart-issues',

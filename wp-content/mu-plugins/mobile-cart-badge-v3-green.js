@@ -103,19 +103,32 @@
             this.badge = this.cartLink.querySelector('.mobile-cart-badge');
             
             if (!this.badge) {
+                // Ищем ИКОНКУ внутри ссылки корзины
+                var iconElement = this.cartLink.querySelector('i, svg, .icon, [class*="icon"]');
+                
+                // Если не нашли, ищем первый child (обычно иконка)
+                if (!iconElement && this.cartLink.children.length > 0) {
+                    iconElement = this.cartLink.children[0];
+                }
+                
+                // Если всё ещё нет, используем саму ссылку
+                if (!iconElement) {
+                    iconElement = this.cartLink;
+                }
+                
                 this.badge = document.createElement('span');
                 this.badge.className = 'mobile-cart-badge empty';
                 this.badge.textContent = '0';
                 this.badge.setAttribute('data-source', 'v3-green');
                 
-                // Устанавливаем position на родителе
-                this.cartLink.style.position = 'relative';
-                this.cartLink.style.display = 'inline-block';
+                // Устанавливаем position на ИКОНКЕ (не на всей ссылке!)
+                iconElement.style.position = 'relative';
+                iconElement.style.display = 'inline-block';
                 
-                // Добавляем badge
-                this.cartLink.appendChild(this.badge);
+                // Добавляем badge к ИКОНКЕ
+                iconElement.appendChild(this.badge);
                 
-                console.log('[v3] ✓ Badge created (GREEN)');
+                console.log('[v3] ✓ Badge added to ICON element (not text!)');
             } else {
                 console.log('[v3] Badge already exists, reusing');
             }
