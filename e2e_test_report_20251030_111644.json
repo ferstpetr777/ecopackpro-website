@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-30T11:16:44.011887",
+  "duration_seconds": 13.754831314086914,
+  "total_tests": 6,
+  "passed": 6,
+  "failed": 0,
+  "warned": 0,
+  "results": [
+    {
+      "test": "MU Plugin Loaded",
+      "status": "PASS",
+      "message": "mu-plugin загружен и синтаксис корректен"
+    },
+    {
+      "test": "Translations Loading",
+      "status": "PASS",
+      "message": "Нет ошибок ранней загрузки переводов"
+    },
+    {
+      "test": "WooCommerce Cart Loading",
+      "status": "PASS",
+      "message": "Корзина WooCommerce работает без предупреждений"
+    },
+    {
+      "test": "Site Accessibility",
+      "status": "PASS",
+      "message": "Сайт доступен (HTTP 200)"
+    },
+    {
+      "test": "Debug Log Size",
+      "status": "PASS",
+      "message": "Размер debug.log: 0.43 KB (норма)"
+    },
+    {
+      "test": "Fix Status Helper",
+      "status": "PASS",
+      "message": "Хелпер статуса работает корректно"
+    }
+  ]
+}
