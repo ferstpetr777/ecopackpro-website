@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-30T12:00:24.446205",
+  "duration_seconds": 12.532127380371094,
+  "total_tests": 7,
+  "passed": 2,
+  "failed": 4,
+  "warned": 1,
+  "results": [
+    {
+      "test": "functions.php valid",
+      "status": "PASS",
+      "message": "functions.php существует и синтаксически корректен"
+    },
+    {
+      "test": "Bridge script valid",
+      "status": "PASS",
+      "message": "Bridge скрипт существует (13.60 KB)"
+    },
+    {
+      "test": "API cart/count status",
+      "status": "FAIL",
+      "message": "HTTP 404"
+    },
+    {
+      "test": "API cart/details status",
+      "status": "FAIL",
+      "message": "HTTP 404"
+    },
+    {
+      "test": "Bridge script loaded",
+      "status": "FAIL",
+      "message": "Скрипт bridge не найден в HTML"
+    },
+    {
+      "test": "Data attributes",
+      "status": "FAIL",
+      "message": "data-атрибуты не найдены"
+    },
+    {
+      "test": "CORS headers",
+      "status": "WARN",
+      "message": "CORS headers не найдены (могут не требоваться)"
+    }
+  ]
+}

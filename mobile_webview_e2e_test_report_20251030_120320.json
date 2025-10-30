@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-30T12:03:20.366342",
+  "duration_seconds": 11.490247964859009,
+  "total_tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "warned": 0,
+  "results": [
+    {
+      "test": "functions.php valid",
+      "status": "PASS",
+      "message": "functions.php существует и синтаксически корректен"
+    },
+    {
+      "test": "Bridge script valid",
+      "status": "PASS",
+      "message": "Bridge скрипт существует (13.60 KB)"
+    },
+    {
+      "test": "API cart/count",
+      "status": "PASS",
+      "message": "API работает, количество: 0"
+    },
+    {
+      "test": "API cart/details",
+      "status": "PASS",
+      "message": "API работает, товаров: 0, items: 0"
+    },
+    {
+      "test": "Bridge script loaded",
+      "status": "PASS",
+      "message": "Скрипт bridge подключен на странице"
+    },
+    {
+      "test": "Data attributes",
+      "status": "PASS",
+      "message": "data-cart-count и initialCartCount найдены"
+    },
+    {
+      "test": "CORS headers",
+      "status": "PASS",
+      "message": "CORS headers установлены"
+    }
+  ]
+}

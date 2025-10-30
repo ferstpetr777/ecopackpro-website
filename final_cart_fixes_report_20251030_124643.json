@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-30T12:46:43.847960",
+  "duration_seconds": 6.976452827453613,
+  "total_tests": 5,
+  "passed": 5,
+  "failed": 0,
+  "warned": 0,
+  "results": [
+    {
+      "test": "CSS files loaded",
+      "status": "PASS",
+      "message": "Все CSS исправления загружены"
+    },
+    {
+      "test": "JS fixed version loaded",
+      "status": "PASS",
+      "message": "Исправленный JS загружен (v2.0)"
+    },
+    {
+      "test": "No wishlist duplication",
+      "status": "PASS",
+      "message": "CSS правило для предотвращения дублирования найдено"
+    },
+    {
+      "test": "Dropdown positioning",
+      "status": "PASS",
+      "message": "Dropdown позиционирован правильно"
+    },
+    {
+      "test": "Mobile badge script",
+      "status": "PASS",
+      "message": "Mobile badge скрипт корректен"
+    }
+  ]
+}

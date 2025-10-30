@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-30T12:22:52.098893",
+  "duration_seconds": 10.569331645965576,
+  "total_tests": 6,
+  "passed": 6,
+  "failed": 0,
+  "warned": 0,
+  "results": [
+    {
+      "test": "Problematic scripts disabled",
+      "status": "PASS",
+      "message": "Проблемные скрипты отключены"
+    },
+    {
+      "test": "Native cart plugin loaded",
+      "status": "PASS",
+      "message": "mu-plugin загружен и синтаксис корректен"
+    },
+    {
+      "test": "AJAX add-to-cart enabled",
+      "status": "PASS",
+      "message": "AJAX add-to-cart включен в WooCommerce"
+    },
+    {
+      "test": "Cart fragments loaded",
+      "status": "PASS",
+      "message": "Cart fragments механизм активен"
+    },
+    {
+      "test": "Native script loaded",
+      "status": "PASS",
+      "message": "Нативный скрипт присутствует на странице"
+    },
+    {
+      "test": "WooCommerce session",
+      "status": "PASS",
+      "message": "Сессии работают (1 cookies)"
+    }
+  ]
+}

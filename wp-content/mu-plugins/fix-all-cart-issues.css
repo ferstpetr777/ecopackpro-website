@@ -1,0 +1,296 @@
+/**
+ * Комплексное исправление всех проблем корзины и навигации
+ * Дата: 2025-10-30
+ */
+
+/* ================================================
+   1. ИСПРАВЛЕНИЕ ПОЗИЦИОНИРОВАНИЯ КОРЗИНЫ
+   ================================================ */
+
+/* Корзина в header - правильное позиционирование */
+.w-cart {
+    position: relative !important;
+}
+
+/* Header badge (десктоп) - КРАСНЫЙ */
+.w-cart .w-cart-quantity {
+    position: absolute !important;
+    top: -8px !important;
+    right: -8px !important;
+    background: #ff4444 !important;
+    color: #ffffff !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    padding: 2px 6px !important;
+    border-radius: 50% !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    z-index: 999 !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+}
+
+/* НО в mobile footer - скрываем header badge */
+@media (max-width: 1024px) {
+    .l-subheader.at_bottom .w-cart-quantity {
+        display: none !important;
+    }
+}
+
+.w-cart.empty .w-cart-quantity {
+    display: none !important;
+}
+
+/* ================================================
+   2. ИСПРАВЛЕНИЕ DROPDOWN КОРЗИНЫ (модальное окно)
+   ================================================ */
+
+/* Dropdown не должен выходить за пределы экрана */
+.w-cart-dropdown {
+    position: absolute !important;
+    top: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    max-width: 350px !important;
+    min-width: 300px !important;
+    margin-top: 10px !important;
+    background: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15) !important;
+    z-index: 9999 !important;
+    max-height: 80vh !important;
+    overflow-y: auto !important;
+}
+
+/* Для мобильных - центрируем dropdown */
+@media (max-width: 768px) {
+    .w-cart-dropdown {
+        position: fixed !important;
+        top: auto !important;
+        bottom: 70px !important;  /* Над нижней навигацией */
+        left: 10px !important;
+        right: 10px !important;
+        max-width: none !important;
+        min-width: auto !important;
+    }
+}
+
+/* Убираем смещение при headerinpos_bottom */
+.headerinpos_bottom .w-cart-dropdown {
+    bottom: auto !important;
+    top: 100% !important;
+}
+
+/* ================================================
+   3. УБИРАЕМ ДУБЛИРОВАНИЕ НА WISHLIST (ИЗБРАННОЕ)
+   ================================================ */
+
+/* mobile-cart-badge должен быть ТОЛЬКО на корзине! */
+.wishlist_products_counter .mobile-cart-badge,
+.tinvwl-button .mobile-cart-badge,
+a[href*="wishlist"] .mobile-cart-badge {
+    display: none !important;  /* Скрываем badge на wishlist */
+}
+
+/* Убеждаемся что wishlist счетчик НЕ конфликтует */
+.wishlist_products_counter_number {
+    background: #00796B !important;  /* Зеленый для wishlist */
+    color: #ffffff !important;
+    font-size: 10px !important;
+    padding: 1px 6px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    right: -10px !important;
+    top: -8px !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    z-index: 998 !important;
+}
+
+/* ================================================
+   4. MOBILE FOOTER NAVIGATION BADGE
+   ================================================ */
+
+/* Badge для мобильной нижней навигации */
+@media (max-width: 1024px) {
+    /* Контейнер для корзины в нижней навигации */
+    .ush_vwrapper_5,
+    .ush_text_8,
+    .l-subheader.at_bottom a[href*="/cart"],
+    .l-subheader.at_bottom .w-text.ush_text_8 {
+        position: relative !important;
+        display: inline-block !important;
+        vertical-align: middle !important;  /* Выравнивание по линии */
+    }
+    
+    /* УБИРАЕМ КРАСНЫЙ HEADER BADGE В MOBILE FOOTER */
+    .l-subheader.at_bottom .w-cart-quantity,
+    .l-subheader.at_bottom .ush_vwrapper_5 .w-cart-quantity,
+    .ush_vwrapper_5 .w-cart-quantity,
+    .ush_text_8 .w-cart-quantity {
+        display: none !important;  /* Скрываем КРАСНЫЙ badge от WooCommerce */
+    }
+    
+    /* mobile-cart-badge ТОЛЬКО на элементе корзины - ЗЕЛЁНЫЙ КАК У ИЗБРАННОГО */
+    .ush_vwrapper_5 .mobile-cart-badge,
+    .ush_text_8 .mobile-cart-badge,
+    .l-subheader.at_bottom a[href*="/cart"] .mobile-cart-badge,
+    .l-subheader.at_bottom .w-text.ush_text_8 .mobile-cart-badge {
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+        background: #00796B !important;  /* ЗЕЛЁНЫЙ как у избранного */
+        color: #ffffff !important;
+        font-size: 10px !important;
+        font-weight: bold !important;
+        padding: 2px 5px !important;
+        border-radius: 50% !important;
+        min-width: 18px !important;
+        height: 18px !important;
+        line-height: 14px !important;
+        text-align: center !important;
+        z-index: 999 !important;
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        box-shadow: 0 1px 3px rgba(0,121,107,0.4) !important;  /* Зелёная тень */
+        transform: translate(50%, -50%) !important;  /* Позиционируем в углу */
+    }
+    
+    .mobile-cart-badge.empty {
+        display: none !important;
+    }
+    
+    /* Анимация появления */
+    .mobile-cart-badge.has-items {
+        animation: mobile-badge-appear 0.3s ease-out;
+    }
+    
+    @keyframes mobile-badge-appear {
+        0% { transform: scale(0); opacity: 0; }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); opacity: 1; }
+    }
+}
+
+/* ================================================
+   5. ИСПРАВЛЕНИЕ СТИЛЕЙ WIDGET КОРЗИНЫ
+   ================================================ */
+
+/* Widget корзины должен быть в стиле сайта */
+.w-cart-dropdown .widget_shopping_cart {
+    padding: 20px !important;
+}
+
+.w-cart-dropdown .widget_shopping_cart_content {
+    max-height: 400px !important;
+    overflow-y: auto !important;
+}
+
+.w-cart-dropdown .mini_cart_item {
+    border-bottom: 1px solid #e1e5e8 !important;
+    padding: 15px 0 !important;
+}
+
+.w-cart-dropdown .woocommerce-mini-cart__total {
+    border-top: 2px solid #00796B !important;
+    padding-top: 15px !important;
+    margin-top: 15px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.w-cart-dropdown .button.checkout {
+    width: 100% !important;
+    margin-top: 10px !important;
+    background: #00796B !important;
+    border-radius: 8px !important;
+}
+
+/* ================================================
+   6. ФИКСАЦИЯ НИЖНЕЙ НАВИГАЦИИ НА МОБИЛЬНЫХ
+   ================================================ */
+
+@media (max-width: 1024px) {
+    /* Нижняя навигация должна быть зафиксирована */
+    .l-subheader.at_bottom {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 999 !important;
+        background: #ffffff !important;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.1) !important;
+        display: flex !important;
+        align-items: center !important;  /* Выравнивание всех элементов по центру */
+        justify-content: space-around !important;
+    }
+    
+    /* ВСЕ элементы нижней навигации на одной линии */
+    .l-subheader.at_bottom .w-text,
+    .l-subheader.at_bottom .ush_vwrapper,
+    .l-subheader.at_bottom a {
+        vertical-align: middle !important;
+        align-self: center !important;
+    }
+    
+    /* Добавляем отступ для контента чтобы не перекрывался */
+    body.woocommerce-page .l-main,
+    body.single-product .l-main {
+        padding-bottom: 70px !important;
+    }
+}
+
+/* ================================================
+   7. УБИРАЕМ КОНФЛИКТЫ С ДРУГИМИ BADGE
+   ================================================ */
+
+/* Только ОДИН badge на иконку */
+.w-cart-link {
+    position: relative !important;
+}
+
+/* Счетчик корзины должен быть ВЫШЕ всего */
+.w-cart-quantity {
+    z-index: 1000 !important;
+}
+
+/* Wishlist счетчик ниже */
+.wishlist_products_counter_number {
+    z-index: 998 !important;
+}
+
+/* mobile-cart-badge только для корзины */
+.mobile-cart-badge {
+    pointer-events: none !important;  /* Не мешает кликам */
+}
+
+/* ================================================
+   8. АДАПТИВНОСТЬ ДЛЯ РАЗНЫХ ЭКРАНОВ
+   ================================================ */
+
+@media (max-width: 600px) {
+    .w-cart-quantity,
+    .mobile-cart-badge {
+        font-size: 10px !important;
+        padding: 2px 5px !important;
+        min-width: 16px !important;
+        height: 16px !important;
+        line-height: 12px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .w-cart-quantity,
+    .mobile-cart-badge {
+        top: -6px !important;
+        right: -6px !important;
+    }
+}
+

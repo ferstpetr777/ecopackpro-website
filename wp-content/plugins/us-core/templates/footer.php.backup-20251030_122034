@@ -131,9 +131,42 @@ if ( ! us_amp() ) {
 	echo apply_filters( 'us_global_theme_options_js', ob_get_clean() );
 }
 ?>
-	<!-- === NATIVE WOOCOMMERCE CART MECHANISM (restored) === -->
-	<!-- Проблемный скрипт УДАЛЕН. Теперь используется нативный WooCommerce cart fragments -->
-	<!-- См. /wp-content/mu-plugins/restore-native-woocommerce-cart.php -->
+	<!-- === ДОПОЛНИТЕЛЬНОЕ ИСПРАВЛЕНИЕ СЧЕТЧИКА КОРЗИНЫ В FOOTER === -->
+	<script>
+	// Дополнительная проверка для мобильных приложений
+	(function() {
+		console.log('=== ДОПОЛНИТЕЛЬНАЯ ПРОВЕРКА СЧЕТЧИКА КОРЗИНЫ ===');
+		
+		// Проверяем, что основной скрипт работает
+		setTimeout(function() {
+			var cartQuantity = document.querySelectorAll('.w-cart-quantity');
+			if (cartQuantity.length > 0) {
+				console.log('Элементы счетчика корзины найдены:', cartQuantity.length);
+			} else {
+				console.log('Элементы счетчика корзины НЕ найдены!');
+			}
+		}, 1000);
+		
+		// Дополнительное обновление каждые 5 секунд
+		setInterval(function() {
+			var total = 0;
+			var qtyInputs = document.querySelectorAll('.quantity input.qty');
+			
+			for (var i = 0; i < qtyInputs.length; i++) {
+				var value = parseInt(qtyInputs[i].value) || 0;
+				total += value;
+			}
+			
+			var cartQuantity = document.querySelectorAll('.w-cart-quantity');
+			for (var j = 0; j < cartQuantity.length; j++) {
+				cartQuantity[j].innerHTML = total > 0 ? total : '0';
+			}
+			
+			console.log('Дополнительное обновление счетчика:', total);
+		}, 5000);
+		
+	})();
+	</script>
 <?php
 wp_footer();
 ?>

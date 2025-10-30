@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-30T12:13:00.113600",
+  "duration_seconds": 13.269976139068604,
+  "total_tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "warned": 0,
+  "results": [
+    {
+      "test": "All files exist",
+      "status": "PASS",
+      "message": "Все необходимые файлы найдены"
+    },
+    {
+      "test": "Scripts loaded on page",
+      "status": "PASS",
+      "message": "Все скрипты и стили подключены"
+    },
+    {
+      "test": "Mobile footer structure",
+      "status": "PASS",
+      "message": "Структура мобильной навигации найдена"
+    },
+    {
+      "test": "API endpoints",
+      "status": "PASS",
+      "message": "Оба API endpoint работают"
+    },
+    {
+      "test": "CSS loaded",
+      "status": "PASS",
+      "message": "CSS загружается и содержит нужные стили"
+    },
+    {
+      "test": "JavaScript syntax",
+      "status": "PASS",
+      "message": "Синтаксис всех JS файлов корректен"
+    },
+    {
+      "test": "WordPress integration",
+      "status": "PASS",
+      "message": "Функции зарегистрированы (3/3)"
+    }
+  ]
+}
