@@ -29,34 +29,8 @@ function ecopackpro_enqueue_mobile_cart_bridge() {
         'ecopackpro-mobile-cart-bridge',
         $script_url,
         array('jquery'),
-        '1.0.1',
+        '1.0.2',
         true
-    );
-    
-    // Подключаем v3.0 - ЗЕЛЁНЫЙ badge с правильной синхронизацией
-    wp_enqueue_script(
-        'ecopackpro-mobile-cart-badge-v3',
-        content_url('mu-plugins/mobile-cart-badge-v3-green.js'),
-        array('jquery'),
-        '3.0.0',
-        true
-    );
-    
-    // Подключаем группировщик навигации
-    wp_enqueue_script(
-        'ecopackpro-mobile-nav-grouper',
-        content_url('mu-plugins/mobile-nav-grouper.js'),
-        array(),
-        '1.0.0',
-        true
-    );
-    
-    // Подключаем КОМПЛЕКСНЫЙ CSS для всех исправлений
-    wp_enqueue_style(
-        'ecopackpro-fix-all-cart-issues',
-        content_url('mu-plugins/fix-all-cart-issues.css'),
-        array(),
-        '1.0.0'
     );
 }
 
