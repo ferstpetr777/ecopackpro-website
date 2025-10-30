@@ -1,0 +1,50 @@
+/**
+ * WebView App Badge CSS
+ * Стили badge корзины для МОБИЛЬНОГО ПРИЛОЖЕНИЯ
+ */
+
+/* Badge для WebView приложения - ЗЕЛЁНЫЙ как у избранного */
+.webview-app-badge {
+    position: absolute !important;
+    top: -8px !important;
+    right: -8px !important;
+    background: #00796B !important;  /* Зелёный как у избранного */
+    color: #ffffff !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    padding: 2px 5px !important;
+    border-radius: 50% !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    z-index: 999 !important;
+    display: inline-block !important;
+    box-shadow: 0 1px 3px rgba(0,121,107,0.4) !important;
+}
+
+.webview-app-badge.empty {
+    display: none !important;
+}
+
+.webview-app-badge.has-items {
+    animation: webview-badge-appear 0.3s ease-out;
+}
+
+@keyframes webview-badge-appear {
+    0% { transform: scale(0); opacity: 0; }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Убеждаемся что родитель имеет position relative */
+.webview-app-badge:parent {
+    position: relative !important;
+}
+
+/* СКРЫВАЕМ стандартный WooCommerce badge в нижнем меню */
+/* Оставляем только наш webview-app-badge */
+.l-subheader.at_bottom .w-cart-quantity {
+    display: none !important;
+}
+
