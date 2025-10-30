@@ -1,0 +1,200 @@
+<?php
+/**
+ * Plugin Name: Diagnostic Mobile App Logger
+ * Description: Диагностика подключений мобильного приложения - логирует все запросы
+ * Version: 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * Логирование запросов от мобильного приложения
+ */
+add_action( 'init', 'diagnostic_log_mobile_app_request', 1 );
+function diagnostic_log_mobile_app_request() {
+	$log_file = WP_CONTENT_DIR . '/mobile-app-diagnostic.log';
+	
+	// Получаем информацию о запросе
+	$user_agent = isset( $_SERVER['HTTP_USER_AGENT'] ) ? $_SERVER['HTTP_USER_AGENT'] : 'UNKNOWN';
+	$request_uri = isset( $_SERVER['REQUEST_URI'] ) ? $_SERVER['REQUEST_URI'] : 'UNKNOWN';
+	$request_method = isset( $_SERVER['REQUEST_METHOD'] ) ? $_SERVER['REQUEST_METHOD'] : 'UNKNOWN';
+	$referer = isset( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : 'NONE';
+	
+	// Определяем это мобильное приложение или нет
+	$is_mobile_app = false;
+	$app_type = 'WEB';
+	
+	// Признаки мобильного приложения
+	if ( 
+		stripos( $user_agent, 'wv' ) !== false || // WebView
+		stripos( $user_agent, 'Mobile' ) !== false ||
+		stripos( $user_agent, 'Android' ) !== false ||
+		stripos( $user_agent, 'iPhone' ) !== false ||
+		stripos( $user_agent, 'iPad' ) !== false
+	) {
+		$is_mobile_app = true;
+		
+		if ( stripos( $user_agent, 'wv' ) !== false ) {
+			$app_type = 'WEBVIEW';
+		} elseif ( stripos( $user_agent, 'Android' ) !== false ) {
+			$app_type = 'ANDROID';
+		} elseif ( stripos( $user_agent, 'iPhone' ) !== false || stripos( $user_agent, 'iPad' ) !== false ) {
+			$app_type = 'iOS';
+		}
+	}
+	
+	// Логируем только запросы от мобильных устройств
+	if ( $is_mobile_app ) {
+		// Получаем данные WooCommerce
+		$cart_count = 0;
+		$has_session = false;
+		$has_cart_cookie = false;
+		
+		if ( class_exists( 'WooCommerce' ) && WC()->cart ) {
+			$cart_count = WC()->cart->get_cart_contents_count();
+			$has_session = WC()->session && WC()->session->get_customer_id() ? true : false;
+		}
+		
+		// Проверяем куки
+		if ( isset( $_COOKIE['woocommerce_cart_hash'] ) ) {
+			$has_cart_cookie = true;
+		}
+		
+		// Формируем лог
+		$log_entry = sprintf(
+			"[%s] %s %s\n" .
+			"  User-Agent: %s\n" .
+			"  App Type: %s\n" .
+			"  URI: %s\n" .
+			"  Cart Count: %d\n" .
+			"  Has Session: %s\n" .
+			"  Has Cart Cookie: %s\n" .
+			"  Referer: %s\n" .
+			"  IP: %s\n" .
+			"---\n",
+			date( 'Y-m-d H:i:s' ),
+			$request_method,
+			$is_mobile_app ? '📱 MOBILE' : '💻 DESKTOP',
+			$user_agent,
+			$app_type,
+			$request_uri,
+			$cart_count,
+			$has_session ? 'YES' : 'NO',
+			$has_cart_cookie ? 'YES' : 'NO',
+			$referer,
+			$_SERVER['REMOTE_ADDR'] ?? 'UNKNOWN'
+		);
+		
+		// Записываем в лог
+		file_put_contents( $log_file, $log_entry, FILE_APPEND );
+	}
+}
+
+/**
+ * Логирование AJAX запросов WooCommerce
+ */
+add_action( 'wc_ajax_get_refreshed_fragments', 'diagnostic_log_fragments_request', 1 );
+function diagnostic_log_fragments_request() {
+	$log_file = WP_CONTENT_DIR . '/mobile-app-diagnostic.log';
+	
+	$user_agent = isset( $_SERVER['HTTP_USER_AGENT'] ) ? $_SERVER['HTTP_USER_AGENT'] : 'UNKNOWN';
+	
+	$log_entry = sprintf(
+		"[%s] 🔄 AJAX: get_refreshed_fragments\n" .
+		"  User-Agent: %s\n" .
+		"  Cart Count: %d\n" .
+		"---\n",
+		date( 'Y-m-d H:i:s' ),
+		$user_agent,
+		WC()->cart ? WC()->cart->get_cart_contents_count() : 0
+	);
+	
+	file_put_contents( $log_file, $log_entry, FILE_APPEND );
+}
+
+/**
+ * Диагностический endpoint - показывает последние логи
+ */
+add_action( 'rest_api_init', 'diagnostic_register_logs_api' );
+function diagnostic_register_logs_api() {
+	register_rest_route( 'diagnostic/v1', '/mobile-app/logs', array(
+		'methods'  => 'GET',
+		'callback' => 'diagnostic_get_mobile_logs',
+		'permission_callback' => '__return_true'
+	));
+	
+	register_rest_route( 'diagnostic/v1', '/mobile-app/clear-logs', array(
+		'methods'  => 'POST',
+		'callback' => 'diagnostic_clear_mobile_logs',
+		'permission_callback' => '__return_true'
+	));
+}
+
+/**
+ * Получить последние логи
+ */
+function diagnostic_get_mobile_logs() {
+	$log_file = WP_CONTENT_DIR . '/mobile-app-diagnostic.log';
+	
+	if ( ! file_exists( $log_file ) ) {
+		return new WP_REST_Response( array(
+			'status' => 'no_logs',
+			'message' => 'Лог файл не найден. Ожидание подключений...',
+			'log_file' => $log_file
+		), 200 );
+	}
+	
+	// Читаем последние 50 строк
+	$logs = file( $log_file );
+	$recent_logs = array_slice( $logs, -200 ); // Последние 200 строк
+	
+	return new WP_REST_Response( array(
+		'status' => 'success',
+		'total_lines' => count( $logs ),
+		'recent_logs' => implode( '', $recent_logs ),
+		'file_size' => filesize( $log_file ),
+		'timestamp' => date( 'Y-m-d H:i:s' )
+	), 200 );
+}
+
+/**
+ * Очистить логи
+ */
+function diagnostic_clear_mobile_logs() {
+	$log_file = WP_CONTENT_DIR . '/mobile-app-diagnostic.log';
+	
+	file_put_contents( $log_file, '' );
+	
+	return new WP_REST_Response( array(
+		'status' => 'cleared',
+		'message' => 'Логи очищены. Ожидание новых подключений...',
+		'timestamp' => date( 'Y-m-d H:i:s' )
+	), 200 );
+}
+
+/**
+ * Добавляем пинг endpoint - приложение может пинговать для теста
+ */
+add_action( 'rest_api_init', 'diagnostic_register_ping_api' );
+function diagnostic_register_ping_api() {
+	register_rest_route( 'diagnostic/v1', '/mobile-app/ping', array(
+		'methods'  => 'GET',
+		'callback' => 'diagnostic_mobile_ping',
+		'permission_callback' => '__return_true'
+	));
+}
+
+function diagnostic_mobile_ping() {
+	$cart_count = class_exists( 'WooCommerce' ) && WC()->cart ? WC()->cart->get_cart_contents_count() : 0;
+	
+	return new WP_REST_Response( array(
+		'status' => 'pong',
+		'message' => 'Сервер доступен!',
+		'cart_count' => $cart_count,
+		'timestamp' => date( 'Y-m-d H:i:s' ),
+		'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? 'UNKNOWN'
+	), 200 );
+}
+
